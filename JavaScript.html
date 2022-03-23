@@ -1,0 +1,123 @@
+
+<!--- ///// PLEASE MAKE ALL OF YOUR LINKS THE FOLLOWING FORMAT WHEN PROVIDING ADDITIONAL JAVASCRIPT DOCUMENTS  ///////
+ 
+Please FORMAT ALL all of your links to be relative with your site ID number. Since the files are going to be uploaded to you website siteroot in the server. Each client's website has a unique ID and it is living in the main Files folder.
+
+Example:
+
+
+Link Path you to JavaScript file:
+/files/58439/stellar.js
+
+Code Link with link inserted
+<script src="/files/58439/stellar.js"></script>
+
+--->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/files/58439/bootstrap.min.js"></script>
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="/files/58439/stellar.js"></script>
+<script src="/files/58439/flex.js"></script>
+<script src="/files/58439/global.js"></script>
+<script src="/files/58439/wow.min.js"></script>
+<script language="javascript" src="/files/58439/validate.js"></script>
+<script>
+  //Wow Animation
+if ( jQuery(window).width() >1024) {     
+  jQuery(function(jQuery) {
+  //Initiat WOW JS
+  new WOW().init();
+});
+  jQuery(function(){$.stellar({horizontalScrolling: false,});});
+}
+
+if ( jQuery(window).width() > 992) {     
+jQuery(function() {
+  jQuery('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html,body').animate({
+          scrollTop: target.offset().top-177
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+}
+
+if ( jQuery(window).width() < 991) {     
+jQuery(function() {
+  jQuery('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html,body').animate({
+          scrollTop: target.offset().top-128
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+}
+
+if ( jQuery(window).width() < 767) {     
+jQuery(function() {
+  jQuery('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+}
+    
+jQuery(function() {
+  jQuery('.goldens_list a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        jQuery('html,body').animate({
+          scrollTop: target.offset().top-130
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<script type="text/javascript">
+function fnValidate(){
+	if(isNull(document.thisForm.Name,"Name")) return false;
+	if(isNull(document.thisForm.Phone,"Phone")) return false;
+	if(isNull(document.thisForm.Email,"Email")) return false;	
+	
+	jQuery.ajax({
+		   type : "POST",
+		   url : "mail.php",
+		   data : jQuery("#thisForm").serialize(),
+		   success: function(data) {
+				jQuery("#thisForm").html('<h4>Thanks for getting in touch with us. We will get back to you shortly.</h4>');
+		   }
+	});
+}	
+</script>

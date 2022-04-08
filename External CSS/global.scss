@@ -43,6 +43,12 @@ $color3: #f7a094;
 $color4: #f2f6ee;
 $color5: #a0c3a1;
 
+br{
+    @media #{$s750} {
+        display: none;
+    }
+}
+
 .fadeIn{
     position: relative;
     opacity: 0;
@@ -67,6 +73,10 @@ $color5: #a0c3a1;
 
 body {
   -webkit-font-smoothing: antialiased;
+
+  &.no_scroll{
+      overflow: hidden;
+  }
 }
 
 .mainHeadline {
@@ -74,18 +84,30 @@ body {
   font-size: 5.7vw;
   color: #fff;
   letter-spacing: -1.1px;
+
+  @media #{$s750} {
+    font-size: 42px;
+  }
 }
 
 .mediumHeadline {
   font-size: 2.5vw;
   font-family: $font2;
   letter-spacing: -0.5px;
+
+  @media #{$s1023} {
+    font-size: 26px;
+  }
 }
 
 .smallHeadline {
   font-size: 1.8vw;
   font-family: $font2;
   letter-spacing: -0.34px;
+
+  @media #{$s1023} {
+    font-size: 20px;
+  }
 }
 
 .text {
@@ -116,6 +138,11 @@ body {
   @media #{$s1500} {
     font-size: 16px;
     min-width: 325px;
+  }
+
+  @media #{$s750} {
+    min-width: 250px;
+    padding: 15px;
   }
 
   &:after {
@@ -162,6 +189,10 @@ body {
 
     @media #{$s1500} {
       font-size: 14px;
+    }
+
+    @media #{$s750} {
+        font-size: 12px;
     }
 
     &:after,

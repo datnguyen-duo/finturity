@@ -8,6 +8,14 @@
         position: relative;
         border-bottom: 1px solid $color1;
 
+        @media #{$s1023} {
+          padding: 14vw 0;
+        }
+
+        @media #{$s750} {
+          padding: 120px 40px;
+        }
+
         .footer_top_shape,
         .footer_bottom_shape {
           position: absolute;
@@ -17,12 +25,20 @@
           right: 0;
           top: 0;
           width: 15vw;
+
+          @media #{$s750} {
+            width: 22vw;
+          }
         }
 
         .footer_bottom_shape {
           left: 0;
           bottom: 0;
           width: 24vw;
+
+          @media #{$s750} {
+            width: 35vw;
+          }
         }
 
         .footer_cta_content {
@@ -33,6 +49,10 @@
             @extend .mainHeadline;
             color: $color1;
             margin-bottom: 2.5vw;
+
+            @media #{$s750} {
+              margin-bottom: 15px;
+            }
           }
 
           p {
@@ -40,6 +60,11 @@
             color: $color1;
             margin-bottom: 3vw;
             line-height: 1.4em;
+
+            @media #{$s750} {
+              margin-bottom: 30px;
+              line-height: 1.2em;
+            }
           }
         }
       }
@@ -61,22 +86,59 @@
             width: 70%;
           }
 
+          @media #{$s1023} {
+            width: 100%;
+          }
+
+          @media #{$s750} {
+            padding: 50px 35px;
+            padding-bottom: 30px;
+          }
+
+          @media #{$s750} {
+            flex-wrap: wrap;
+          }
+
           .logo_holder {
+
+            @media #{$s750} {
+              width: 100%;
+              text-align: center;
+              margin-bottom: 40px;
+            }
+
             img {
               width: 16vw;
+
+              @media #{$s750} {
+                width: 160px;
+              }
             }
+
             p {
               @extend .smallHeadline;
               color: $color1;
               margin-top: 30px;
+
+              @media #{$s750} {
+                margin-top: 15px;
+              }
             }
           }
 
           .menu_holder {
             display: flex;
 
+            @media #{$s750} {
+              justify-content: space-between;
+            }
+
             .single_menu {
               margin-right: 4.5vw;
+
+              @media #{$s750} {
+                margin-right: 20px;
+              }
 
               &:last-child {
                 margin: 0;
@@ -97,10 +159,15 @@
               ul {
                 li {
                   margin-bottom: 5px;
+
                   a {
                     @extend .smallHeadline;
                     color: $color1;
                     @include transition();
+
+                    @media #{$s1023} {
+                      font-size: 20px;
+                    }
                   }
 
                   &:hover {
@@ -125,6 +192,18 @@
 
           @media #{$s1100} {
             width: 30%;
+          }
+
+          @media #{$s1023} {
+            width: 100%;
+            border: none;
+            padding: 5vw;
+            justify-content: flex-start;
+            padding-top: 0;
+          }
+
+          @media #{$s750} {
+            padding: 0 35px 50px 35px;
           }
 
           .right_content {
@@ -174,6 +253,10 @@
         box-sizing: border-box;
         padding: 3vw 0;
 
+        @media #{$s750} {
+          padding: 20px 0;
+        }
+
         .disclosure_opener {
           text-align: center;
           cursor: pointer;
@@ -205,12 +288,22 @@
           margin-top: 1.5vw;
           display: none;
 
+          @media #{$s750} {
+            margin-top: 30px;
+          }
+
           p {
             @extend .text;
             color: $color1;
             text-align: center;
             max-width: 80%;
             margin: auto;
+
+            @media #{$s1023} {
+              max-width: 100%;
+              padding: 0 5vw;
+              box-sizing: border-box;
+            }
           }
         }
       }

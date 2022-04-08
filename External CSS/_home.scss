@@ -1,11 +1,20 @@
 .home_page {
   .hero_wrapper {
     position: relative;
-    padding-top: 55%;
+    padding-top: 60%;
     overflow: hidden;
 
     @media #{$s1100} {
       padding-top: 75%;
+    }
+
+    @media #{$s1023} {
+      padding-top: 105%;
+    }
+
+    @media #{$s750} {
+      padding-top: 0%;
+      height: 100vh;
     }
 
     img {
@@ -37,12 +46,21 @@
       transform: translateY(-50%);
       @extend .fadeIn;
 
+      @media #{$s750} {
+        top: 80%;
+        padding: 0 30px;
+      }
+
       h1 {
         @extend .mainHeadline;
       }
 
       .btn {
         margin-top: 60px;
+
+        @media #{$s750} {
+          margin-top: 40px;
+        }
       }
     }
   }
@@ -59,6 +77,10 @@
         padding-top: 5vw;
       }
 
+      @media #{$s750} {
+        padding: 0;
+      }
+
       .list_wrap {
         padding: 2vw;
         padding-bottom: 3vw;
@@ -66,6 +88,13 @@
         border: 1px solid $color1;
         border-radius: 200px;
         @extend .fadeUp;
+
+        @media #{$s750} {
+          border: none;
+          border-bottom: 1px solid $color1;
+          border-radius: 0;
+          padding: 40px 20px;
+        }
 
         .small_subheadline {
           margin-bottom: 25px;
@@ -75,10 +104,19 @@
           display: flex;
           justify-content: center;
 
+          @media #{$s750} {
+            justify-content: space-between;
+          }
+
           .single_item {
             display: flex;
             align-items: center;
             margin-right: 6vw;
+
+            @media #{$s750} {
+              flex-direction: column;
+              margin-right: 0;
+            }
 
             &:last-child {
               margin-right: 0;
@@ -90,6 +128,12 @@
               @media #{$s1100} {
                 width: 4vw;
               }
+
+              @media #{$s750} {
+                width: auto;
+                height: 30px;
+                margin-bottom: 10px;
+              }
             }
 
             p {
@@ -97,6 +141,11 @@
               color: $color1;
               margin-left: 1vw;
               line-height: 1em;
+
+              @media #{$s750} {
+                font-size: 20px;
+                margin: 0;
+              }
             }
           }
         }
@@ -108,6 +157,12 @@
         margin-top: 9vw;
         text-align: center;
         @extend .fadeUp;
+
+        @media #{$s750} {
+          margin: 0px;
+          padding: 60px 35px;
+          box-sizing: border-box;
+        }
 
         span {
           color: $color1;
@@ -130,11 +185,35 @@
       box-sizing: border-box;
       position: relative;
 
+      @media #{$s750} {
+        padding: 65px 35px;
+      }
+
       .third_section_bottom_shape {
         position: absolute;
         right: 0;
         bottom: 0;
         width: 23vw;
+
+        @media #{$s750} {
+          bottom: auto;
+          width: 40vw;
+          top: 47%;
+        }
+
+        &.mobile{
+          display: none;
+
+          @media #{$s750} {
+            display: block;
+            width: 40vw;
+            transform: rotate(180deg);
+            left: 0;
+            top: auto;
+            bottom: 22%;
+          }
+        }
+
       }
 
       .third_section_shape {
@@ -142,6 +221,11 @@
         left: 0;
         top: 0;
         width: 48vw;
+
+        @media #{$s750} {
+          width: 88vw;
+        }
+
       }
 
       .single_box {
@@ -149,14 +233,26 @@
         flex-wrap: wrap;
         margin-bottom: 6vw;
 
+        @media #{$s750} {
+          margin-bottom: 130px;
+        }
+
         .left {
           width: 47%;
+
+          @media #{$s750} {
+            width: 100%;
+          }
 
           .image_holder {
             position: relative;
             padding-top: 110%;
             overflow: hidden;
             @extend .fadeIn;
+
+            @media #{$s750} {
+              margin-bottom: 40px;
+            }
 
             img {
               position: absolute;
@@ -176,6 +272,10 @@
           align-items: center;
           justify-content: center;
 
+          @media #{$s750} {
+            width: 100%;
+          }
+
           .right_content {
             max-width: 27vw;
             @extend .fadeUp;
@@ -184,10 +284,22 @@
               max-width: 32vw;
             }
 
+            @media #{$s1023} {
+              max-width: 40vw;
+            }
+
+            @media #{$s750} {
+              max-width: 100%;
+            }
+
             h2 {
               @extend .mediumHeadline;
               color: $color2;
               margin-bottom: 2vw;
+
+              @media #{$s750} {
+                margin-bottom: 10px;
+              }
             }
 
             p {
@@ -203,10 +315,18 @@
 
           .left {
             order: 2;
+
+            @media #{$s750} {
+              order: 1;
+            }
           }
 
           .right {
             order: 1;
+
+            @media #{$s750} {
+              order: 2;
+            }
 
             h2,
             p {
@@ -225,15 +345,27 @@
       padding: 14.5vw 2.5vw;
       box-sizing: border-box;
 
+      @media #{$s750} {
+        padding: 65px 35px;
+      }
+
       .small_subheadline {
         margin-bottom: 40px;
         @extend .fadeUp;
+
+        @media #{$s750} {
+          margin-bottom: 20px;
+        }
       }
 
       .fourth_section_list_wrap {
         .fourth_section_list {
           display: flex;
           @extend .fadeUp;
+
+          @media #{$s750} {
+            flex-wrap: wrap;
+          }
 
           .single_item {
             border: 1px solid $color1;
@@ -245,6 +377,12 @@
             cursor: pointer;
             border-radius: 200px;
             @include transition();
+
+            @media #{$s750} {
+              margin-bottom: 15px;
+              padding: 10px;
+              width: 100%;
+            }
 
             &:last-child {
               margin: 0;
@@ -262,6 +400,14 @@
               @extend .mediumHeadline;
               color: $color1;
               text-transform: uppercase;
+
+              @media #{$s1023} {
+                font-size: 2.5vw;
+              }
+
+              @media #{$s750} {
+                font-size: 26px;
+              }
             }
           }
         }
@@ -318,6 +464,10 @@
       padding: 7vw 3.5vw;
       border-bottom: 1px solid $color1;
 
+      @media #{$s750} {
+        padding: 65px 35px;
+      }
+
       .home_fifth_section_header {
         text-align: center;
 
@@ -347,10 +497,24 @@
         margin-top: 8vw;
         @extend .fadeUp;
 
+        @media #{$s750} {
+          margin-top: 80px;
+        }
+
         .single_box {
           width: 33.33333%;
           box-sizing: border-box;
           padding: 0 1.25vw;
+
+          @media #{$s750} {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px;
+
+            &:last-child{
+              margin-bottom: 0;
+            }
+          }
 
           .signle_box_content {
             border: 1px solid $color1;
@@ -362,9 +526,18 @@
               padding: 2.5vw 3vw;
             }
 
+            @media #{$s750} {
+              padding: 30px;
+            }
+
             .icon_wrap {
               height: 9vw;
               margin-bottom: 4vw;
+
+              @media #{$s750} {
+                height: 140px;
+                margin-bottom: 44px;
+              }
 
               img {
                 height: 100%;
@@ -409,6 +582,14 @@
       box-sizing: border-box;
       overflow: hidden;
 
+      @media #{$s1023} {
+        padding: 7vw 0 7vw 5vw;
+      }
+
+      @media #{$s750} {
+        padding: 65px 0 65px 35px;
+      }
+
       .sixth_section_header_holder {
         display: flex;
         justify-content: space-between;
@@ -416,9 +597,25 @@
         margin-bottom: 5vw;
         @extend .fadeUp;
 
+        @media #{$s750} {
+          flex-wrap: wrap;
+          width: calc(100% + 35px);
+          position: relative;
+          left: -35px;
+          margin-bottom: 30px;
+        }
+
         h2 {
           @extend .mainHeadline;
           color: $color1;
+
+          @media #{$s750} {
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 40px;
+          }
         }
 
         .buttons_pagination {
@@ -454,6 +651,13 @@
             @media #{$s1100} {
               width: 50px;
               height: 50px;
+              border-radius: 50px;
+            }
+
+            @media #{$s750} {
+              width: 35px;
+              height: 35px;
+              border-radius: 35px;
             }
 
             svg {
@@ -461,6 +665,10 @@
 
               @media #{$s1100} {
                 width: 30px;
+              }
+
+              @media #{$s750} {
+                width: 15px;
               }
             }
 
@@ -497,6 +705,10 @@
           @media #{$s1100} {
             padding: 0 2vw;
           }
+
+          @media #{$s750} {
+            padding: 0 15px;
+          }
         }
 
         /* the parent */
@@ -506,6 +718,10 @@
           @media #{$s1100} {
             padding: 0 -2vw;
           }
+
+          @media #{$s750} {
+            padding: 0 -15px;
+          }
         }
 
         .slick-list .slick-track {
@@ -514,7 +730,14 @@
           @media #{$s1100} {
             padding-left: 40vw;
           }
-          
+
+          @media #{$s1023} {
+            padding-left: 41vw;
+          }
+
+          @media #{$s750} {
+            padding-left: 45px;
+          }
         }
 
         .slick-arrow {
@@ -571,6 +794,12 @@
               z-index: 2;
               min-width: 120px;
               padding: 15px 20px;
+
+              @media #{$s750} {
+                padding: 7px 15px;
+                font-size: 12px;
+                min-width: 90px;
+              }
             }
 
             img {
@@ -589,10 +818,18 @@
             padding: 2.5vw 3vw;
             box-sizing: border-box;
 
+            @media #{$s750} {
+              padding: 30px 25px;
+            }
+
             h3 {
               @extend .smallHeadline;
               color: $color1;
               margin-bottom: 25px;
+
+              @media #{$s750} {
+                margin-bottom: 10px;
+              }
             }
 
             p,
@@ -608,6 +845,13 @@
               opacity: 0;
               visibility: hidden;
               @include transition();
+
+              @media #{$s750} {
+                margin-top: 15px;
+                font-size: 12px;
+                opacity: 1;
+                visibility: visible;
+              }
 
               img {
                 padding-left: 5px;

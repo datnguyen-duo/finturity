@@ -24,6 +24,13 @@ $(document).ready(function () {
     $(".footer_disclosure").slideToggle();
   });
 
+  $(".mobile_menu_opener").on("click", function () {
+    $(this).toggleClass("opened");
+	$('body').toggleClass("no_scroll");
+	$('header').toggleClass("opened_menu_mobile");
+    $(".mobile_nav").fadeToggle();
+  });
+
   $(".fourth_section_list .single_item").on("click", function () {
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");
@@ -50,6 +57,18 @@ $(document).ready(function () {
         infinite: true,
         prevArrow: ".prevButton",
         nextArrow: ".nextButton",
+		responsive: [
+			
+			{
+			  breakpoint: 750,
+			  settings: {
+				slidesToShow: 1.2
+			  }
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
       });
 
       if ($(this).find(".item").length > 1) {

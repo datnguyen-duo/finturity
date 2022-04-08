@@ -1,0 +1,219 @@
+#footer {
+  .container {
+    .footer_content {
+      .footer_cta {
+        background-color: $color5;
+        padding: 8vw 0;
+        box-sizing: border-box;
+        position: relative;
+        border-bottom: 1px solid $color1;
+
+        .footer_top_shape,
+        .footer_bottom_shape {
+          position: absolute;
+        }
+
+        .footer_top_shape {
+          right: 0;
+          top: 0;
+          width: 15vw;
+        }
+
+        .footer_bottom_shape {
+          left: 0;
+          bottom: 0;
+          width: 24vw;
+        }
+
+        .footer_cta_content {
+          text-align: center;
+          @extend .fadeUp;
+
+          h2 {
+            @extend .mainHeadline;
+            color: $color1;
+            margin-bottom: 2.5vw;
+          }
+
+          p {
+            @extend .smallHeadline;
+            color: $color1;
+            margin-bottom: 3vw;
+            line-height: 1.4em;
+          }
+        }
+      }
+
+      .footer_main_content {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: $color5;
+
+        .left {
+          width: 78%;
+          box-sizing: border-box;
+          padding: 5vw 7vw;
+          display: flex;
+          justify-content: space-between;
+
+          @media #{$s1100} {
+            padding: 5vw;
+            width: 70%;
+          }
+
+          .logo_holder {
+            img {
+              width: 16vw;
+            }
+            p {
+              @extend .smallHeadline;
+              color: $color1;
+              margin-top: 30px;
+            }
+          }
+
+          .menu_holder {
+            display: flex;
+
+            .single_menu {
+              margin-right: 4.5vw;
+
+              &:last-child {
+                margin: 0;
+              }
+
+              .small_subheadline {
+                margin-bottom: 20px;
+
+                span {
+                  justify-content: flex-start;
+
+                  &:after {
+                    display: none;
+                  }
+                }
+              }
+
+              ul {
+                li {
+                  margin-bottom: 5px;
+                  a {
+                    @extend .smallHeadline;
+                    color: $color1;
+                    @include transition();
+                  }
+
+                  &:hover {
+                    a {
+                      color: #fff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .right {
+          width: 22%;
+          border-left: 1px solid $color1;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5vw 0;
+
+          @media #{$s1100} {
+            width: 30%;
+          }
+
+          .right_content {
+            max-width: 15vw;
+
+            @media #{$s1100} {
+              max-width: 100%;
+            }
+
+            .small_subheadline {
+              margin-bottom: 20px;
+
+              span {
+                justify-content: flex-start;
+
+                &:after {
+                  display: none;
+                }
+              }
+            }
+
+            .top_info {
+              margin-bottom: 40px;
+            }
+
+            p,
+            a {
+              display: block;
+              @extend .text;
+              color: $color1;
+            }
+
+            a {
+              @include transition(all, 300ms);
+              &:hover {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+
+      .footer_disclosure_holder {
+        background-color: $color5;
+        text-align: center;
+        border-top: 1px solid $color1;
+        box-sizing: border-box;
+        padding: 3vw 0;
+
+        .disclosure_opener {
+          text-align: center;
+          cursor: pointer;
+
+          p {
+            @extend .smallHeadline;
+            display: flex;
+            justify-content: center;
+            color: $color1;
+
+            img {
+              margin-left: 10px;
+              position: relative;
+              transform: rotate(0deg);
+              @include transition();
+            }
+          }
+
+          &.active {
+            p {
+              img {
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+
+        .footer_disclosure {
+          margin-top: 1.5vw;
+          display: none;
+
+          p {
+            @extend .text;
+            color: $color1;
+            text-align: center;
+            max-width: 80%;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}

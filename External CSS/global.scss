@@ -1,0 +1,187 @@
+$s1920: "only screen and (max-width : 1920px)";
+$s1500: "only screen and (max-width : 1500px)";
+$s1280: "only screen and (max-width : 1280px)";
+$s1100: "only screen and (max-width : 1100px)";
+$s1023: "only screen and (max-width : 1023px)";
+$s900: "only screen and (max-width : 900px)";
+$s800: "only screen and (max-width : 800px)";
+$s750: "only screen and (max-width : 750px)";
+$s650: "only screen and (max-width : 650px)";
+$s600: "only screen and (max-width : 600px)";
+$s560: "only screen and (max-width : 560px)";
+
+@mixin font-face(
+  $font-name,
+  $font-path,
+  $font-weight: normal,
+  $font-style: normal
+) {
+  @font-face {
+    font-family: "#{$font-name}";
+    src: url("../fonts/#{$font-path}.woff2") format("woff2"),
+      url("../fonts/#{$font-path}.woff") format("woff");
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+
+@mixin transition($el: all, $speed: 600ms, $tf: ease, $delay: 0ms) {
+  -webkit-transition: $el $speed $tf $delay;
+  -moz-transition: $el $speed $tf $delay;
+  -o-transition: $el $speed $tf $delay;
+  transition: $el $speed $tf $delay;
+}
+
+@include font-face("Roobert-Regular", "Roobert-Regular");
+
+$font1: "Roobert-Regular", serif;
+$font2: "trilby", serif;
+
+$color1: #0e3b2e;
+$color2: #fcd263;
+$color3: #f7a094;
+$color4: #f2f6ee;
+$color5: #a0c3a1;
+
+.fadeIn{
+    position: relative;
+    opacity: 0;
+    @include transition();
+
+    &.in_view{
+        opacity: 1;
+    }
+}
+
+.fadeUp{
+    position: relative;
+    opacity: 0;
+    top: 100px;
+    @include transition();
+
+    &.in_view{
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.mainHeadline {
+  font-family: $font1;
+  font-size: 5.7vw;
+  color: #fff;
+  letter-spacing: -1.1px;
+}
+
+.mediumHeadline {
+  font-size: 2.5vw;
+  font-family: $font2;
+  letter-spacing: -0.5px;
+}
+
+.smallHeadline {
+  font-size: 1.8vw;
+  font-family: $font2;
+  letter-spacing: -0.34px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: $font1;
+  line-height: 1.4em;
+
+  @media #{$s1500} {
+    font-size: 16px;
+  }
+}
+
+.btn {
+  background-color: #fff;
+  color: $color1;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: $font1;
+  display: inline-block;
+  border-radius: 36px;
+  min-width: 385px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  @include transition();
+
+  @media #{$s1500} {
+    font-size: 16px;
+    min-width: 325px;
+  }
+
+  &:after {
+    content: "";
+    // height: 100%;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    // top: 100%;
+    bottom: 0%;
+    left: 0;
+    z-index: 1;
+    background-color: $color1;
+    @include transition(all, 200ms);
+  }
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:hover {
+    color: #fff;
+
+    &:after {
+    //   top: 0;
+        height: 100%;
+        top: 0;
+    }
+  }
+}
+
+.small_subheadline {
+  text-align: center;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: $font1;
+    color: $color1;
+    position: relative;
+
+    @media #{$s1500} {
+      font-size: 14px;
+    }
+
+    &:after,
+    &:before {
+      content: "";
+      width: 4px;
+      height: 4px;
+      margin-left: 5px;
+      display: block;
+      background-color: $color1;
+      border-radius: 4px;
+    }
+
+    &:before {
+      margin-left: 0px;
+      margin-right: 5px;
+    }
+  }
+}
+
+@import "home";
+@import "footer";
+@import "header";

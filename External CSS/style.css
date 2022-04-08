@@ -187,7 +187,9 @@ body {
     transform: translateY(-50%); }
     @media only screen and (max-width: 750px) {
       .home_page .hero_wrapper .hero_content {
-        top: 80%;
+        top: auto;
+        bottom: 60px;
+        transform: none;
         padding: 0 30px; } }
     .home_page .hero_wrapper .hero_content .btn {
       margin-top: 60px; }

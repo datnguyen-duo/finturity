@@ -47,7 +47,9 @@
       @extend .fadeIn;
 
       @media #{$s750} {
-        top: 80%;
+        top: auto;
+        bottom: 60px;
+        transform: none;
         padding: 0 30px;
       }
 

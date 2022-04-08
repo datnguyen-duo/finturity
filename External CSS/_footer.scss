@@ -304,6 +304,12 @@
               padding: 0 5vw;
               box-sizing: border-box;
             }
+
+            br{
+              @media #{$s750} {
+                  display: block;
+              }
+            }
           }
         }
       }

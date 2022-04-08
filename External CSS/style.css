@@ -945,6 +945,9 @@ body {
           max-width: 100%;
           padding: 0 5vw;
           box-sizing: border-box; } }
+      @media only screen and (max-width: 750px) {
+        #footer .container .footer_content .footer_disclosure_holder .footer_disclosure p br {
+          display: block; } }
 
 .mobile_nav {
   display: none;

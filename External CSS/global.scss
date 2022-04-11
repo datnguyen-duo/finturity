@@ -62,7 +62,7 @@ br{
 .fadeUp{
     position: relative;
     opacity: 0;
-    top: 100px;
+    top: 30px;
     @include transition();
 
     &.in_view{
@@ -81,7 +81,7 @@ body {
 
 .mainHeadline {
   font-family: $font1;
-  font-size: 5.7vw;
+  font-size: 5.2vw;
   color: #fff;
   letter-spacing: -1.1px;
 
@@ -96,7 +96,7 @@ body {
   letter-spacing: -0.5px;
 
   @media #{$s1023} {
-    font-size: 26px;
+    font-size: 22px;
   }
 }
 
@@ -106,7 +106,7 @@ body {
   letter-spacing: -0.34px;
 
   @media #{$s1023} {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

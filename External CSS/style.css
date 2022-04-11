@@ -20,7 +20,7 @@
 .fadeUp, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, #footer .container .footer_content .footer_cta .footer_cta_content {
   position: relative;
   opacity: 0;
-  top: 100px;
+  top: 30px;
   -webkit-transition: all 600ms ease 0ms;
   -moz-transition: all 600ms ease 0ms;
   -o-transition: all 600ms ease 0ms;
@@ -36,7 +36,7 @@ body {
 
 .mainHeadline, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, #footer .container .footer_content .footer_cta .footer_cta_content h2 {
   font-family: "Roobert-Regular", serif;
-  font-size: 5.7vw;
+  font-size: 5.2vw;
   color: #fff;
   letter-spacing: -1.1px; }
   @media only screen and (max-width: 750px) {
@@ -49,7 +49,7 @@ body {
   letter-spacing: -0.5px; }
   @media only screen and (max-width: 1023px) {
     .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p {
-      font-size: 26px; } }
+      font-size: 22px; } }
 
 .smallHeadline, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p {
   font-size: 1.8vw;
@@ -57,7 +57,7 @@ body {
   letter-spacing: -0.34px; }
   @media only screen and (max-width: 1023px) {
     .smallHeadline, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 .text, .home_page .home_third_section .home_third_section_content .single_box .right .right_content p, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info p,
 .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description p, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .slides-numbers, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info p,
@@ -224,7 +224,8 @@ body {
         margin-bottom: 25px; }
       .home_page .home_second_section .home_second_section_content .list_wrap .list_items {
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        text-align: center; }
         @media only screen and (max-width: 750px) {
           .home_page .home_second_section .home_second_section_content .list_wrap .list_items {
             justify-content: space-between; } }
@@ -245,6 +246,16 @@ body {
                 width: 4vw; } }
             @media only screen and (max-width: 750px) {
               .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item img {
+                width: auto;
+                height: 30px;
+                margin-bottom: 10px; } }
+          .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item:nth-of-type(2) img {
+            width: 2.2vw; }
+            @media only screen and (max-width: 1100px) {
+              .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item:nth-of-type(2) img {
+                width: 4vw; } }
+            @media only screen and (max-width: 750px) {
+              .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item:nth-of-type(2) img {
                 width: auto;
                 height: 30px;
                 margin-bottom: 10px; } }
@@ -612,6 +623,12 @@ body {
               .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .prevButton svg,
               .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .nextButton svg {
                 width: 15px; } }
+            .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .prevButton svg line,
+            .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .nextButton svg line {
+              stroke: #0e3b2e; }
+            .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .prevButton svg path,
+            .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .nextButton svg path {
+              stroke: #0e3b2e; }
           .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .prevButton:hover,
           .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .nextButton:hover {
             background-color: #0e3b2e; }
@@ -689,8 +706,9 @@ body {
             right: 20px;
             top: 20px;
             z-index: 2;
-            min-width: 120px;
-            padding: 15px 20px; }
+            font-size: 14px;
+            min-width: 100px;
+            padding: 10px 20px; }
             @media only screen and (max-width: 750px) {
               .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .image_holder .date {
                 padding: 7px 15px;
@@ -819,7 +837,7 @@ body {
         text-align: center;
         margin-bottom: 40px; } }
     #footer .container .footer_content .footer_main_content .left .logo_holder img {
-      width: 16vw; }
+      width: 13vw; }
       @media only screen and (max-width: 750px) {
         #footer .container .footer_content .footer_main_content .left .logo_holder img {
           width: 160px; } }
@@ -966,7 +984,7 @@ body {
   .mobile_nav .mobile_nav_contnet {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 81px;
+    padding-top: 62px;
     height: 100%; }
     @media only screen and (max-width: 750px) {
       .mobile_nav .mobile_nav_contnet {
@@ -1098,6 +1116,9 @@ header {
             -moz-transition: all 600ms ease 0ms;
             -o-transition: all 600ms ease 0ms;
             transition: all 600ms ease 0ms; }
+            @media only screen and (max-width: 1500px) {
+              header .header_content_desktop nav ul li a svg {
+                top: 1px; } }
         header .header_content_desktop nav ul li ul {
           margin-left: 20px;
           opacity: 0;
@@ -1123,6 +1144,9 @@ header {
       -moz-transition: all 600ms ease 0ms;
       -o-transition: all 600ms ease 0ms;
       transition: all 600ms ease 0ms; }
+      @media only screen and (max-width: 1500px) {
+        header .header_content_desktop .logo_holder {
+          max-width: 10vw; } }
       header .header_content_desktop .logo_holder:hover {
         opacity: 0.6; }
       header .header_content_desktop .logo_holder img {
@@ -1167,7 +1191,8 @@ header {
         transition: all 600ms ease 0ms; }
         @media only screen and (max-width: 1500px) {
           header .header_content_desktop .buttons_holder .btn {
-            font-size: 16px; } }
+            font-size: 16px;
+            padding: 10px 30px; } }
         header .header_content_desktop .buttons_holder .btn:hover {
           border: 1px solid #0e3b2e; }
   header .header_content_mobile {
@@ -1175,9 +1200,10 @@ header {
     @media only screen and (max-width: 1100px) {
       header .header_content_mobile {
         display: flex;
-        padding: 20px 10px;
+        padding: 10px;
         justify-content: space-between;
-        box-sizing: border-box; } }
+        box-sizing: border-box;
+        align-items: center; } }
     @media only screen and (max-width: 750px) {
       header .header_content_mobile {
         padding: 10px; } }
@@ -1229,7 +1255,7 @@ header {
         transform: rotate(-45deg);
         top: -4px; }
     header .header_content_mobile .logo_holder {
-      max-width: 170px;
+      max-width: 140px;
       position: relative;
       cursor: pointer;
       -webkit-transition: all 600ms ease 0ms;

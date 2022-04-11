@@ -15,7 +15,7 @@
     .mobile_nav_contnet{
         display: flex;
         flex-wrap: wrap;
-        padding-top: 81px;
+        padding-top: 62px;
         height: 100%;
 
         @media #{$s750} {
@@ -208,6 +208,10 @@ header {
               position: relative;
               top: 2px;
               @include transition();
+
+              @media #{$s1500} {
+                top: 1px;
+              }
             }
           }
 
@@ -250,6 +254,10 @@ header {
       position: relative;
       cursor: pointer;
       @include transition();
+
+      @media #{$s1500} {
+        max-width: 10vw;
+      }
 
       &:hover {
         opacity: 0.6;
@@ -301,6 +309,7 @@ header {
 
         @media #{$s1500} {
           font-size: 16px;
+          padding: 10px 30px;
         }
 
         &:hover {
@@ -316,9 +325,10 @@ header {
 
     @media #{$s1100} {
         display: flex;
-        padding: 20px 10px;
+        padding: 10px;
         justify-content: space-between;
         box-sizing: border-box;
+        align-items: center;
     }
 
     @media #{$s750} {
@@ -394,7 +404,7 @@ header {
     }
 
     .logo_holder {
-      max-width: 170px;
+      max-width: 140px;
       position: relative;
       cursor: pointer;
       @include transition();

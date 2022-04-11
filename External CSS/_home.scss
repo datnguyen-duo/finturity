@@ -105,6 +105,7 @@
         .list_items {
           display: flex;
           justify-content: center;
+          text-align: center;
 
           @media #{$s750} {
             justify-content: space-between;
@@ -135,6 +136,22 @@
                 width: auto;
                 height: 30px;
                 margin-bottom: 10px;
+              }
+            }
+
+            &:nth-of-type(2){
+              img{
+                width: 2.2vw;
+
+                @media #{$s1100} {
+                  width: 4vw;
+                }
+  
+                @media #{$s750} {
+                  width: auto;
+                  height: 30px;
+                  margin-bottom: 10px;
+                }
               }
             }
 
@@ -672,6 +689,14 @@
               @media #{$s750} {
                 width: 15px;
               }
+
+              line {
+                stroke: $color1;
+              }
+
+              path {
+                stroke: $color1;
+              }
             }
 
             &:hover {
@@ -794,8 +819,9 @@
               right: 20px;
               top: 20px;
               z-index: 2;
-              min-width: 120px;
-              padding: 15px 20px;
+              font-size: 14px;
+              min-width: 100px;
+              padding: 10px 20px;
 
               @media #{$s750} {
                 padding: 7px 15px;

@@ -24,6 +24,11 @@ $(document).ready(function () {
     $(".footer_disclosure").slideToggle();
   });
 
+  $(".single_team_member").on("click", function () {
+    $(this).toggleClass("active");
+    $(this).find('.team_description').slideToggle();
+  });
+
   $(".mobile_menu_opener").on("click", function () {
     $(this).toggleClass("opened");
 	$('body').toggleClass("no_scroll");

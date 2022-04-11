@@ -2,7 +2,6 @@
   .container {
     .footer_content {
       .footer_cta {
-        background-color: $color5;
         padding: 8vw 0;
         box-sizing: border-box;
         position: relative;
@@ -72,7 +71,6 @@
       .footer_main_content {
         display: flex;
         flex-wrap: wrap;
-        background-color: $color5;
 
         .left {
           width: 78%;
@@ -247,7 +245,6 @@
       }
 
       .footer_disclosure_holder {
-        background-color: $color5;
         text-align: center;
         border-top: 1px solid $color1;
         box-sizing: border-box;
@@ -309,6 +306,37 @@
               @media #{$s750} {
                   display: block;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.home_page, .services_page{
+  #footer{
+    background-color: $color5;
+  }
+}
+
+.about_page{
+  #footer{
+    background-color: $color4;
+
+    .container{
+      .footer_content{
+        .footer_cta{
+          .btn{
+            color: #fff;
+            background-color: $color1;
+
+            &:after{
+              background-color: #fff;
+            }
+
+            &:hover{
+              color: $color1;
             }
           }
         }

@@ -1,93 +1,94 @@
 .mobile_nav {
-    display: none;
-    position: fixed;
-    left: 0;
-    z-index: 9;
-    top: 0;
-    background-color: $color1;
-    width: 100%;
-    height: 100vh;
+  display: none;
+  position: fixed;
+  left: 0;
+  z-index: 9;
+  top: 0;
+  background-color: $color1;
+  width: 100%;
+  height: 100vh;
+
+  @media #{$s750} {
+    overflow: auto;
+  }
+
+  .mobile_nav_contnet {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 62px;
+    height: 100%;
 
     @media #{$s750} {
-        overflow: auto;
+      padding-top: 58px;
     }
 
-    .mobile_nav_contnet{
-        display: flex;
-        flex-wrap: wrap;
-        padding-top: 62px;
-        height: 100%;
+    .mobile_menu {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      padding-left: 40px;
+      box-sizing: border-box;
 
+      @media #{$s750} {
+        width: 100%;
+        padding: 0 30px;
+      }
+
+      ul {
         @media #{$s750} {
-            padding-top: 58px;
+          width: 100%;
         }
+        li {
+          margin-bottom: 10px;
 
-        .mobile_menu{
-            width: 60%;
-            display: flex;
-            align-items: center;
-            padding-left: 40px;
-            box-sizing: border-box;
-
-            @media #{$s750} {
-                width: 100%;
-                padding: 0 30px;
-            }
-
-            ul{
-                @media #{$s750} {
-                    width: 100%;
-                }
-                li{
-                    margin-bottom: 10px;
-
-                    @media #{$s750} {
-                        text-align: center;
-                    }
-
-                    a{
-                        font-size: 70px;
-                        font-family: $font1;
-                        color: #fff;
-
-                        @media #{$s750} {
-                            font-size: 60px;
-                            text-align: center;
-                        }
-                    }
-                }
-            }
-        }
-
-        .additional_info{
-            width: 40%;
-            border-left: 1px solid #fff;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+          @media #{$s750} {
             text-align: center;
+          }
+
+          a {
+            font-size: 70px;
+            font-family: $font1;
+            color: #fff;
 
             @media #{$s750} {
-                width: 100%;
-                border-left: none;
-                border-top: 1px solid #fff;
-                padding: 0 50px;
+              font-size: 60px;
+              text-align: center;
             }
-
-            .additional_info_content{
-                p, a{
-                    @extend .text;
-                    color: #fff;
-                    line-height: 1.8em;
-
-                    @media #{$s750} {
-                        display: block;
-                    }
-                }
-            }
+          }
         }
+      }
     }
+
+    .additional_info {
+      width: 40%;
+      border-left: 1px solid #fff;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      @media #{$s750} {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid #fff;
+        padding: 0 50px;
+      }
+
+      .additional_info_content {
+        p,
+        a {
+          @extend .text;
+          color: #fff;
+          line-height: 1.8em;
+
+          @media #{$s750} {
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
 
 header {
@@ -102,10 +103,11 @@ header {
   &.scrolled {
     background-color: #fff;
 
-    .header_content_desktop, .header_content_mobile {
-        .mobile_menu_opener{
-            border: 1px solid $color1;
-        }
+    .header_content_desktop,
+    .header_content_mobile {
+      .mobile_menu_opener {
+        border: 1px solid $color1;
+      }
       nav {
         ul {
           li {
@@ -151,16 +153,16 @@ header {
     }
   }
 
-  &.opened_menu_mobile{
-      background-color: $color1;
+  &.opened_menu_mobile {
+    background-color: $color1;
 
-      .header_content_mobile{
-          .logo_holder{
-              .header_logo_dark{
-                opacity: 0;
-              }
-          }
+    .header_content_mobile {
+      .logo_holder {
+        .header_logo_dark {
+          opacity: 0;
+        }
       }
+    }
   }
 
   .header_content_desktop {
@@ -319,88 +321,87 @@ header {
     }
   }
 
-
   .header_content_mobile {
     display: none;
 
     @media #{$s1100} {
-        display: flex;
-        padding: 10px;
-        justify-content: space-between;
-        box-sizing: border-box;
-        align-items: center;
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+      box-sizing: border-box;
+      align-items: center;
     }
 
     @media #{$s750} {
-        padding: 10px;
+      padding: 10px;
     }
 
-    .mobile_menu_opener{
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        border-radius: 40px;
-        border: 1px solid #fff;
+    .mobile_menu_opener {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 40px;
+      border: 1px solid #fff;
+
+      @media #{$s750} {
+        width: 36px;
+        height: 36px;
+        border-radius: 36px;
+      }
+
+      .hamburger_menu {
+        width: 20px;
 
         @media #{$s750} {
-            width: 36px;
-            height: 36px;
-            border-radius: 36px;
+          width: 15px;
         }
 
-        .hamburger_menu{
-            width: 20px;
+        span {
+          display: block;
+          width: 20px;
+          background-color: $color1;
+          margin-bottom: 5px;
+          height: 2px;
+          position: relative;
+          @include transition();
 
-            @media #{$s750} {
-                width: 15px;
-            }
+          @media #{$s750} {
+            margin-bottom: 3px;
+            width: 15px;
+          }
 
-            span{
-                display: block;
-                width: 20px;
-                background-color: $color1;
-                margin-bottom: 5px;
-                height: 2px;
-                position: relative;
-                @include transition();
-
-                @media #{$s750} {
-                    margin-bottom: 3px;
-                    width: 15px;
-                }
-
-                &:last-child{
-                    margin-bottom: 0;
-                }
-            }
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
+      }
 
-        &.opened{
-            .hamburger_menu{
-                span{
-                    &:nth-of-type(1){
-                        transform: rotate(45deg);
-                        top: 3px;
+      &.opened {
+        .hamburger_menu {
+          span {
+            &:nth-of-type(1) {
+              transform: rotate(45deg);
+              top: 3px;
 
-                        @media #{$s750} {
-                            top: 1px;
-                        }
-                    }
-
-                    &:nth-of-type(2){
-                        display: none;
-                    }
-
-                    &:nth-of-type(3){
-                        transform: rotate(-45deg);
-                        top: -4px;
-                    }
-                }
+              @media #{$s750} {
+                top: 1px;
+              }
             }
+
+            &:nth-of-type(2) {
+              display: none;
+            }
+
+            &:nth-of-type(3) {
+              transform: rotate(-45deg);
+              top: -4px;
+            }
+          }
         }
+      }
     }
 
     .logo_holder {
@@ -432,6 +433,44 @@ header {
         top: 0;
         @include transition;
       }
+    }
+  }
+}
+
+.about_page, .services_page {
+  header {
+    border-bottom: 1px solid $color1;
+
+    nav {
+      ul {
+        li {
+          a {
+            color: $color1;
+
+            svg {
+              path {
+                stroke: $color1;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .logo_holder {
+      .header_logo_dark {
+        opacity: 1;
+      }
+    }
+
+    .buttons_holder {
+      .contact_us {
+        color: $color1;
+      }
+    }
+
+    &.scrolled {
+      border-bottom: 1px solid #fff;
     }
   }
 }

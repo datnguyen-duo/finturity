@@ -347,9 +347,9 @@ header {
       border: 1px solid #fff;
 
       @media #{$s750} {
-        width: 36px;
-        height: 36px;
-        border-radius: 36px;
+        width: 32px;
+        height: 32px;
+        border-radius: 32px;
       }
 
       .hamburger_menu {
@@ -411,7 +411,7 @@ header {
       @include transition();
 
       @media #{$s750} {
-        max-width: 130px;
+        max-width: 110px;
         display: flex;
         align-items: center;
       }

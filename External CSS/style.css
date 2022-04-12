@@ -7,17 +7,17 @@
   br {
     display: none; } }
 
-.fadeIn, .home_page .hero_wrapper .hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .image_holder, .about_page .about_hero .image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .image_holder, .services_page .services_second_section .services_second_content .right .image_holder {
+.fadeIn, .home_page .hero_wrapper .hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .image_holder, .about_page .about_hero .image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .image_holder, .services_page .services_second_section .services_second_content .right .image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap, .single_blog_page .blog_hero .image_holder_wrap {
   position: relative;
   opacity: 0;
   -webkit-transition: all 600ms ease 0ms;
   -moz-transition: all 600ms ease 0ms;
   -o-transition: all 600ms ease 0ms;
   transition: all 600ms ease 0ms; }
-  .fadeIn.in_view, .home_page .hero_wrapper .in_view.hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .in_view.image_holder, .about_page .about_hero .in_view.image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .in_view.image_holder, .services_page .services_second_section .services_second_content .right .in_view.image_holder {
+  .fadeIn.in_view, .home_page .hero_wrapper .in_view.hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .in_view.image_holder, .about_page .about_hero .in_view.image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .in_view.image_holder, .services_page .services_second_section .services_second_content .right .in_view.image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .in_view.image_holder_wrap, .single_blog_page .blog_hero .in_view.image_holder_wrap {
     opacity: 1; }
 
-.fadeUp, #footer .container .footer_content .footer_cta .footer_cta_content, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, .about_page .about_hero .about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_first_section .about_first_section_content .about_first_section_header .btn, .about_page .about_first_section .about_first_section_content .three_box_section, .about_page .about_second_section .about_second_section_content, .about_page .about_third_section .about_third_section_content .left, .about_page .about_fourth_section .about_fourth_section_content h2, .about_page .about_fourth_section .about_fourth_section_content .team_list, .services_page .services_hero .services_hero_top_content, .services_page .services_first_section .services_first_section_content .small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list, .services_page .services_second_section .services_second_content .left {
+.fadeUp, #footer .container .footer_content .footer_cta .footer_cta_content, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, .about_page .about_hero .about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_first_section .about_first_section_content .about_first_section_header .btn, .about_page .about_first_section .about_first_section_content .three_box_section, .about_page .about_second_section .about_second_section_content, .about_page .about_third_section .about_third_section_content .left, .about_page .about_fourth_section .about_fourth_section_content h2, .about_page .about_fourth_section .about_fourth_section_content .team_list, .services_page .services_hero .services_hero_top_content, .services_page .services_first_section .services_first_section_content .small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list, .services_page .services_second_section .services_second_content .left, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_third_section .services_third_content .four_box_section, .blog_page .blog_hero .blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider, .single_blog_page .blog_hero .blog_hero_top_content, .contact_page .contact_hero .contact_hero_content {
   position: relative;
   opacity: 0;
   top: 30px;
@@ -25,7 +25,7 @@
   -moz-transition: all 600ms ease 0ms;
   -o-transition: all 600ms ease 0ms;
   transition: all 600ms ease 0ms; }
-  .fadeUp.in_view, #footer .container .footer_content .footer_cta .in_view.footer_cta_content, .home_page .home_second_section .home_second_section_content .in_view.list_wrap, .home_page .home_second_section .home_second_section_content h2.in_view, .home_page .home_third_section .home_third_section_content .single_box .right .in_view.right_content, .home_page .home_fourth_section .home_fourth_section_content .in_view.small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2.in_view, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .in_view.btn, .home_page .home_fifth_section .home_fifth_section_content .in_view.three_box_section, .home_page .home_sixth_section .home_sixth_section_content .in_view.sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .in_view.hub_slider, .about_page .about_hero .in_view.about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2.in_view, .about_page .about_first_section .about_first_section_content .about_first_section_header .in_view.btn, .about_page .about_first_section .about_first_section_content .in_view.three_box_section, .about_page .about_second_section .in_view.about_second_section_content, .about_page .about_third_section .about_third_section_content .in_view.left, .about_page .about_fourth_section .about_fourth_section_content h2.in_view, .about_page .about_fourth_section .about_fourth_section_content .in_view.team_list, .services_page .services_hero .in_view.services_hero_top_content, .services_page .services_first_section .services_first_section_content .in_view.small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .services_page .services_second_section .services_second_content .in_view.left {
+  .fadeUp.in_view, #footer .container .footer_content .footer_cta .in_view.footer_cta_content, .home_page .home_second_section .home_second_section_content .in_view.list_wrap, .home_page .home_second_section .home_second_section_content h2.in_view, .home_page .home_third_section .home_third_section_content .single_box .right .in_view.right_content, .home_page .home_fourth_section .home_fourth_section_content .in_view.small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2.in_view, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .in_view.btn, .home_page .home_fifth_section .home_fifth_section_content .in_view.three_box_section, .home_page .home_sixth_section .home_sixth_section_content .in_view.sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .in_view.hub_slider, .about_page .about_hero .in_view.about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2.in_view, .about_page .about_first_section .about_first_section_content .about_first_section_header .in_view.btn, .about_page .about_first_section .about_first_section_content .in_view.three_box_section, .about_page .about_second_section .in_view.about_second_section_content, .about_page .about_third_section .about_third_section_content .in_view.left, .about_page .about_fourth_section .about_fourth_section_content h2.in_view, .about_page .about_fourth_section .about_fourth_section_content .in_view.team_list, .services_page .services_hero .in_view.services_hero_top_content, .services_page .services_first_section .services_first_section_content .in_view.small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .services_page .services_second_section .services_second_content .in_view.left, .services_page .services_third_section .services_third_content .services_third_section_header h2.in_view, .services_page .services_third_section .services_third_content .in_view.four_box_section, .blog_page .blog_hero .in_view.blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .in_view.posts_slider, .single_blog_page .blog_hero .in_view.blog_hero_top_content, .contact_page .contact_hero .in_view.contact_hero_content {
     top: 0px;
     opacity: 1; }
 
@@ -34,29 +34,39 @@ body {
   body.no_scroll {
     overflow: hidden; }
 
-.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1 {
+.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2 {
   font-family: "Roobert-Regular", serif;
   font-size: 5.2vw;
   color: #fff;
   letter-spacing: -1.1px; }
   @media only screen and (max-width: 750px) {
-    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1 {
+    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2 {
       font-size: 42px; } }
 
-.mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2 {
+.mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3 {
   font-size: 2.5vw;
   font-family: "trilby", serif;
   letter-spacing: -0.5px; }
   @media only screen and (max-width: 1023px) {
-    .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2 {
+    .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3 {
       font-size: 22px; } }
 
-.smallHeadline, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description h3, .about_page .about_second_section .about_second_section_content p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info h3, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3 {
+.smallHeadline, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description h3, .about_page .about_second_section .about_second_section_content p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info h3, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap h3, .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description h3, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h3,
+.single_blog_page .blog_content_wrap .blog_content .text_holder h4,
+.single_blog_page .blog_content_wrap .blog_content .text_holder h5,
+.single_blog_page .blog_content_wrap .blog_content .text_holder h6, .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a,
+.single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3, .contact_page .contact_info .single_box a,
+.contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
   font-size: 1.8vw;
   font-family: "trilby", serif;
   letter-spacing: -0.34px; }
   @media only screen and (max-width: 1023px) {
-    .smallHeadline, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description h3, .about_page .about_second_section .about_second_section_content p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info h3, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3 {
+    .smallHeadline, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description h3, .about_page .about_second_section .about_second_section_content p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info h3, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap h3, .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description h3, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h3,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h4,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h5,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h6, .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a,
+    .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3, .contact_page .contact_info .single_box a,
+    .contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
       font-size: 18px; } }
 
 .text, #footer .container .footer_content .footer_main_content .right .right_content p,
@@ -64,7 +74,11 @@ body {
 .mobile_nav .mobile_nav_contnet .additional_info .additional_info_content a, header .header_content_desktop nav ul li a, header .header_content_desktop .buttons_holder .contact_us, .home_page .home_third_section .home_third_section_content .single_box .right .right_content p, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info p,
 .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description p, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .slides-numbers, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info p,
 .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info a, .about_page .about_hero .about_hero_top_content .right p, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_description .top_description p, .services_page .services_hero .services_hero_top_content .right p, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info p,
-.services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p {
+.services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap .descripton_list li, .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder .filter_button, .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog .learn_more_arrow, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info p,
+.blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a, .single_blog_page .blog_content_wrap .blog_content .text_holder p,
+.single_blog_page .blog_content_wrap .blog_content .text_holder a,
+.single_blog_page .blog_content_wrap .blog_content .text_holder ul li, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info p,
+.single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a {
   font-size: 20px;
   font-family: "Roobert-Regular", serif;
   line-height: 1.4em; }
@@ -74,7 +88,11 @@ body {
     .mobile_nav .mobile_nav_contnet .additional_info .additional_info_content a, header .header_content_desktop nav ul li a, header .header_content_desktop .buttons_holder .contact_us, .home_page .home_third_section .home_third_section_content .single_box .right .right_content p, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info p,
     .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description p, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder .buttons_pagination .slides-numbers, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info p,
     .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info a, .about_page .about_hero .about_hero_top_content .right p, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_description .top_description p, .services_page .services_hero .services_hero_top_content .right p, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info p,
-    .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p {
+    .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list_item_info a, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap .descripton_list li, .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder .filter_button, .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog .learn_more_arrow, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info p,
+    .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a, .single_blog_page .blog_content_wrap .blog_content .text_holder p,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder a,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder ul li, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info p,
+    .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a {
       font-size: 16px; } }
 
 .btn {
@@ -265,7 +283,7 @@ body {
               #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a {
                 font-size: 20px; } }
           #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li:hover a {
-            color: #fff; }
+            opacity: 0.5; }
   #footer .container .footer_content .footer_main_content .right {
     width: 22%;
     border-left: 1px solid #0e3b2e;
@@ -310,7 +328,7 @@ body {
         -o-transition: all 300ms ease 0ms;
         transition: all 300ms ease 0ms; }
         #footer .container .footer_content .footer_main_content .right .right_content a:hover {
-          color: #fff; }
+          opacity: 0.5; }
 #footer .container .footer_content .footer_disclosure_holder {
   text-align: center;
   border-top: 1px solid #0e3b2e;
@@ -356,17 +374,39 @@ body {
         #footer .container .footer_content .footer_disclosure_holder .footer_disclosure p br {
           display: block; } }
 
-.home_page #footer, .services_page #footer {
+.home_page #footer,
+.single_blog_page #footer {
   background-color: #a0c3a1; }
 
-.about_page #footer {
-  background-color: #f2f6ee; }
-  .about_page #footer .container .footer_content .footer_cta .btn {
+.blog_page #footer {
+  border-top: 1px solid #0e3b2e; }
+
+.contact_page #footer {
+  background-color: #f7a094; }
+  .contact_page #footer .container .footer_content .footer_cta .btn {
     color: #fff;
     background-color: #0e3b2e; }
-    .about_page #footer .container .footer_content .footer_cta .btn:after {
+    .contact_page #footer .container .footer_content .footer_cta .btn:after {
       background-color: #fff; }
-    .about_page #footer .container .footer_content .footer_cta .btn:hover {
+    .contact_page #footer .container .footer_content .footer_cta .btn:hover {
+      color: #0e3b2e; }
+
+.about_page #footer,
+.services_page #footer,
+.blog_page #footer {
+  background-color: #f2f6ee; }
+  .about_page #footer .container .footer_content .footer_cta .btn,
+  .services_page #footer .container .footer_content .footer_cta .btn,
+  .blog_page #footer .container .footer_content .footer_cta .btn {
+    color: #fff;
+    background-color: #0e3b2e; }
+    .about_page #footer .container .footer_content .footer_cta .btn:after,
+    .services_page #footer .container .footer_content .footer_cta .btn:after,
+    .blog_page #footer .container .footer_content .footer_cta .btn:after {
+      background-color: #fff; }
+    .about_page #footer .container .footer_content .footer_cta .btn:hover,
+    .services_page #footer .container .footer_content .footer_cta .btn:hover,
+    .blog_page #footer .container .footer_content .footer_cta .btn:hover {
       color: #0e3b2e; }
 
 .mobile_nav {
@@ -693,17 +733,46 @@ header {
         -o-transition: all 600ms ease 0ms;
         transition: all 600ms ease 0ms; }
 
-.about_page header, .services_page header {
+.contact_page header {
+  background-color: #f2f6ee; }
+  .contact_page header.scrolled {
+    background-color: #fff; }
+
+.about_page header,
+.services_page header,
+.blog_page header,
+.single_blog_page header,
+.contact_page header {
   border-bottom: 1px solid #0e3b2e; }
-  .about_page header nav ul li a, .services_page header nav ul li a {
+  .about_page header nav ul li a,
+  .services_page header nav ul li a,
+  .blog_page header nav ul li a,
+  .single_blog_page header nav ul li a,
+  .contact_page header nav ul li a {
     color: #0e3b2e; }
-    .about_page header nav ul li a svg path, .services_page header nav ul li a svg path {
+    .about_page header nav ul li a svg path,
+    .services_page header nav ul li a svg path,
+    .blog_page header nav ul li a svg path,
+    .single_blog_page header nav ul li a svg path,
+    .contact_page header nav ul li a svg path {
       stroke: #0e3b2e; }
-  .about_page header .logo_holder .header_logo_dark, .services_page header .logo_holder .header_logo_dark {
+  .about_page header .logo_holder .header_logo_dark,
+  .services_page header .logo_holder .header_logo_dark,
+  .blog_page header .logo_holder .header_logo_dark,
+  .single_blog_page header .logo_holder .header_logo_dark,
+  .contact_page header .logo_holder .header_logo_dark {
     opacity: 1; }
-  .about_page header .buttons_holder .contact_us, .services_page header .buttons_holder .contact_us {
+  .about_page header .buttons_holder .contact_us,
+  .services_page header .buttons_holder .contact_us,
+  .blog_page header .buttons_holder .contact_us,
+  .single_blog_page header .buttons_holder .contact_us,
+  .contact_page header .buttons_holder .contact_us {
     color: #0e3b2e; }
-  .about_page header.scrolled, .services_page header.scrolled {
+  .about_page header.scrolled,
+  .services_page header.scrolled,
+  .blog_page header.scrolled,
+  .single_blog_page header.scrolled,
+  .contact_page header.scrolled {
     border-bottom: 1px solid #fff; }
 
 .home_page .hero_wrapper {
@@ -1747,33 +1816,35 @@ header {
     box-sizing: border-box; }
     .services_page .services_second_section .services_second_content .left {
       width: 53%;
-      padding-right: 11vw;
       display: flex;
       align-items: center;
+      justify-content: center;
       box-sizing: border-box; }
-      .services_page .services_second_section .services_second_content .left .description h2 {
-        color: #fcd263;
-        margin-bottom: 5vw; }
-      .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item {
-        display: flex;
-        border-bottom: 1px solid #fcd263;
-        padding-bottom: 2vw;
-        margin-bottom: 2vw;
-        align-items: center; }
-        .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item:last-child {
-          margin-bottom: 0;
-          border-bottom: none; }
-        .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .icon_holder .icon {
-          width: 4vw; }
-          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .icon_holder .icon img {
-            width: 100%; }
-        .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description {
-          padding-left: 2vw; }
-          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3 {
-            color: #fcd263;
-            margin-bottom: 10px; }
-          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p {
-            color: #fcd263; }
+      .services_page .services_second_section .services_second_content .left .description {
+        max-width: 34vw; }
+        .services_page .services_second_section .services_second_content .left .description h2 {
+          color: #fcd263;
+          margin-bottom: 5vw; }
+        .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item {
+          display: flex;
+          border-bottom: 1px solid #fcd263;
+          padding-bottom: 2vw;
+          margin-bottom: 2vw;
+          align-items: center; }
+          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item:last-child {
+            margin-bottom: 0;
+            border-bottom: none; }
+          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .icon_holder .icon {
+            width: 4vw; }
+            .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .icon_holder .icon img {
+              width: 100%; }
+          .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description {
+            padding-left: 2vw; }
+            .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3 {
+              color: #fcd263;
+              margin-bottom: 10px; }
+            .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description p {
+              color: #fcd263; }
     .services_page .services_second_section .services_second_content .right {
       width: 47%; }
       .services_page .services_second_section .services_second_content .right .image_holder {
@@ -1793,14 +1864,897 @@ header {
           transition: all 300ms ease 0ms; }
     .services_page .services_second_section .services_second_content:nth-of-type(even) .left {
       order: 2;
-      padding-left: 11vw;
       padding-right: 0vw; }
-      .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description h2, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p {
-        color: #f7a094;
-        margin-bottom: 0; }
-      .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description h2 {
-        margin-bottom: 15px; }
+      .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description {
+        max-width: 34vw; }
+        .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description h2,
+        .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description p {
+          color: #f7a094;
+          margin-bottom: 0; }
+        .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description h2 {
+          margin-bottom: 15px; }
+        .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap {
+          padding-top: 3vw;
+          margin-top: 3vw;
+          border-top: 1px solid #f7a094; }
+          .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap h3 {
+            margin-bottom: 30px;
+            color: #f7a094; }
+          .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap .descripton_list li {
+            display: flex;
+            color: #f7a094;
+            margin-bottom: 15px; }
+            .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap .descripton_list li img {
+              margin-right: 15px; }
     .services_page .services_second_section .services_second_content:nth-of-type(even) .right {
       order: 1; }
+.services_page .services_third_section {
+  background-color: #f7a094; }
+  .services_page .services_third_section .services_third_content {
+    box-sizing: border-box;
+    padding: 7vw 1.5vw; }
+    @media only screen and (max-width: 750px) {
+      .services_page .services_third_section .services_third_content {
+        padding: 65px 35px; } }
+    .services_page .services_third_section .services_third_content .services_third_section_header {
+      text-align: center; }
+      .services_page .services_third_section .services_third_content .services_third_section_header h2 {
+        color: #0e3b2e;
+        margin-bottom: 30px;
+        margin-bottom: 3vw; }
+        .services_page .services_third_section .services_third_content .services_third_section_header h2 span {
+          -webkit-transition: all 300ms ease 800ms;
+          -moz-transition: all 300ms ease 800ms;
+          -o-transition: all 300ms ease 800ms;
+          transition: all 300ms ease 800ms; }
+          .services_page .services_third_section .services_third_content .services_third_section_header h2 span.in_view {
+            color: #f7a094; }
+      .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder {
+        display: flex;
+        justify-content: center; }
+        .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder .filter_button {
+          border: 1px solid #0e3b2e;
+          padding: 1.5vw 6vw;
+          font-family: "trilby", serif;
+          color: #0e3b2e;
+          box-sizing: border-box;
+          margin-right: 1vw;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 200px;
+          -webkit-transition: all 600ms ease 0ms;
+          -moz-transition: all 600ms ease 0ms;
+          -o-transition: all 600ms ease 0ms;
+          transition: all 600ms ease 0ms; }
+          .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder .filter_button:hover {
+            background-color: #fff; }
+          .services_page .services_third_section .services_third_content .services_third_section_header .filters_holder .filter_button.active {
+            background-color: #fff; }
+    .services_page .services_third_section .services_third_content .four_box_section {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 8vw; }
+      .services_page .services_third_section .services_third_content .four_box_section:last-child {
+        display: none; }
+      @media only screen and (max-width: 750px) {
+        .services_page .services_third_section .services_third_content .four_box_section {
+          margin-top: 80px; } }
+      .services_page .services_third_section .services_third_content .four_box_section .single_box {
+        width: 25%;
+        box-sizing: border-box;
+        padding: 0 1.25vw; }
+        @media only screen and (max-width: 750px) {
+          .services_page .services_third_section .services_third_content .four_box_section .single_box {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px; }
+            .services_page .services_third_section .services_third_content .four_box_section .single_box:last-child {
+              margin-bottom: 0; } }
+        .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content {
+          border: 1px solid #0e3b2e;
+          box-sizing: border-box;
+          padding: 3vw 2vw;
+          height: 100%; }
+          @media only screen and (max-width: 1100px) {
+            .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content {
+              padding: 2.5vw 3vw; } }
+          @media only screen and (max-width: 750px) {
+            .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content {
+              padding: 30px; } }
+          .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .icon_wrap {
+            height: 9vw;
+            margin-bottom: 4vw; }
+            @media only screen and (max-width: 750px) {
+              .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .icon_wrap {
+                height: 140px;
+                margin-bottom: 44px; } }
+            .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .icon_wrap img,
+            .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .icon_wrap video {
+              height: 100%; }
+          .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .small_subheadline {
+            margin-bottom: 15px; }
+            .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .small_subheadline span {
+              justify-content: flex-start; }
+              .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .small_subheadline span:after {
+                display: none; }
+          .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description h3 {
+            color: #0e3b2e;
+            margin-bottom: 15px; }
+          .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description p {
+            color: #0e3b2e; }
+.services_page .services_fourth_section {
+  background-color: #f2f6ee;
+  border-bottom: 1px solid #0e3b2e; }
+  .services_page .services_fourth_section .services_fourth_section_content {
+    padding: 8vw 5vw; }
+    .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header {
+      text-align: center;
+      margin-bottom: 8vw; }
+      .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2 {
+        margin-bottom: 20px;
+        color: #0e3b2e; }
+      .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header p {
+        color: #0e3b2e; }
+    .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 10vw;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button,
+      .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button {
+        position: absolute;
+        width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e3b2e;
+        border: 1px solid #0e3b2e;
+        z-index: 1;
+        cursor: pointer;
+        -webkit-transition: all 600ms ease 0ms;
+        -moz-transition: all 600ms ease 0ms;
+        -o-transition: all 600ms ease 0ms;
+        transition: all 600ms ease 0ms; }
+        @media only screen and (max-width: 1100px) {
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px; } }
+        @media only screen and (max-width: 750px) {
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button {
+            width: 35px;
+            height: 35px;
+            border-radius: 35px; } }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button svg,
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg {
+          width: 1.1vw; }
+          @media only screen and (max-width: 1100px) {
+            .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button svg,
+            .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg {
+              width: 30px; } }
+          @media only screen and (max-width: 750px) {
+            .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button svg,
+            .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg {
+              width: 15px; } }
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button svg line,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg line {
+            stroke: #fff; }
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button svg path,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg path {
+            stroke: #fff; }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button:hover,
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button:hover {
+          background-color: #fff; }
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button:hover svg line,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button:hover svg line {
+            stroke: #0e3b2e; }
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button:hover svg path,
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button:hover svg path {
+            stroke: #0e3b2e; }
+      .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .prev_button {
+        left: 5vw; }
+      .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button {
+        right: 5vw; }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .next_button svg {
+          position: relative;
+          transform: rotate(180deg); }
+      .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider {
+        width: 90%;
+        /* the slides */
+        /* the parent */ }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide {
+          height: 55px;
+          position: relative; }
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            object-fit: contain;
+            height: 100%;
+            width: 100%; }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slick-slide {
+          margin: 0 27px; }
+        .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slick-list {
+          margin: 0 -27px; }
+
+.blog_page .blog_hero {
+  padding-top: 15vw;
+  background-color: #f7a094;
+  position: relative; }
+  .blog_page .blog_hero .blog_hero_top_content {
+    padding-left: 9vw;
+    padding-right: 9vw;
+    margin-bottom: 6vw;
+    z-index: 2;
+    position: relative; }
+    .blog_page .blog_hero .blog_hero_top_content .small_subheadline {
+      margin-bottom: 20px; }
+      .blog_page .blog_hero .blog_hero_top_content .small_subheadline span {
+        justify-content: flex-start; }
+        .blog_page .blog_hero .blog_hero_top_content .small_subheadline span:after {
+          display: none; }
+    .blog_page .blog_hero .blog_hero_top_content h1 {
+      color: #0e3b2e;
+      text-align: left; }
+  .blog_page .blog_hero .blog_hero_bottom_content {
+    display: flex;
+    flex-wrap: wrap; }
+    .blog_page .blog_hero .blog_hero_bottom_content .left {
+      width: 60%; }
+      .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap {
+        z-index: 2;
+        position: relative; }
+        .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap .image_holder {
+          position: relative;
+          padding-top: 73%;
+          overflow: hidden; }
+          .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap .image_holder img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap .image_holder img.active {
+              opacity: 1; }
+    .blog_page .blog_hero .blog_hero_bottom_content .right {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .blog_page .blog_hero .blog_hero_bottom_content .right .right_content {
+        max-width: 420px; }
+        .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog {
+          border-top: 1px solid #0e3b2e;
+          margin-bottom: 2vw;
+          padding-top: 3vw;
+          box-sizing: border-box;
+          display: block;
+          cursor: pointer; }
+          .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog:first-child {
+            border-top: none; }
+          .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog:hover .learn_more_arrow {
+            opacity: 1; }
+          .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog h2 {
+            color: #0e3b2e;
+            margin-bottom: 10px; }
+          .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog p {
+            color: #0e3b2e;
+            margin-bottom: 1vw; }
+          .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog .learn_more_arrow {
+            display: flex;
+            font-size: 16px;
+            color: #0e3b2e;
+            align-items: center;
+            opacity: 0;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog .learn_more_arrow img {
+              margin-left: 5px; }
+.blog_page .blog_posts_holder {
+  background-color: #f2f6ee; }
+  .blog_page .blog_posts_holder .blog_posts_wrap {
+    padding: 10vw 5vw;
+    box-sizing: border-box; }
+    .blog_page .blog_posts_holder .blog_posts_wrap .posts_header {
+      display: flex;
+      padding: 0 2vw;
+      justify-content: space-between;
+      margin-bottom: 20px; }
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts_header .total_posts {
+        display: flex;
+        align-items: center; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_header .total_posts p {
+          font-size: 16px;
+          margin-right: 10px;
+          font-family: "Roobert-Regular", serif;
+          color: #0e3b2e; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_header .total_posts span {
+          position: relative;
+          width: 2.5vw;
+          height: 2.5vw;
+          color: #0e3b2e;
+          font-family: "Roobert-Regular", serif;
+          border-radius: 2.5vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+          border: 1px solid #fff;
+          z-index: 1;
+          cursor: pointer;
+          -webkit-transition: all 600ms ease 0ms;
+          -moz-transition: all 600ms ease 0ms;
+          -o-transition: all 600ms ease 0ms;
+          transition: all 600ms ease 0ms; }
+          @media only screen and (max-width: 1100px) {
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts_header .total_posts span {
+              width: 50px;
+              height: 50px;
+              border-radius: 50px; } }
+          @media only screen and (max-width: 750px) {
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts_header .total_posts span {
+              width: 35px;
+              height: 35px;
+              border-radius: 35px; } }
+    .blog_page .blog_posts_holder .blog_posts_wrap .posts {
+      position: relative; }
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button,
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button {
+        position: absolute;
+        width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid #fff;
+        z-index: 1;
+        cursor: pointer;
+        -webkit-transition: all 600ms ease 0ms;
+        -moz-transition: all 600ms ease 0ms;
+        -o-transition: all 600ms ease 0ms;
+        transition: all 600ms ease 0ms; }
+        @media only screen and (max-width: 1100px) {
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px; } }
+        @media only screen and (max-width: 750px) {
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button {
+            width: 35px;
+            height: 35px;
+            border-radius: 35px; } }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button svg,
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button svg {
+          width: 1.1vw; }
+          @media only screen and (max-width: 1100px) {
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button svg,
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button svg {
+              width: 30px; } }
+          @media only screen and (max-width: 750px) {
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button svg,
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button svg {
+              width: 15px; } }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button svg line,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button svg line {
+            stroke: #0e3b2e; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button svg path,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button svg path {
+            stroke: #0e3b2e; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button:hover,
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button:hover {
+          background-color: #0e3b2e; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button:hover svg line,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button:hover svg line {
+            stroke: #fff; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .prev_post_button:hover svg path,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts .next_post_button:hover svg path {
+            stroke: #fff; }
+    .blog_page .blog_posts_holder .blog_posts_wrap .prev_post_button {
+      left: 2vw;
+      bottom: 0; }
+    .blog_page .blog_posts_holder .blog_posts_wrap .next_post_button {
+      right: 2vw;
+      bottom: 0; }
+      .blog_page .blog_posts_holder .blog_posts_wrap .next_post_button svg {
+        position: relative;
+        transform: rotate(180deg); }
+    .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider {
+      /* the slides */ }
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-slide {
+        padding: 0 2vw; }
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots {
+        text-align: center; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots li {
+          display: inline-block;
+          margin-right: 20px; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots li.slick-active button {
+            background-color: #0e3b2e;
+            color: #fff; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots li button {
+            position: relative;
+            width: 2.5vw;
+            height: 2.5vw;
+            color: #0e3b2e;
+            font-family: "Roobert-Regular", serif;
+            border-radius: 2.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            border: 1px solid #0e3b2e;
+            z-index: 1;
+            cursor: pointer;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            @media only screen and (max-width: 1100px) {
+              .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots li button {
+                width: 50px;
+                height: 50px;
+                border-radius: 50px; } }
+            @media only screen and (max-width: 750px) {
+              .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .slick-dots li button {
+                width: 35px;
+                height: 35px;
+                border-radius: 35px; } }
+      .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide {
+        border: 1px solid #0e3b2e;
+        cursor: pointer;
+        margin-bottom: 4vw; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide:hover .image_holder img {
+          transform: scale(1); }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide:hover .slide_info a {
+          opacity: 1;
+          visibility: visible; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .image_holder {
+          padding-top: 76%;
+          overflow: hidden;
+          position: relative; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .image_holder .date {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            z-index: 2;
+            font-size: 14px;
+            min-width: 100px;
+            padding: 10px 20px; }
+            @media only screen and (max-width: 750px) {
+              .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .image_holder .date {
+                padding: 7px 15px;
+                font-size: 12px;
+                min-width: 90px; } }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .image_holder img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.02);
+            -webkit-transition: all 300ms ease 0ms;
+            -moz-transition: all 300ms ease 0ms;
+            -o-transition: all 300ms ease 0ms;
+            transition: all 300ms ease 0ms; }
+        .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info {
+          padding: 2.5vw 3vw;
+          box-sizing: border-box; }
+          @media only screen and (max-width: 750px) {
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info {
+              padding: 30px 25px; } }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info h3 {
+            color: #0e3b2e;
+            margin-bottom: 25px; }
+            @media only screen and (max-width: 750px) {
+              .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info h3 {
+                margin-bottom: 10px; } }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info p,
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a {
+            color: #0e3b2e; }
+          .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a {
+            display: flex;
+            margin-top: 25px;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            @media only screen and (max-width: 750px) {
+              .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a {
+                margin-top: 15px;
+                font-size: 12px;
+                opacity: 1;
+                visibility: visible; } }
+            .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info a img {
+              padding-left: 5px;
+              position: relative;
+              top: 1px; }
+
+.single_blog_page .blog_hero {
+  padding-top: 15vw;
+  background-color: #f7a094;
+  position: relative; }
+  .single_blog_page .blog_hero:after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #f2f6ee;
+    width: 100%;
+    height: 37vh;
+    z-index: 1; }
+  .single_blog_page .blog_hero .blog_hero_top_content {
+    padding-left: 9vw;
+    padding-right: 9vw;
+    margin-bottom: 6vw;
+    z-index: 2;
+    position: relative; }
+    .single_blog_page .blog_hero .blog_hero_top_content .small_subheadline {
+      margin-bottom: 20px; }
+      .single_blog_page .blog_hero .blog_hero_top_content .small_subheadline span {
+        justify-content: flex-start; }
+        .single_blog_page .blog_hero .blog_hero_top_content .small_subheadline span:after {
+          display: none; }
+    .single_blog_page .blog_hero .blog_hero_top_content h1 {
+      color: #0e3b2e;
+      text-align: left; }
+  .single_blog_page .blog_hero .image_holder_wrap {
+    padding-left: 5vw;
+    box-sizing: border-box;
+    z-index: 2;
+    position: relative; }
+    .single_blog_page .blog_hero .image_holder_wrap .image_holder {
+      position: relative;
+      padding-top: 58%;
+      overflow: hidden; }
+      .single_blog_page .blog_hero .image_holder_wrap .image_holder img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+.single_blog_page .blog_content_wrap {
+  background-color: #f2f6ee; }
+  .single_blog_page .blog_content_wrap .blog_content .image_holder_wrap {
+    padding: 5vw 0;
+    box-sizing: border-box;
+    border-top: 1px solid #0e3b2e;
+    border-bottom: 1px solid #0e3b2e; }
+    .single_blog_page .blog_content_wrap .blog_content .image_holder_wrap .image_holder {
+      max-width: 70vw;
+      margin: auto;
+      position: relative;
+      padding-top: 40%; }
+      .single_blog_page .blog_content_wrap .blog_content .image_holder_wrap .image_holder img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  .single_blog_page .blog_content_wrap .blog_content .text_holder {
+    margin: auto;
+    padding: 8vw 1.5vw;
+    max-width: 60vw; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h2 {
+      margin-bottom: 20px;
+      color: #0e3b2e; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h3,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h4,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h5,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder h6 {
+      color: #0e3b2e;
+      margin-bottom: 20px; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder p,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder a,
+    .single_blog_page .blog_content_wrap .blog_content .text_holder ul li {
+      color: #0e3b2e; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder a {
+      color: #0e3b2e;
+      text-decoration: underline;
+      -webkit-transition: all 600ms ease 0ms;
+      -moz-transition: all 600ms ease 0ms;
+      -o-transition: all 600ms ease 0ms;
+      transition: all 600ms ease 0ms; }
+      .single_blog_page .blog_content_wrap .blog_content .text_holder a:hover {
+        opacity: 0.5; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder p {
+      margin-bottom: 20px; }
+    .single_blog_page .blog_content_wrap .blog_content .text_holder ul li {
+      list-style-type: disc;
+      list-style-position: inside;
+      margin-bottom: 5px; }
+  .single_blog_page .blog_content_wrap .blog_info {
+    padding: 0 9vw;
+    box-sizing: border-box;
+    padding-bottom: 8vw;
+    border-bottom: 1px solid #0e3b2e; }
+    .single_blog_page .blog_content_wrap .blog_info .blog_info_content {
+      border: 1px solid #0e3b2e;
+      padding: 2vw 4vw;
+      border-radius: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box .small_subheadline,
+      .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box .small_subheadline {
+        margin-bottom: 10px; }
+        .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box .small_subheadline span,
+        .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box .small_subheadline span {
+          justify-content: flex-start; }
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box .small_subheadline span:after, .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box .small_subheadline span:before,
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box .small_subheadline span:after,
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box .small_subheadline span:before {
+            display: none; }
+      .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul,
+      .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul {
+        display: flex; }
+        .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li,
+        .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li {
+          display: inline-block;
+          display: flex;
+          align-items: center; }
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li:after,
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li:after {
+            content: "";
+            width: 4px;
+            height: 4px;
+            margin-left: 15px;
+            margin-right: 15px;
+            display: block;
+            background-color: #0e3b2e;
+            border-radius: 4px; }
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li:last-child:after,
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li:last-child:after {
+            display: none; }
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a,
+          .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a {
+            color: #0e3b2e;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a:hover,
+            .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a:hover {
+              opacity: 0.5; }
+  .single_blog_page .blog_content_wrap .related_blog_posts {
+    box-sizing: border-box;
+    padding: 7vw; }
+    .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header {
+      padding: 0 2vw; }
+      .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3 {
+        margin-bottom: 20px;
+        color: #0e3b2e; }
+    .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content {
+      display: flex;
+      flex-wrap: wrap; }
+      .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog_holder {
+        padding: 0 2vw;
+        box-sizing: border-box;
+        width: 50%; }
+      .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog {
+        border: 1px solid #0e3b2e;
+        cursor: pointer;
+        margin-bottom: 4vw;
+        box-sizing: border-box; }
+        .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog:hover .image_holder img {
+          transform: scale(1); }
+        .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog:hover .slide_info a {
+          opacity: 1;
+          visibility: visible; }
+        .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .image_holder {
+          padding-top: 76%;
+          overflow: hidden;
+          position: relative; }
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .image_holder .date {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            z-index: 2;
+            font-size: 14px;
+            min-width: 100px;
+            padding: 10px 20px; }
+            @media only screen and (max-width: 750px) {
+              .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .image_holder .date {
+                padding: 7px 15px;
+                font-size: 12px;
+                min-width: 90px; } }
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .image_holder img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1.02);
+            -webkit-transition: all 300ms ease 0ms;
+            -moz-transition: all 300ms ease 0ms;
+            -o-transition: all 300ms ease 0ms;
+            transition: all 300ms ease 0ms; }
+        .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info {
+          padding: 2.5vw 3vw;
+          box-sizing: border-box; }
+          @media only screen and (max-width: 750px) {
+            .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info {
+              padding: 30px 25px; } }
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3 {
+            color: #0e3b2e;
+            margin-bottom: 25px; }
+            @media only screen and (max-width: 750px) {
+              .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3 {
+                margin-bottom: 10px; } }
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info p,
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a {
+            color: #0e3b2e; }
+          .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a {
+            display: flex;
+            margin-top: 25px;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            @media only screen and (max-width: 750px) {
+              .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a {
+                margin-top: 15px;
+                font-size: 12px;
+                opacity: 1;
+                visibility: visible; } }
+            .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info a img {
+              padding-left: 5px;
+              position: relative;
+              top: 1px; }
+
+.contact_page {
+  margin-top: 80px; }
+  @media only screen and (max-width: 1500px) {
+    .contact_page {
+      margin-top: 50px; } }
+  .contact_page .contact_hero {
+    padding: 14vw 0;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #0e3b2e;
+    background-color: #f2f6ee; }
+    @media only screen and (max-width: 1023px) {
+      .contact_page .contact_hero {
+        padding: 14vw 0; } }
+    @media only screen and (max-width: 750px) {
+      .contact_page .contact_hero {
+        padding: 120px 40px; } }
+    .contact_page .contact_hero .footer_top_shape,
+    .contact_page .contact_hero .footer_bottom_shape {
+      position: absolute; }
+    .contact_page .contact_hero .footer_top_shape {
+      right: 0;
+      top: 0;
+      width: 15vw; }
+      @media only screen and (max-width: 750px) {
+        .contact_page .contact_hero .footer_top_shape {
+          width: 22vw; } }
+    .contact_page .contact_hero .footer_bottom_shape {
+      left: 0;
+      bottom: 0;
+      width: 24vw; }
+      @media only screen and (max-width: 750px) {
+        .contact_page .contact_hero .footer_bottom_shape {
+          width: 35vw; } }
+    .contact_page .contact_hero .contact_hero_content {
+      text-align: center; }
+      .contact_page .contact_hero .contact_hero_content h2 {
+        font-size: 10vw;
+        color: #0e3b2e; }
+  .contact_page .contact_info {
+    background-color: #f2f6ee;
+    display: flex;
+    border-bottom: 1px solid #0e3b2e;
+    flex-wrap: wrap; }
+    .contact_page .contact_info .single_box {
+      width: 33.333333%;
+      border-right: 1px solid #0e3b2e;
+      box-sizing: border-box;
+      padding: 4vw; }
+      .contact_page .contact_info .single_box .small_subheadline {
+        margin-bottom: 10px; }
+        .contact_page .contact_info .single_box .small_subheadline span {
+          justify-content: flex-start; }
+          .contact_page .contact_info .single_box .small_subheadline span:after {
+            display: none; }
+      .contact_page .contact_info .single_box a,
+      .contact_page .contact_info .single_box p {
+        color: #0e3b2e;
+        display: block;
+        line-height: 1.4em; }
+      .contact_page .contact_info .single_box a {
+        -webkit-transition: all 600ms ease 0ms;
+        -moz-transition: all 600ms ease 0ms;
+        -o-transition: all 600ms ease 0ms;
+        transition: all 600ms ease 0ms; }
+        .contact_page .contact_info .single_box a:hover {
+          opacity: 0.5; }
+  .contact_page .contact_form_wrap {
+    background-color: #f2f6ee; }
+    .contact_page .contact_form_wrap .contact_form_content {
+      padding: 7vw 15vw;
+      box-sizing: border-box; }
+      .contact_page .contact_form_wrap .contact_form_content h2 {
+        color: #0e3b2e;
+        text-align: center;
+        margin-bottom: 6vw; }
+      .contact_page .contact_form_wrap .contact_form_content form .button_wrap {
+        text-align: center; }
+        .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn {
+          box-shadow: none;
+          color: #fff;
+          outline: none;
+          background-color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:after {
+            background-color: #fff; }
+          .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:hover {
+            color: #0e3b2e; }
+      .contact_page .contact_form_wrap .contact_form_content form .input_holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 5vw; }
+        .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
+          margin-bottom: 10px;
+          width: 100%; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span {
+            justify-content: flex-start; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:after, .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:before {
+              display: none; }
+        .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
+          width: 48%;
+          box-sizing: border-box;
+          color: #0e3b2e;
+          border: none;
+          background-color: transparent;
+          border-bottom: 1px solid #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder {
+            color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus {
+            color: #f7a094;
+            border-bottom: 1px solid #f7a094;
+            outline: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus::placeholder {
+              color: #f7a094; }
+        .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
+          border: 1px solid #0e3b2e;
+          color: #0e3b2e;
+          width: 100%;
+          box-sizing: border-box;
+          background-color: transparent;
+          padding: 1vw; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus {
+            color: #f7a094;
+            border: 1px solid #f7a094;
+            outline: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus::placeholder {
+              color: #f7a094; }
 
 /*# sourceMappingURL=style.css.map */

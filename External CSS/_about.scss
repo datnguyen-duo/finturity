@@ -384,22 +384,22 @@
           margin-bottom: 6vw;
           cursor: pointer;
 
-          &.active{
-              .team_info_wrap{
-                  .team_opener{
-                      img{
-                          transform: rotate(90deg);
-                      }
-                  }
+          &.active {
+            .team_info_wrap {
+              .team_opener {
+                img {
+                  transform: rotate(90deg);
+                }
               }
+            }
           }
 
-          &:hover{
-              .image_holder{
-                  img{
-                      transform: scale(1.02);
-                  }
+          &:hover {
+            .image_holder {
+              img {
+                transform: scale(1.02);
               }
+            }
           }
 
           .image_holder {
@@ -425,35 +425,34 @@
             align-items: center;
             justify-content: space-between;
 
-            .team_info{
-                h3 {
-                  @extend .smallHeadline;
-                  color: $color2;
-                }
-    
-                p {
-                  @extend .text;
-                  color: $color2;
-                }
+            .team_info {
+              h3 {
+                @extend .smallHeadline;
+                color: $color2;
+              }
+
+              p {
+                @extend .text;
+                color: $color2;
+              }
             }
 
-            .team_opener{
-                background-color: $color2;
-                width: 2.2vw;
-                height: 2.2vw;
-                border-radius: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+            .team_opener {
+              background-color: $color2;
+              width: 2.2vw;
+              height: 2.2vw;
+              border-radius: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
 
-                img{
-                    position: relative;
-                    width: 0.8vw;
-                    transform: rotate(-90deg);
-                    @include transition();
-                }
+              img {
+                position: relative;
+                width: 0.8vw;
+                transform: rotate(-90deg);
+                @include transition();
+              }
             }
-
           }
 
           .team_description {

@@ -437,7 +437,21 @@ header {
   }
 }
 
-.about_page, .services_page {
+.contact_page {
+  header {
+    background-color: $color4;
+
+    &.scrolled {
+      background-color: #fff;
+    }
+  }
+}
+
+.about_page,
+.services_page,
+.blog_page,
+.single_blog_page,
+.contact_page {
   header {
     border-bottom: 1px solid $color1;
 

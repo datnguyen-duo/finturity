@@ -43,39 +43,39 @@ $color3: #f7a094;
 $color4: #f2f6ee;
 $color5: #a0c3a1;
 
-br{
-    @media #{$s750} {
-        display: none;
-    }
+br {
+  @media #{$s750} {
+    display: none;
+  }
 }
 
-.fadeIn{
-    position: relative;
-    opacity: 0;
-    @include transition();
+.fadeIn {
+  position: relative;
+  opacity: 0;
+  @include transition();
 
-    &.in_view{
-        opacity: 1;
-    }
+  &.in_view {
+    opacity: 1;
+  }
 }
 
-.fadeUp{
-    position: relative;
-    opacity: 0;
-    top: 30px;
-    @include transition();
+.fadeUp {
+  position: relative;
+  opacity: 0;
+  top: 30px;
+  @include transition();
 
-    &.in_view{
-        top: 0px;
-        opacity: 1;
-    }
+  &.in_view {
+    top: 0px;
+    opacity: 1;
+  }
 }
 
 body {
   -webkit-font-smoothing: antialiased;
 
-  &.no_scroll{
-      overflow: hidden;
+  &.no_scroll {
+    overflow: hidden;
   }
 }
 
@@ -168,9 +168,9 @@ body {
     color: #fff;
 
     &:after {
-    //   top: 0;
-        height: 100%;
-        top: 0;
+      //   top: 0;
+      height: 100%;
+      top: 0;
     }
   }
 }
@@ -192,7 +192,7 @@ body {
     }
 
     @media #{$s750} {
-        font-size: 12px;
+      font-size: 12px;
     }
 
     &:after,
@@ -218,3 +218,6 @@ body {
 @import "home";
 @import "about";
 @import "services";
+@import "blog";
+@import "singleBlog";
+@import "contact";

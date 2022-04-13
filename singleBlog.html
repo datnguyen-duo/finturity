@@ -80,19 +80,19 @@ Code Link with link inserted
           <div class="mobile_menu">
             <ul>
               <li>
-                <a href="">About</a>
+                <a href="about.html">About</a>
               </li>
               <li>
-                <a href="">Services</a>
+                <a href="services.html">Services</a>
               </li>
               <li>
-                <a href="">Glossary</a>
+                <a href="glossary.html">Glossary</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="blog.html">Blog</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -114,10 +114,10 @@ Code Link with link inserted
           <nav>
             <ul>
               <li>
-                <a href="">About</a>
+                <a href="about.html">About</a>
               </li>
               <li>
-                <a href="">Services</a>
+                <a href="services.html">Services</a>
               </li>
               <li class="has_sub_menu">
                 <div class="inner_holder">
@@ -143,10 +143,10 @@ Code Link with link inserted
 
                   <ul class="sub_menu">
                     <li>
-                      <a href=""> Blog </a>
+                      <a href="blog.html"> Blog </a>
                     </li>
                     <li>
-                      <a href=""> Glossary </a>
+                      <a href="glossary.html"> Glossary </a>
                     </li>
                   </ul>
                 </div>
@@ -154,7 +154,7 @@ Code Link with link inserted
             </ul>
           </nav>
 
-          <div class="logo_holder">
+          <a href="index.html" class="logo_holder">
             <img
               src="images/header_logo_white.svg"
               alt="Header Logo White"
@@ -165,10 +165,10 @@ Code Link with link inserted
               alt="Header Logo Dark"
               class="header_logo_dark"
             />
-          </div>
+          </a>
 
           <div class="buttons_holder">
-            <a href="" class="contact_us">Contact Us</a>
+            <a href="contact.html" class="contact_us">Contact Us</a>
             <a href="" class="btn">
               <span> Schedule a Meeting </span>
             </a>
@@ -176,7 +176,7 @@ Code Link with link inserted
         </div>
 
         <div class="header_content_mobile">
-          <div class="logo_holder">
+          <a href="index.html" class="logo_holder">
             <img
               src="images/header_logo_white.svg"
               alt="Header Logo White"
@@ -187,7 +187,7 @@ Code Link with link inserted
               alt="Header Logo Dark"
               class="header_logo_dark"
             />
-          </div>
+          </a>
 
           <div class="mobile_menu_opener">
             <div class="hamburger_menu">
@@ -202,10 +202,47 @@ Code Link with link inserted
 
       <div class="blog_hero">
         <div class="blog_hero_top_content fadein_wrap">
-          <div class="small_subheadline">
-            <span>Date</span>
+          <div class="left">
+            <div class="back_button" onclick="history.back()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22.612"
+                height="19.926"
+                viewBox="0 0 22.612 19.926"
+              >
+                <g
+                  id="Group_692"
+                  data-name="Group 692"
+                  transform="translate(0.898 0.53)"
+                >
+                  <path
+                    id="Path_50"
+                    data-name="Path 50"
+                    d="M-15821.906,4792.432l-9.434,9.432,9.434,9.434"
+                    transform="translate(15831.503 -4792.432)"
+                    fill="none"
+                    stroke="#a0c3a1"
+                    stroke-width="1.5"
+                  />
+                  <line
+                    id="Line_515"
+                    data-name="Line 515"
+                    x1="21.715"
+                    transform="translate(0 9.329)"
+                    fill="none"
+                    stroke="#a0c3a1"
+                    stroke-width="1.5"
+                  />
+                </g>
+              </svg>
+            </div>
           </div>
-          <h1>Blog Headline Here</h1>
+          <div class="right">
+            <div class="small_subheadline">
+              <span>Date</span>
+            </div>
+            <h1>Blog Headline Here</h1>
+          </div>
         </div>
 
         <div class="image_holder_wrap fadein_wrap">
@@ -313,16 +350,35 @@ Code Link with link inserted
               </div>
               <ul>
                 <li>
-                  <a href="">Facebook</a>
+                  <a
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://finturity.netlify.app/singleblog.html&t=Blog Headline Here"
+                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    target="_blank"
+                    title="Share on Facebook"
+                    >Facebook</a
+                  >
                 </li>
                 <li>
-                  <a href="">Twitter</a>
+                  <a
+                    href="https://twitter.com/share?url=https://finturity.netlify.app/singleblog.html&text=Blog Headline Here&via=finturity"
+                    onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    target="_blank"
+                    title="Share on Twitter"
+                    >Twitter</a
+                  >
                 </li>
                 <li>
-                  <a href="">Linkedin</a>
+                  <a
+                    href="http://www.linkedin.com/shareArticle?mini=true&url=https://finturity.netlify.app/singleblog.html"
+                    target="_blank"
+                    >Linkedin</a
+                  >
                 </li>
                 <li>
-                  <a href="">Email</a>
+                  <a
+                    href="mailto:?subject=Check Out This Article&body=https://finturity.netlify.app/singleblog.html"
+                    >Email</a
+                  >
                 </li>
               </ul>
             </div>
@@ -348,7 +404,7 @@ Code Link with link inserted
             <h3>Related blog posts</h3>
           </div>
           <div class="related_blog_posts_content">
-            <div class="single_blog_holder">
+            <a href="singleblog.html" class="single_blog_holder">
               <div class="single_blog">
                 <div class="image_holder">
                   <img src="images/blog2.jpg" alt="Blog 2" />
@@ -365,14 +421,14 @@ Code Link with link inserted
                     consectetur, orci sed.
                   </p>
 
-                  <a href="">
+                  <div class="read_more">
                     Read More
                     <img src="images/arrow_right.svg" alt="Arrow Right Icon" />
-                  </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="single_blog_holder">
+            </a>
+            <a href="singleblog.html" class="single_blog_holder">
               <div class="single_blog">
                 <div class="image_holder">
                   <img src="images/blog2.jpg" alt="Blog 2" />
@@ -389,13 +445,13 @@ Code Link with link inserted
                     consectetur, orci sed.
                   </p>
 
-                  <a href="">
+                  <div class="read_more">
                     Read More
                     <img src="images/arrow_right.svg" alt="Arrow Right Icon" />
-                  </a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -429,7 +485,7 @@ Code Link with link inserted
             </div>
             <div class="footer_main_content">
               <div class="left">
-                <div class="logo_holder">
+                <a href="index.html" class="logo_holder">
                   <img
                     src="images/footer_logo.svg"
                     alt="Finturity Footer Logo"
@@ -438,7 +494,7 @@ Code Link with link inserted
                     Simplifying retirement <br />
                     plans for nonprofits.
                   </p>
-                </div>
+                </a>
 
                 <div class="menu_holder">
                   <div class="single_menu">
@@ -447,19 +503,19 @@ Code Link with link inserted
                     </div>
                     <ul>
                       <li>
-                        <a href="">Home</a>
+                        <a href="index.html">Home</a>
                       </li>
                       <li>
-                        <a href="">About Us</a>
+                        <a href="about.html">About Us</a>
                       </li>
                       <li>
-                        <a href="">Services</a>
+                        <a href="services.html">Services</a>
                       </li>
                       <li>
-                        <a href="">Blog</a>
+                        <a href="blog.html">Blog</a>
                       </li>
                       <li>
-                        <a href="">Glossary</a>
+                        <a href="glossary.html">Glossary</a>
                       </li>
                     </ul>
                   </div>
@@ -472,7 +528,7 @@ Code Link with link inserted
                         <a href="">Schedule a Consultation</a>
                       </li>
                       <li>
-                        <a href="">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                       </li>
                     </ul>
                   </div>
@@ -490,8 +546,8 @@ Code Link with link inserted
                       Suite 550<br />
                       Gaithersburg, MD 20878 <br />
                     </p>
-                    <a href="">301-750-2665</a>
-                    <a href="">info@finturity.com</a>
+                    <a href="tel:301-750-2665">301-750-2665</a>
+                    <a href="mailto:info@finturity.com">info@finturity.com</a>
                   </div>
 
                   <a href=""> Privacy Policy </a>

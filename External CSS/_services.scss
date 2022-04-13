@@ -310,6 +310,7 @@
                 li {
                   display: flex;
                   @extend .text;
+                  align-items: flex-start;
                   color: $color3;
                   margin-bottom: 15px;
 

@@ -97,6 +97,15 @@ $(document).ready(function () {
     nextArrow: ".next_post_button",
   });
 
+  function scroll_to_anchor(anchor_id) {
+    var tag = $("#" + anchor_id);
+    $("html,body").animate({ scrollTop: tag.offset().top }, "slow");
+  }
+
+  $(".posts_slider").on("afterChange", function () {
+    scroll_to_anchor("posts");
+  });
+
   function sliderInit() {
     var $slider = $(".hub_slider");
     $slider.each(function () {

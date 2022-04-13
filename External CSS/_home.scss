@@ -808,7 +808,7 @@
               }
             }
             .slide_info {
-              a {
+              .read_more {
                 opacity: 1;
                 visibility: visible;
               }
@@ -867,12 +867,12 @@
             }
 
             p,
-            a {
+            .read_more {
               @extend .text;
               color: $color1;
             }
 
-            a {
+            .read_more {
               display: flex;
               margin-top: 25px;
               align-items: center;

@@ -467,6 +467,26 @@
                 color: $color2;
               }
             }
+
+            .bottom_description {
+              margin-top: 20px;
+              display: flex;
+              a {
+                @extend .text;
+                display: flex;
+                color: $color2;
+                margin-right: 30px;
+                align-items: center;
+
+                &:last-child {
+                  margin-right: 0;
+                }
+
+                img {
+                  margin-right: 10px;
+                }
+              }
+            }
           }
         }
       }

@@ -254,6 +254,7 @@ header {
     .logo_holder {
       max-width: 20vw;
       position: relative;
+      display: block;
       cursor: pointer;
       @include transition();
 
@@ -407,6 +408,7 @@ header {
     .logo_holder {
       max-width: 140px;
       position: relative;
+      display: block;
       cursor: pointer;
       @include transition();
 

@@ -98,6 +98,7 @@
           }
 
           .logo_holder {
+            display: block;
             @media #{$s750} {
               width: 100%;
               text-align: center;

@@ -129,6 +129,7 @@
     .blog_posts_wrap {
       padding: 10vw 5vw;
       box-sizing: border-box;
+      padding-bottom: 5vw;
 
       .posts_header {
         display: flex;
@@ -272,6 +273,7 @@
 
         .slick-dots {
           text-align: center;
+          margin-top: 5vw;
 
           li {
             display: inline-block;
@@ -327,7 +329,7 @@
               }
             }
             .slide_info {
-              a {
+              .read_more {
                 opacity: 1;
                 visibility: visible;
               }
@@ -386,12 +388,12 @@
             }
 
             p,
-            a {
+            .read_more {
               @extend .text;
               color: $color1;
             }
 
-            a {
+            .read_more {
               display: flex;
               margin-top: 25px;
               align-items: center;

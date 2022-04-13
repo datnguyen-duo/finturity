@@ -17,7 +17,7 @@
   .fadeIn.in_view, .home_page .hero_wrapper .in_view.hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .in_view.image_holder, .about_page .about_hero .in_view.image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .in_view.image_holder, .services_page .services_second_section .services_second_content .right .in_view.image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .in_view.image_holder_wrap, .single_blog_page .blog_hero .in_view.image_holder_wrap {
     opacity: 1; }
 
-.fadeUp, #footer .container .footer_content .footer_cta .footer_cta_content, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, .about_page .about_hero .about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_first_section .about_first_section_content .about_first_section_header .btn, .about_page .about_first_section .about_first_section_content .three_box_section, .about_page .about_second_section .about_second_section_content, .about_page .about_third_section .about_third_section_content .left, .about_page .about_fourth_section .about_fourth_section_content h2, .about_page .about_fourth_section .about_fourth_section_content .team_list, .services_page .services_hero .services_hero_top_content, .services_page .services_first_section .services_first_section_content .small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list, .services_page .services_second_section .services_second_content .left, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_third_section .services_third_content .four_box_section, .blog_page .blog_hero .blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider, .single_blog_page .blog_hero .blog_hero_top_content, .contact_page .contact_hero .contact_hero_content {
+.fadeUp, #footer .container .footer_content .footer_cta .footer_cta_content, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, .about_page .about_hero .about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_first_section .about_first_section_content .about_first_section_header .btn, .about_page .about_first_section .about_first_section_content .three_box_section, .about_page .about_second_section .about_second_section_content, .about_page .about_third_section .about_third_section_content .left, .about_page .about_fourth_section .about_fourth_section_content h2, .about_page .about_fourth_section .about_fourth_section_content .team_list, .services_page .services_hero .services_hero_top_content, .services_page .services_first_section .services_first_section_content .small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list, .services_page .services_second_section .services_second_content .left, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_third_section .services_third_content .four_box_section, .blog_page .blog_hero .blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider, .single_blog_page .blog_hero .blog_hero_top_content, .contact_page .contact_hero .contact_hero_content, .glossary_page .glossary_hero .contact_hero_content, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content {
   position: relative;
   opacity: 0;
   top: 30px;
@@ -25,7 +25,7 @@
   -moz-transition: all 600ms ease 0ms;
   -o-transition: all 600ms ease 0ms;
   transition: all 600ms ease 0ms; }
-  .fadeUp.in_view, #footer .container .footer_content .footer_cta .in_view.footer_cta_content, .home_page .home_second_section .home_second_section_content .in_view.list_wrap, .home_page .home_second_section .home_second_section_content h2.in_view, .home_page .home_third_section .home_third_section_content .single_box .right .in_view.right_content, .home_page .home_fourth_section .home_fourth_section_content .in_view.small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2.in_view, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .in_view.btn, .home_page .home_fifth_section .home_fifth_section_content .in_view.three_box_section, .home_page .home_sixth_section .home_sixth_section_content .in_view.sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .in_view.hub_slider, .about_page .about_hero .in_view.about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2.in_view, .about_page .about_first_section .about_first_section_content .about_first_section_header .in_view.btn, .about_page .about_first_section .about_first_section_content .in_view.three_box_section, .about_page .about_second_section .in_view.about_second_section_content, .about_page .about_third_section .about_third_section_content .in_view.left, .about_page .about_fourth_section .about_fourth_section_content h2.in_view, .about_page .about_fourth_section .about_fourth_section_content .in_view.team_list, .services_page .services_hero .in_view.services_hero_top_content, .services_page .services_first_section .services_first_section_content .in_view.small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .services_page .services_second_section .services_second_content .in_view.left, .services_page .services_third_section .services_third_content .services_third_section_header h2.in_view, .services_page .services_third_section .services_third_content .in_view.four_box_section, .blog_page .blog_hero .in_view.blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .in_view.posts_slider, .single_blog_page .blog_hero .in_view.blog_hero_top_content, .contact_page .contact_hero .in_view.contact_hero_content {
+  .fadeUp.in_view, #footer .container .footer_content .footer_cta .in_view.footer_cta_content, .home_page .home_second_section .home_second_section_content .in_view.list_wrap, .home_page .home_second_section .home_second_section_content h2.in_view, .home_page .home_third_section .home_third_section_content .single_box .right .in_view.right_content, .home_page .home_fourth_section .home_fourth_section_content .in_view.small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2.in_view, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .in_view.btn, .home_page .home_fifth_section .home_fifth_section_content .in_view.three_box_section, .home_page .home_sixth_section .home_sixth_section_content .in_view.sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .in_view.hub_slider, .about_page .about_hero .in_view.about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2.in_view, .about_page .about_first_section .about_first_section_content .about_first_section_header .in_view.btn, .about_page .about_first_section .about_first_section_content .in_view.three_box_section, .about_page .about_second_section .in_view.about_second_section_content, .about_page .about_third_section .about_third_section_content .in_view.left, .about_page .about_fourth_section .about_fourth_section_content h2.in_view, .about_page .about_fourth_section .about_fourth_section_content .in_view.team_list, .services_page .services_hero .in_view.services_hero_top_content, .services_page .services_first_section .services_first_section_content .in_view.small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .in_view.fourth_section_list, .services_page .services_second_section .services_second_content .in_view.left, .services_page .services_third_section .services_third_content .services_third_section_header h2.in_view, .services_page .services_third_section .services_third_content .in_view.four_box_section, .blog_page .blog_hero .in_view.blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .in_view.posts_slider, .single_blog_page .blog_hero .in_view.blog_hero_top_content, .contact_page .contact_hero .in_view.contact_hero_content, .glossary_page .glossary_hero .in_view.contact_hero_content, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .in_view.contact_hero_bottom_content {
     top: 0px;
     opacity: 1; }
 
@@ -34,21 +34,21 @@ body {
   body.no_scroll {
     overflow: hidden; }
 
-.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2 {
+.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
   font-family: "Roobert-Regular", serif;
   font-size: 5.2vw;
   color: #fff;
   letter-spacing: -1.1px; }
   @media only screen and (max-width: 750px) {
-    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2 {
+    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
       font-size: 38px; } }
 
-.mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3 {
+.mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header h4 {
   font-size: 2.5vw;
   font-family: "trilby", serif;
   letter-spacing: -0.5px; }
   @media only screen and (max-width: 1023px) {
-    .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3 {
+    .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header h4 {
       font-size: 22px; } }
 
 .smallHeadline, #footer .container .footer_content .footer_cta .footer_cta_content p, #footer .container .footer_content .footer_main_content .left .logo_holder p, #footer .container .footer_content .footer_main_content .left .menu_holder .single_menu ul li a, #footer .container .footer_content .footer_disclosure_holder .disclosure_opener p, .home_page .home_fifth_section .home_fifth_section_content .three_box_section .single_box .signle_box_content .description h3, .home_page .home_sixth_section .home_sixth_section_content .hub_slider .single_slide .slide_info h3, .about_page .about_first_section .about_first_section_content .three_box_section .single_box .signle_box_content .description h3, .about_page .about_second_section .about_second_section_content p, .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_info_wrap .team_info h3, .services_page .services_second_section .services_second_content .left .description .descripton_list_wrap .descripton_list .single_item .item_description h3, .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description .descripton_list_wrap h3, .services_page .services_third_section .services_third_content .four_box_section .single_box .signle_box_content .description h3, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header p, .blog_page .blog_hero .blog_hero_bottom_content .right .right_content .single_featured_blog h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h3,
@@ -56,7 +56,7 @@ body {
 .single_blog_page .blog_content_wrap .blog_content .text_holder h5,
 .single_blog_page .blog_content_wrap .blog_content .text_holder h6, .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a,
 .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3, .contact_page .contact_info .single_box a,
-.contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
+.contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea, .glossary_page .glossary_hero .contact_hero_content .input_holder input, .glossary_page .glossary_hero .contact_hero_content .input_holder input::placeholder {
   font-size: 1.8vw;
   font-family: "trilby", serif;
   letter-spacing: -0.34px; }
@@ -66,7 +66,7 @@ body {
     .single_blog_page .blog_content_wrap .blog_content .text_holder h5,
     .single_blog_page .blog_content_wrap .blog_content .text_holder h6, .single_blog_page .blog_content_wrap .blog_info .blog_info_content .share_box ul li a,
     .single_blog_page .blog_content_wrap .blog_info .blog_info_content .tag_box ul li a, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info h3, .contact_page .contact_info .single_box a,
-    .contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
+    .contact_page .contact_info .single_box p, .contact_page .contact_form_wrap .contact_form_content form .input_holder input, .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea, .glossary_page .glossary_hero .contact_hero_content .input_holder input, .glossary_page .glossary_hero .contact_hero_content .input_holder input::placeholder {
       font-size: 18px; } }
 
 .text, #footer .container .footer_content .footer_main_content .right .right_content p,
@@ -78,7 +78,7 @@ body {
 .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info .read_more, .single_blog_page .blog_content_wrap .blog_content .text_holder p,
 .single_blog_page .blog_content_wrap .blog_content .text_holder a,
 .single_blog_page .blog_content_wrap .blog_content .text_holder ul li, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info p,
-.single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info .read_more {
+.single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info .read_more, .glossary_page .terms_section .left .left_content ul li, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_description p {
   font-size: 20px;
   font-family: "Roobert-Regular", serif;
   line-height: 1.4em; }
@@ -92,7 +92,7 @@ body {
     .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide .slide_info .read_more, .single_blog_page .blog_content_wrap .blog_content .text_holder p,
     .single_blog_page .blog_content_wrap .blog_content .text_holder a,
     .single_blog_page .blog_content_wrap .blog_content .text_holder ul li, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info p,
-    .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info .read_more {
+    .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_content .single_blog .slide_info .read_more, .glossary_page .terms_section .left .left_content ul li, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_description p {
       font-size: 16px; } }
 
 .btn {
@@ -387,14 +387,18 @@ body {
 .blog_page #footer {
   border-top: 1px solid #0e3b2e; }
 
-.contact_page #footer {
+.contact_page #footer,
+.glossary_page #footer {
   background-color: #f7a094; }
-  .contact_page #footer .container .footer_content .footer_cta .btn {
+  .contact_page #footer .container .footer_content .footer_cta .btn,
+  .glossary_page #footer .container .footer_content .footer_cta .btn {
     color: #fff;
     background-color: #0e3b2e; }
-    .contact_page #footer .container .footer_content .footer_cta .btn:after {
+    .contact_page #footer .container .footer_content .footer_cta .btn:after,
+    .glossary_page #footer .container .footer_content .footer_cta .btn:after {
       background-color: #fff; }
-    .contact_page #footer .container .footer_content .footer_cta .btn:hover {
+    .contact_page #footer .container .footer_content .footer_cta .btn:hover,
+    .glossary_page #footer .container .footer_content .footer_cta .btn:hover {
       color: #0e3b2e; }
 
 .about_page #footer,
@@ -747,36 +751,42 @@ header {
     background-color: #fff; }
 
 .about_page header,
+.glossary_page header,
 .services_page header,
 .blog_page header,
 .single_blog_page header,
 .contact_page header {
   border-bottom: 1px solid #0e3b2e; }
   .about_page header nav ul li a,
+  .glossary_page header nav ul li a,
   .services_page header nav ul li a,
   .blog_page header nav ul li a,
   .single_blog_page header nav ul li a,
   .contact_page header nav ul li a {
     color: #0e3b2e; }
     .about_page header nav ul li a svg path,
+    .glossary_page header nav ul li a svg path,
     .services_page header nav ul li a svg path,
     .blog_page header nav ul li a svg path,
     .single_blog_page header nav ul li a svg path,
     .contact_page header nav ul li a svg path {
       stroke: #0e3b2e; }
   .about_page header .logo_holder .header_logo_dark,
+  .glossary_page header .logo_holder .header_logo_dark,
   .services_page header .logo_holder .header_logo_dark,
   .blog_page header .logo_holder .header_logo_dark,
   .single_blog_page header .logo_holder .header_logo_dark,
   .contact_page header .logo_holder .header_logo_dark {
     opacity: 1; }
   .about_page header .buttons_holder .contact_us,
+  .glossary_page header .buttons_holder .contact_us,
   .services_page header .buttons_holder .contact_us,
   .blog_page header .buttons_holder .contact_us,
   .single_blog_page header .buttons_holder .contact_us,
   .contact_page header .buttons_holder .contact_us {
     color: #0e3b2e; }
   .about_page header.scrolled,
+  .glossary_page header.scrolled,
   .services_page header.scrolled,
   .blog_page header.scrolled,
   .single_blog_page header.scrolled,
@@ -2840,5 +2850,185 @@ header {
             outline: none; }
             .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus::placeholder {
               color: #f7a094; }
+
+.glossary_page .glossary_hero {
+  padding: 14vw 0;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #0e3b2e;
+  background-color: #fcd263;
+  padding-bottom: 5vw; }
+  @media only screen and (max-width: 1023px) {
+    .glossary_page .glossary_hero {
+      padding: 14vw 0; } }
+  @media only screen and (max-width: 750px) {
+    .glossary_page .glossary_hero {
+      padding: 120px 40px; } }
+  .glossary_page .glossary_hero .contact_hero_content {
+    text-align: center; }
+    .glossary_page .glossary_hero .contact_hero_content h2 {
+      font-size: 10vw;
+      color: #0e3b2e;
+      margin-bottom: 10vw; }
+    .glossary_page .glossary_hero .contact_hero_content .input_holder {
+      max-width: 90vw;
+      box-sizing: border-box;
+      margin: auto;
+      margin-bottom: 3vw; }
+      .glossary_page .glossary_hero .contact_hero_content .input_holder input {
+        border: 1px solid #0e3b2e;
+        padding: 2vw;
+        box-sizing: border-box;
+        color: #0e3b2e;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 200px; }
+        .glossary_page .glossary_hero .contact_hero_content .input_holder input::placeholder {
+          color: #0e3b2e; }
+        .glossary_page .glossary_hero .contact_hero_content .input_holder input:focus {
+          outline: none; }
+  .glossary_page .glossary_hero .contact_hero_bottom_content_wrap {
+    box-sizing: border-box;
+    padding: 8vw 0;
+    border-top: 1px solid #0e3b2e; }
+    .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .small_subheadline {
+      margin-bottom: 30px; }
+    .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content {
+      display: flex;
+      max-width: 90vw;
+      margin: auto; }
+      @media only screen and (max-width: 750px) {
+        .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content {
+          flex-wrap: wrap; } }
+      .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item {
+        border: 1px solid #0e3b2e;
+        padding: 1.5vw 0;
+        box-sizing: border-box;
+        width: 100%;
+        margin-right: 1vw;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 200px;
+        -webkit-transition: all 600ms ease 0ms;
+        -moz-transition: all 600ms ease 0ms;
+        -o-transition: all 600ms ease 0ms;
+        transition: all 600ms ease 0ms; }
+        @media only screen and (max-width: 750px) {
+          .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item {
+            margin-bottom: 15px;
+            padding: 10px;
+            width: 100%; } }
+        .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item:last-child {
+          margin: 0; }
+        .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item:hover {
+          background-color: #fff; }
+        .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item.active {
+          background-color: #fff; }
+        .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p {
+          color: #0e3b2e;
+          text-transform: uppercase; }
+          @media only screen and (max-width: 1023px) {
+            .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p {
+              font-size: 2.5vw; } }
+          @media only screen and (max-width: 750px) {
+            .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p {
+              font-size: 26px; } }
+.glossary_page .terms_section {
+  display: flex;
+  background-color: #f2f6ee; }
+  .glossary_page .terms_section .left {
+    width: 15%;
+    border-right: 1px solid #0e3b2e;
+    box-sizing: border-box;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .glossary_page .terms_section .left .left_content {
+      position: sticky;
+      top: 10vw; }
+      .glossary_page .terms_section .left .left_content ul li {
+        font-family: "trilby", serif;
+        color: #0e3b2e; }
+  .glossary_page .terms_section .right {
+    width: 85%; }
+    .glossary_page .terms_section .right .right_content {
+      padding-bottom: 8vw; }
+      .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
+        color: #0e3b2e;
+        font-size: 19vw;
+        padding: 8vw 5vw 2vw 5vw;
+        box-sizing: border-box; }
+      .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term {
+        border-bottom: 1px solid #0e3b2e;
+        cursor: pointer; }
+        .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content {
+          padding-left: 5vw;
+          padding-right: 5vw;
+          padding-top: 2vw;
+          padding-bottom: 1vw;
+          box-sizing: border-box; }
+          .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header h4 {
+              color: #0e3b2e;
+              max-width: 60vw; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener {
+              position: relative;
+              width: 2.5vw;
+              height: 2.5vw;
+              border-radius: 2.5vw;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #fff;
+              z-index: 1;
+              cursor: pointer;
+              -webkit-transition: all 600ms ease 0ms;
+              -moz-transition: all 600ms ease 0ms;
+              -o-transition: all 600ms ease 0ms;
+              transition: all 600ms ease 0ms; }
+              @media only screen and (max-width: 1100px) {
+                .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50px; } }
+              @media only screen and (max-width: 750px) {
+                .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener {
+                  width: 35px;
+                  height: 35px;
+                  border-radius: 35px; } }
+              .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener svg {
+                width: 1.1vw; }
+                @media only screen and (max-width: 1100px) {
+                  .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener svg {
+                    width: 30px; } }
+                @media only screen and (max-width: 750px) {
+                  .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener svg {
+                    width: 15px; } }
+                .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener svg line {
+                  stroke: #0e3b2e; }
+                .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header .term_opener svg path {
+                  stroke: #0e3b2e; }
+          .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_description {
+            display: none; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_description p {
+              max-width: 60vw;
+              margin-top: 20px;
+              color: #0e3b2e; }
+          .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content:hover .tearm_header .term_opener, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content.active .tearm_header .term_opener {
+            background-color: #0e3b2e; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content:hover .tearm_header .term_opener svg line, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content.active .tearm_header .term_opener svg line {
+              stroke: #fff; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content:hover .tearm_header .term_opener svg path, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content.active .tearm_header .term_opener svg path {
+              stroke: #fff; }
+          .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content.active {
+            background-color: #fff; }
+            .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content.active .tearm_header .term_opener {
+              background-color: #0e3b2e;
+              transform: rotate(45deg); }
 
 /*# sourceMappingURL=style.css.map */

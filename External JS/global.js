@@ -63,6 +63,49 @@ $(document).ready(function () {
     $(".mobile_nav").fadeToggle();
   });
 
+  $(".single_term .single_term_content").on("click", function () {
+    $(this).toggleClass("active");
+    $(this).find(".tearm_description").slideToggle();
+  });
+
+  if ($("body").hasClass("glossary_page")) {
+    //get input
+    let input = document.getElementById("search");
+    //get list of value
+    let list = document.querySelectorAll(".single_term");
+    let letterList = document.querySelectorAll(".single_letter_wrap h3");
+
+    //function search on the list.
+    function search() {
+      for (let i = 0; i < letterList.length; i += 1) {
+        //check if the element contains the value of the input
+        if (
+          letterList[i].innerText
+            .toLowerCase()
+            .includes(input.value.toLowerCase())
+        ) {
+          letterList[i].style.display = "block";
+        } else {
+          letterList[i].style.display = "none";
+        }
+      }
+
+      for (let i = 0; i < list.length; i += 1) {
+        //check if the element contains the value of the input
+        if (
+          list[i].innerText.toLowerCase().includes(input.value.toLowerCase())
+        ) {
+          list[i].style.display = "block";
+        } else {
+          list[i].style.display = "none";
+        }
+      }
+    }
+
+    //to the change run search.
+    input.addEventListener("input", search);
+  }
+
   $(".fourth_section_list .single_item").on("click", function () {
     if ($(this).hasClass("active")) {
       $(this).removeClass("active");

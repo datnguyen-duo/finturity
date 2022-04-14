@@ -63,47 +63,108 @@ $(document).ready(function () {
     $(".mobile_nav").fadeToggle();
   });
 
-  $(".single_term .single_term_content").on("click", function () {
-    $(this).toggleClass("active");
-    $(this).find(".tearm_description").slideToggle();
-  });
-
   if ($("body").hasClass("glossary_page")) {
+    $(".single_term .single_term_content").on("click", function () {
+      $(this).toggleClass("active");
+      $(this).find(".tearm_description").slideToggle();
+    });
+    $(".contact_hero_bottom_content a, .terms_section .left_content a").on(
+      "click",
+      function () {
+        $("#search").val(null);
+        $(".single_term").css("display", "block").removeClass("hidden");
+        $(".single_letter_wrap").css("display", "block");
+      }
+    );
+
+    $("a[href^='#']").click(function (e) {
+      e.preventDefault();
+
+      $("html, body").animate(
+        {
+          scrollTop: $($(this).attr("href")).offset().top - 90,
+        },
+        200
+      );
+    });
+
     //get input
     let input = document.getElementById("search");
     //get list of value
     let list = document.querySelectorAll(".single_term");
-    let letterList = document.querySelectorAll(".single_letter_wrap h3");
 
     //function search on the list.
     function search() {
-      for (let i = 0; i < letterList.length; i += 1) {
-        //check if the element contains the value of the input
-        if (
-          letterList[i].innerText
-            .toLowerCase()
-            .includes(input.value.toLowerCase())
-        ) {
-          letterList[i].style.display = "block";
-        } else {
-          letterList[i].style.display = "none";
-        }
-      }
-
       for (let i = 0; i < list.length; i += 1) {
-        //check if the element contains the value of the input
+        //check the Terms
         if (
           list[i].innerText.toLowerCase().includes(input.value.toLowerCase())
         ) {
           list[i].style.display = "block";
+          list[i].classList.remove("hidden");
         } else {
           list[i].style.display = "none";
+          list[i].classList.add("hidden");
         }
       }
+
+      $(".single_letter_wrap").each(function (index) {
+        if (
+          $(this).find(".single_term").length == $(this).find(".hidden").length
+        ) {
+          $(this).css("display", "none");
+        } else {
+          $(this).css("display", "block");
+        }
+      });
     }
 
     //to the change run search.
     input.addEventListener("input", search);
+
+    function letterSidebar(trigger) {
+      $(trigger).addClass("current_letter");
+      var currentLetter = $(".current_letter").find("h3").text().toLowerCase();
+
+      console.log(currentLetter);
+
+      $(".terms_section .left_content li").each(function (index) {
+        if ($(this).text().toLowerCase() == currentLetter) {
+          $(this).addClass("active");
+        } else {
+          $(this).removeClass("active");
+        }
+      });
+    }
+
+    let letterAnimation = $(".letter_check");
+
+    letterAnimation.each(function () {
+      var trigger = $(this);
+
+      gsap.to(letterAnimation, {
+        scrollTrigger: {
+          trigger: trigger,
+          start: "top 20%",
+          end: "bottom 80%",
+          scroller: "body",
+
+          onEnter: function () {
+            letterSidebar(trigger);
+          },
+          onEnterBack: function () {
+            letterSidebar(trigger);
+          },
+          onLeave: function () {
+            $(trigger).removeClass("current_letter");
+          },
+
+          onLeaveBack: function () {
+            $(trigger).removeClass("current_letter");
+          },
+        },
+      });
+    });
   }
 
   $(".fourth_section_list .single_item").on("click", function () {

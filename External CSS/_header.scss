@@ -252,15 +252,11 @@ header {
     }
 
     .logo_holder {
-      max-width: 20vw;
+      max-width: 10vw;
       position: relative;
       display: block;
       cursor: pointer;
       @include transition();
-
-      @media #{$s1500} {
-        max-width: 10vw;
-      }
 
       &:hover {
         opacity: 0.6;
@@ -268,6 +264,7 @@ header {
 
       img {
         width: 100%;
+        vertical-align: bottom;
       }
 
       .header_logo_dark {
@@ -424,6 +421,7 @@ header {
 
       img {
         width: 100%;
+        vertical-align: bottom;
       }
 
       .header_logo_dark {

@@ -182,13 +182,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: $font1;
     color: $color1;
     position: relative;
 
     @media #{$s1500} {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     @media #{$s750} {

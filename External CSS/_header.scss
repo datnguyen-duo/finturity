@@ -444,6 +444,10 @@ header {
     &.scrolled {
       background-color: #fff;
     }
+
+    &.opened_menu_mobile {
+      background-color: $color1;
+    }
   }
 }
 

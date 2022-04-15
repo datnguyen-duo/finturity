@@ -748,6 +748,8 @@ header {
   background-color: #f2f6ee; }
   .contact_page header.scrolled {
     background-color: #fff; }
+  .contact_page header.opened_menu_mobile {
+    background-color: #0e3b2e; }
 
 .about_page header,
 .glossary_page header,

@@ -4,6 +4,14 @@
     background-color: $color2;
     border-bottom: 1px solid $color1;
 
+    @media #{$s1023} {
+      padding-top: 150px;
+    }
+
+    @media #{$s750} {
+      padding-top: 120px;
+    }
+
     .services_hero_top_content {
       display: flex;
       flex-wrap: wrap;
@@ -14,8 +22,28 @@
       position: relative;
       @extend .fadeUp;
 
+      @media #{$s1100} {
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+
+      @media #{$s750} {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+      }
+
       .left {
         width: 75%;
+
+        @media #{$s1100} {
+          width: 65%;
+        }
+
+        @media #{$s1023} {
+          width: 100%;
+          margin-bottom: 20px;
+        }
 
         .small_subheadline {
           margin-bottom: 20px;
@@ -37,6 +65,14 @@
 
       .right {
         width: 25%;
+
+        @media #{$s1100} {
+          width: 35%;
+        }
+
+        @media #{$s1023} {
+          width: 100%;
+        }
 
         p {
           @extend .text;
@@ -175,6 +211,37 @@
       right: 0;
       top: 0;
       width: 43vw;
+
+      @media #{$s750} {
+        width: 87vw;
+      }
+    }
+
+    .third_section_bottom_shape {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 23vw;
+
+      @media #{$s750} {
+        bottom: auto;
+        width: 40vw;
+        top: 47%;
+      }
+
+      &.mobile {
+        display: none;
+
+        @media #{$s750} {
+          display: block;
+          width: 40vw;
+          transform: rotate(180deg);
+          left: auto;
+          right: 0;
+          top: auto;
+          bottom: 32%;
+        }
+      }
     }
 
     .services_second_content {
@@ -182,6 +249,10 @@
       flex-wrap: wrap;
       padding: 8vw 5vw;
       box-sizing: border-box;
+
+      @media #{$s750} {
+        padding: 65px 30px;
+      }
 
       .left {
         width: 53%;
@@ -191,8 +262,27 @@
         justify-content: center;
         box-sizing: border-box;
 
+        @media #{$s750} {
+          width: 100%;
+          order: 2;
+          margin-top: 50px;
+        }
+
         .description {
           max-width: 34vw;
+
+          @media #{$s1100} {
+            max-width: 38vw;
+          }
+
+          @media #{$s1023} {
+            max-width: 100%;
+            padding-right: 20px;
+          }
+
+          @media #{$s750} {
+            padding-right: 0;
+          }
 
           h2 {
             @extend .mediumHeadline;
@@ -208,6 +298,11 @@
                 padding-bottom: 2vw;
                 margin-bottom: 2vw;
                 align-items: center;
+
+                @media #{$s750} {
+                  padding-bottom: 20px;
+                  margin-bottom: 20px;
+                }
 
                 &:last-child {
                   margin-bottom: 0;
@@ -226,6 +321,10 @@
                   .icon {
                     width: 4vw;
 
+                    @media #{$s750} {
+                      width: 50px;
+                    }
+
                     img {
                       width: 100%;
                     }
@@ -234,6 +333,10 @@
 
                 .item_description {
                   padding-left: 2vw;
+
+                  @media #{$s750} {
+                    padding-left: 30px;
+                  }
 
                   h3 {
                     @extend .smallHeadline;
@@ -254,6 +357,11 @@
 
       .right {
         width: 47%;
+
+        @media #{$s750} {
+          width: 100%;
+          order: 1;
+        }
 
         .image_holder {
           padding-top: 105%;
@@ -278,8 +386,24 @@
           order: 2;
           padding-right: 0vw;
 
+          @media #{$s1023} {
+            padding-left: 20px;
+          }
+
+          @media #{$s750} {
+            padding-left: 0px;
+          }
+
           .description {
             max-width: 34vw;
+
+            @media #{$s1100} {
+              max-width: 38vw;
+            }
+
+            @media #{$s1023} {
+              max-width: 100%;
+            }
 
             h2,
             p {
@@ -299,6 +423,11 @@
               padding-top: 3vw;
               margin-top: 3vw;
               border-top: 1px solid $color3;
+
+              @media #{$s750} {
+                padding-top: 30px;
+                margin-top: 30px;
+              }
 
               h3 {
                 @extend .smallHeadline;
@@ -347,9 +476,12 @@
         h2 {
           @extend .mainHeadline;
           color: $color1;
-          margin-bottom: 30px;
           margin-bottom: 3vw;
           @extend .fadeUp;
+
+          @media #{$s750} {
+            margin-bottom: 30px;
+          }
 
           span {
             @include transition(all, 300ms, ease, 800ms);
@@ -364,6 +496,10 @@
           display: flex;
           justify-content: center;
 
+          @media #{$s750} {
+            flex-wrap: wrap;
+          }
+
           .filter_button {
             border: 1px solid $color1;
             padding: 1.5vw 6vw;
@@ -376,6 +512,17 @@
             cursor: pointer;
             border-radius: 200px;
             @include transition();
+
+            @media #{$s750} {
+              width: 100%;
+              margin-bottom: 15px;
+              margin-right: 0;
+              padding: 15px;
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
 
             &:hover {
               background-color: #fff;
@@ -406,6 +553,11 @@
           width: 25%;
           box-sizing: border-box;
           padding: 0 1.25vw;
+
+          @media #{$s1023} {
+            width: 50%;
+            margin-bottom: 30px;
+          }
 
           @media #{$s750} {
             width: 100%;
@@ -483,6 +635,10 @@
     .services_fourth_section_content {
       padding: 8vw 5vw;
 
+      @media #{$s750} {
+        padding: 95px 30px;
+      }
+
       .services_fourth_section_header {
         text-align: center;
         margin-bottom: 8vw;
@@ -502,12 +658,15 @@
       .partners_slider_holder {
         display: flex;
         flex-wrap: wrap;
-        // max-width: 70vw;
         padding: 0 10vw;
         margin: auto;
         justify-content: center;
         align-items: center;
         position: relative;
+
+        @media #{$s750} {
+          padding: 0;
+        }
 
         .prev_button,
         .next_button {
@@ -572,10 +731,18 @@
         }
         .prev_button {
           left: 5vw;
+
+          @media #{$s1023} {
+            left: 0;
+          }
         }
 
         .next_button {
           right: 5vw;
+
+          @media #{$s1023} {
+            right: 0;
+          }
 
           svg {
             position: relative;
@@ -589,6 +756,10 @@
           .slide {
             height: 55px;
             position: relative;
+
+            @media #{$s750} {
+              height: 40px;
+            }
 
             img {
               position: absolute;

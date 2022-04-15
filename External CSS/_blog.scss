@@ -4,6 +4,14 @@
     background-color: $color3;
     position: relative;
 
+    @media #{$s1023} {
+      padding-top: 150px;
+    }
+
+    @media #{$s750} {
+      padding-top: 120px;
+    }
+
     .blog_hero_top_content {
       padding-left: 9vw;
       padding-right: 9vw;
@@ -11,6 +19,12 @@
       z-index: 2;
       position: relative;
       @extend .fadeUp;
+
+      @media #{$s750} {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+      }
 
       .small_subheadline {
         margin-bottom: 20px;
@@ -37,6 +51,10 @@
       .left {
         width: 60%;
 
+        @media #{$s750} {
+          width: 100%;
+        }
+
         .image_holder_wrap {
           z-index: 2;
           position: relative;
@@ -46,6 +64,14 @@
             position: relative;
             padding-top: 73%;
             overflow: hidden;
+
+            @media #{$s1100} {
+              padding-top: 80%;
+            }
+
+            @media #{$s1023} {
+              padding-top: 120%;
+            }
 
             img {
               position: absolute;
@@ -71,8 +97,19 @@
         align-items: center;
         justify-content: center;
 
+        @media #{$s750} {
+          width: 100%;
+        }
+
         .right_content {
-          max-width: 420px;
+          max-width: 460px;
+          padding: 0 20px;
+          box-sizing: border-box;
+
+          @media #{$s750} {
+            max-width: 100%;
+            padding: 50px 30px;
+          }
 
           .single_featured_blog {
             border-top: 1px solid $color1;
@@ -81,6 +118,11 @@
             box-sizing: border-box;
             display: block;
             cursor: pointer;
+
+            @media #{$s750} {
+              margin-bottom: 20px;
+              padding-top: 30px;
+            }
 
             &:first-child {
               border-top: none;
@@ -102,6 +144,10 @@
               @extend .text;
               color: $color1;
               margin-bottom: 1vw;
+
+              @media #{$s750} {
+                margin-bottom: 10px;
+              }
             }
 
             .learn_more_arrow {
@@ -112,6 +158,10 @@
               align-items: center;
               opacity: 0;
               @include transition();
+
+              @media #{$s1100} {
+                opacity: 1;
+              }
 
               img {
                 margin-left: 5px;
@@ -131,11 +181,20 @@
       box-sizing: border-box;
       padding-bottom: 5vw;
 
+      @media #{$s750} {
+        padding: 70px 30px;
+      }
+
       .posts_header {
         display: flex;
         padding: 0 2vw;
         justify-content: space-between;
         margin-bottom: 20px;
+        align-items: center;
+
+        @media #{$s750} {
+          padding: 0 10px;
+        }
 
         h3 {
           @extend .mediumHeadline;
@@ -269,6 +328,10 @@
         /* the slides */
         .slick-slide {
           padding: 0 2vw;
+
+          @media #{$s750} {
+            padding: 10px;
+          }
         }
 
         .slick-dots {
@@ -278,6 +341,10 @@
           li {
             display: inline-block;
             margin-right: 20px;
+
+            @media #{$s750} {
+              margin-right: 5px;
+            }
 
             &.slick-active {
               button {
@@ -321,6 +388,10 @@
           border: 1px solid $color1;
           cursor: pointer;
           margin-bottom: 4vw;
+
+          @media #{$s750} {
+            margin-bottom: 30px;
+          }
 
           &:hover {
             .image_holder {

@@ -53,6 +53,10 @@
         @extend .mainHeadline;
         font-size: 10vw;
         color: $color1;
+
+        @media #{$s750} {
+          font-size: 58px;
+        }
       }
     }
   }
@@ -63,14 +67,32 @@
     border-bottom: 1px solid $color1;
     flex-wrap: wrap;
 
+    @media #{$s750} {
+      border: none;
+    }
+
     .single_box {
       width: 33.333333%;
       border-right: 1px solid $color1;
       box-sizing: border-box;
       padding: 4vw;
 
+      @media #{$s750} {
+        width: 100%;
+        padding: 25px 30px;
+        border-right: 0;
+        border-bottom: 1px solid $color1;
+        display: flex;
+        align-items: center;
+      }
+
       .small_subheadline {
         margin-bottom: 10px;
+
+        @media #{$s750} {
+          margin: 0;
+          width: 35%;
+        }
 
         span {
           justify-content: flex-start;
@@ -81,19 +103,25 @@
         }
       }
 
-      a,
-      p {
-        color: $color1;
-        display: block;
-        @extend .smallHeadline;
-        line-height: 1.4em;
-      }
+      .single_box_content {
+        @media #{$s750} {
+          width: 65%;
+        }
 
-      a {
-        @include transition();
+        a,
+        p {
+          color: $color1;
+          display: block;
+          @extend .smallHeadline;
+          line-height: 1.4em;
+        }
 
-        &:hover {
-          opacity: 0.5;
+        a {
+          @include transition();
+
+          &:hover {
+            opacity: 0.5;
+          }
         }
       }
     }
@@ -106,16 +134,33 @@
       padding: 7vw 15vw;
       box-sizing: border-box;
 
+      @media #{$s1023} {
+        padding: 7vw;
+      }
+
+      @media #{$s750} {
+        padding: 50px 30px;
+        padding-bottom: 75px;
+      }
+
       h2 {
         @extend .mainHeadline;
         color: $color1;
         text-align: center;
         margin-bottom: 6vw;
+
+        @media #{$s750} {
+          margin-bottom: 30px;
+        }
       }
 
       form {
         .button_wrap {
           text-align: center;
+
+          @media #{$s750} {
+            margin-top: 40px;
+          }
 
           .btn {
             box-shadow: none;
@@ -139,9 +184,25 @@
           justify-content: space-between;
           margin-bottom: 5vw;
 
+          @media #{$s750} {
+            margin-bottom: 0px;
+          }
+
           .small_subheadline {
             margin-bottom: 10px;
             width: 100%;
+
+            @media #{$s750} {
+              margin-bottom: 5px;
+            }
+
+            &.mobile {
+              display: none;
+
+              @media #{$s750} {
+                display: block;
+              }
+            }
 
             span {
               justify-content: flex-start;
@@ -155,12 +216,18 @@
 
           input {
             width: 48%;
+            padding: 3px 0;
             box-sizing: border-box;
             @extend .smallHeadline;
             color: $color1;
             border: none;
             background-color: transparent;
             border-bottom: 1px solid $color1;
+
+            @media #{$s750} {
+              width: 100%;
+              margin-bottom: 30px;
+            }
 
             &::placeholder {
               @extend .smallHeadline;

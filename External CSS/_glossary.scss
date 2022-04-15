@@ -8,11 +8,8 @@
     padding-bottom: 5vw;
 
     @media #{$s1023} {
-      padding: 14vw 0;
-    }
-
-    @media #{$s750} {
-      padding: 120px 40px;
+      padding: 150px 0;
+      padding-bottom: 0px;
     }
 
     .contact_hero_content {
@@ -24,6 +21,11 @@
         font-size: 10vw;
         color: $color1;
         margin-bottom: 10vw;
+
+        @media #{$s750} {
+          font-size: 60px;
+          margin-bottom: 90px;
+        }
       }
 
       .input_holder {
@@ -32,6 +34,10 @@
         margin: auto;
         margin-bottom: 3vw;
         position: relative;
+
+        @media #{$s1023} {
+          margin-bottom: 30px;
+        }
 
         input {
           border: 1px solid $color1;
@@ -42,6 +48,14 @@
           width: 100%;
           background-color: transparent;
           border-radius: 200px;
+
+          @media #{$s1023} {
+            padding: 20px;
+          }
+
+          @media #{$s750} {
+            padding: 15px;
+          }
 
           &::placeholder {
             @extend .smallHeadline;
@@ -78,6 +92,7 @@
             width: 35px;
             height: 35px;
             border-radius: 35px;
+            right: 15px;
           }
 
           svg {
@@ -122,8 +137,16 @@
       padding: 8vw 0;
       border-top: 1px solid $color1;
 
+      @media #{$s750} {
+        padding: 35px 0;
+      }
+
       .small_subheadline {
         margin-bottom: 30px;
+
+        @media #{$s750} {
+          margin-bottom: 15px;
+        }
       }
 
       .contact_hero_bottom_content {
@@ -153,6 +176,7 @@
 
           @media #{$s750} {
             margin-bottom: 15px;
+            margin-right: 0;
             padding: 10px;
             width: 100%;
           }
@@ -201,9 +225,17 @@
       flex-direction: column;
       align-items: center;
 
+      @media #{$s750} {
+        display: none;
+      }
+
       .left_content {
         position: sticky;
         top: 6vw;
+
+        @media #{$s1100} {
+          top: 100px;
+        }
 
         ul {
           li {
@@ -237,6 +269,10 @@
     .right {
       width: 85%;
 
+      @media #{$s750} {
+        width: 100%;
+      }
+
       .right_content {
         padding-bottom: 8vw;
 
@@ -247,6 +283,10 @@
             font-size: 19vw;
             padding: 8vw 5vw 2vw 5vw;
             box-sizing: border-box;
+
+            @media #{$s750} {
+              padding: 50px 30px 10px 30px;
+            }
           }
 
           .single_term {
@@ -259,6 +299,10 @@
               padding-top: 2vw;
               padding-bottom: 1vw;
               box-sizing: border-box;
+
+              @media #{$s750} {
+                padding: 20px 30px;
+              }
 
               .tearm_header {
                 display: flex;
@@ -291,9 +335,9 @@
                   }
 
                   @media #{$s750} {
-                    width: 35px;
-                    height: 35px;
-                    border-radius: 35px;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 30px;
                   }
 
                   svg {
@@ -304,7 +348,7 @@
                     }
 
                     @media #{$s750} {
-                      width: 15px;
+                      width: 14px;
                     }
 
                     line {
@@ -325,6 +369,10 @@
                   @extend .text;
                   margin-top: 20px;
                   color: $color1;
+
+                  @media #{$s750} {
+                    max-width: 100%;
+                  }
                 }
               }
 

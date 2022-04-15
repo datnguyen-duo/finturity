@@ -4,6 +4,14 @@
     background-color: $color3;
     position: relative;
 
+    @media #{$s1023} {
+      padding-top: 150px;
+    }
+
+    @media #{$s750} {
+      padding-top: 120px;
+    }
+
     &:after {
       content: "";
       left: 0;
@@ -13,6 +21,10 @@
       width: 100%;
       height: 37vh;
       z-index: 1;
+
+      @media #{$s750} {
+        display: none;
+      }
     }
 
     .about_hero_top_content {
@@ -25,8 +37,28 @@
       position: relative;
       @extend .fadeUp;
 
+      @media #{$s1100} {
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+
+      @media #{$s750} {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 70px;
+      }
+
       .left {
         width: 75%;
+
+        @media #{$s1100} {
+          width: 65%;
+        }
+
+        @media #{$s1023} {
+          width: 100%;
+          margin-bottom: 20px;
+        }
 
         .small_subheadline {
           margin-bottom: 20px;
@@ -48,6 +80,14 @@
       .right {
         width: 25%;
 
+        @media #{$s1100} {
+          width: 35%;
+        }
+
+        @media #{$s1023} {
+          width: 100%;
+        }
+
         p {
           @extend .text;
           color: $color1;
@@ -63,10 +103,18 @@
       position: relative;
       @extend .fadeIn;
 
+      @media #{$s750} {
+        padding-left: 0;
+      }
+
       .image_holder {
         position: relative;
         padding-top: 58%;
         overflow: hidden;
+
+        @media #{$s750} {
+          padding-top: 120%;
+        }
 
         img {
           position: absolute;
@@ -121,7 +169,7 @@
         @extend .fadeUp;
 
         @media #{$s750} {
-          margin-top: 80px;
+          margin-top: 0px;
         }
 
         .single_box {
@@ -209,15 +257,40 @@
       text-align: center;
       @extend .fadeUp;
 
-      .number {
-        @extend .mainHeadline;
-        margin-bottom: 20px;
-        color: $color1;
+      @media #{$s750} {
+        padding: 75px 40px;
+        flex-wrap: wrap;
       }
 
-      p {
-        @extend .smallHeadline;
-        color: $color1;
+      .single_item {
+        @media #{$s750} {
+          width: 100%;
+          margin-bottom: 35px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        .number {
+          @extend .mainHeadline;
+          margin-bottom: 20px;
+          color: $color1;
+
+          @media #{$s750} {
+            font-size: 80px;
+            margin-bottom: 10px;
+          }
+        }
+
+        p {
+          @extend .smallHeadline;
+          color: $color1;
+
+          @media #{$s750} {
+            font-size: 26px;
+          }
+        }
       }
     }
   }
@@ -232,6 +305,10 @@
       right: 0;
       top: 0;
       width: 43vw;
+
+      @media #{$s750} {
+        width: 87%;
+      }
     }
 
     .about_third_section_content {
@@ -239,6 +316,10 @@
       flex-wrap: wrap;
       padding: 8vw 5vw;
       box-sizing: border-box;
+
+      @media #{$s750} {
+        padding: 65px 30px;
+      }
 
       .left {
         width: 50%;
@@ -250,6 +331,18 @@
         padding-left: 3vw;
         @extend .fadeUp;
 
+        @media #{$s1023} {
+          padding-right: 20px;
+          padding-left: 30px;
+        }
+
+        @media #{$s750} {
+          width: 100%;
+          padding-left: 0;
+          padding-right: 0;
+          order: 2;
+        }
+
         .small_subheadline {
           margin-bottom: 15px;
 
@@ -257,12 +350,74 @@
             color: $color2;
             justify-content: flex-start;
 
+            @media #{$s750} {
+              justify-content: center;
+            }
+
             &:after {
               display: none;
+
+              @media #{$s750} {
+                display: block;
+                background-color: $color2;
+              }
             }
 
             &:before {
               background-color: $color2;
+            }
+          }
+        }
+
+        .quote_sign {
+          background-color: $color2;
+          width: 2.2vw;
+          height: 2.2vw;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 20px;
+          position: absolute;
+          left: -3vw;
+
+          &.mobile {
+            display: none;
+          }
+
+          @media #{$s1023} {
+            left: -40px;
+            width: 30px;
+            height: 30px;
+          }
+
+          @media #{$s750} {
+            display: none;
+            width: 35px;
+            height: 35px;
+
+            &.mobile {
+              display: flex;
+              position: relative;
+              margin: auto;
+              left: auto;
+              margin-bottom: 20px;
+            }
+          }
+
+          p {
+            font-size: 1.8vw;
+            color: $color1;
+            font-family: $font2;
+            display: block;
+            height: 8px;
+
+            @media #{$s1023} {
+              font-size: 28px;
+            }
+
+            @media #{$s750} {
+              font-size: 34px;
             }
           }
         }
@@ -272,25 +427,8 @@
           flex-wrap: wrap;
           flex-direction: column;
 
-          .quote_sign {
-            background-color: $color2;
-            width: 2.2vw;
-            height: 2.2vw;
-            border-radius: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 20px;
-            position: absolute;
-            left: -3vw;
-
-            p {
-              font-size: 1.8vw;
-              color: $color1;
-              font-family: $font2;
-              display: block;
-              height: 8px;
-            }
+          @media #{$s750} {
+            text-align: center;
           }
 
           .description_content {
@@ -302,8 +440,25 @@
               margin-bottom: 25px;
               color: $color2;
               line-height: 1.3em;
+
+              @media #{$s750} {
+                text-align: center;
+                margin-bottom: 15px;
+              }
             }
 
+            .mobile_separator {
+              display: none;
+              width: 50px;
+              background-color: $color2;
+              height: 1px;
+              margin: auto;
+              margin-bottom: 15px;
+
+              @media #{$s750} {
+                display: block;
+              }
+            }
             .author {
               font-size: 16px;
               font-family: $font1;
@@ -312,6 +467,10 @@
               display: flex;
               align-items: center;
 
+              @media #{$s750} {
+                justify-content: center;
+              }
+
               &:before {
                 content: "";
                 display: block;
@@ -319,6 +478,10 @@
                 background-color: $color2;
                 height: 1px;
                 margin-right: 5px;
+
+                @media #{$s750} {
+                  display: none;
+                }
               }
 
               @media #{$s1500} {
@@ -335,6 +498,12 @@
 
       .right {
         width: 50%;
+
+        @media #{$s750} {
+          width: 100%;
+          order: 1;
+          margin-bottom: 45px;
+        }
 
         .image_holder {
           padding-top: 105%;
@@ -364,12 +533,25 @@
       padding-bottom: 0px;
       box-sizing: border-box;
 
+      @media #{$s1023} {
+        padding-bottom: 8vw;
+      }
+
+      @media #{$s750} {
+        padding: 70px 30px;
+        padding-bottom: 50px;
+      }
+
       h2 {
         text-align: center;
         @extend .mainHeadline;
         color: $color2;
         margin-bottom: 5vw;
         @extend .fadeUp;
+
+        @media #{$s750} {
+          margin-bottom: 40px;
+        }
       }
 
       .team_list {
@@ -383,6 +565,11 @@
           width: 50%;
           margin-bottom: 6vw;
           cursor: pointer;
+
+          @media #{$s1023} {
+            width: 100%;
+            padding: 0;
+          }
 
           &.active {
             .team_info_wrap {
@@ -425,6 +612,11 @@
             align-items: center;
             justify-content: space-between;
 
+            @media #{$s750} {
+              padding-top: 25px;
+              padding-bottom: 15px;
+            }
+
             .team_info {
               h3 {
                 @extend .smallHeadline;
@@ -446,11 +638,20 @@
               align-items: center;
               justify-content: center;
 
+              @media #{$s1023} {
+                width: 30px;
+                height: 30px;
+              }
+
               img {
                 position: relative;
                 width: 0.8vw;
                 transform: rotate(-90deg);
                 @include transition();
+
+                @media #{$s1023} {
+                  width: 15px;
+                }
               }
             }
           }
@@ -462,6 +663,10 @@
               border-top: 1px solid $color2;
               padding-top: 1.5vw;
 
+              @media #{$s750} {
+                padding-top: 15px;
+              }
+
               p {
                 @extend .text;
                 color: $color2;
@@ -471,12 +676,23 @@
             .bottom_description {
               margin-top: 20px;
               display: flex;
+
+              @media #{$s750} {
+                flex-wrap: wrap;
+              }
+
               a {
                 @extend .text;
                 display: flex;
                 color: $color2;
                 margin-right: 30px;
                 align-items: center;
+
+                @media #{$s750} {
+                  width: 100%;
+                  margin-right: 0;
+                  margin-bottom: 20px;
+                }
 
                 &:last-child {
                   margin-right: 0;

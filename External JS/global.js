@@ -189,6 +189,26 @@ $(document).ready(function () {
     dots: false,
     prevArrow: ".prev_button",
     nextArrow: ".next_button",
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $(".posts_slider").slick({
@@ -199,6 +219,17 @@ $(document).ready(function () {
     dots: true,
     prevArrow: ".prev_post_button",
     nextArrow: ".next_post_button",
+
+    responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          rows: 6,
+        },
+      },
+    ],
   });
 
   function scroll_to_anchor(anchor_id) {

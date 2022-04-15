@@ -456,6 +456,10 @@ header {
   header {
     border-bottom: 1px solid $color1;
 
+    &.opened_menu_mobile {
+      border-bottom: 1px solid #fff;
+    }
+
     nav {
       ul {
         li {

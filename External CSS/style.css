@@ -822,7 +822,7 @@ header {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.35);
     position: absolute; }
   .home_page .hero_wrapper .hero_content {
     position: absolute;

@@ -806,7 +806,8 @@ header {
     .home_page .hero_wrapper {
       padding-top: 0%;
       height: 100vh; } }
-  .home_page .hero_wrapper img {
+  .home_page .hero_wrapper img,
+  .home_page .hero_wrapper video {
     position: absolute;
     left: 0;
     top: 0;

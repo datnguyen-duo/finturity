@@ -230,8 +230,10 @@ header {
             }
           }
 
-          &:hover {
-            opacity: 0.6;
+          &:hover > {
+            a{
+              opacity: 0.6;
+            }
           }
 
           &.has_sub_menu {
@@ -453,6 +455,16 @@ header {
 
     &.opened_menu_mobile {
       background-color: $color1;
+    }
+  }
+}
+
+.home_page{
+  header{
+    opacity: 0;
+    
+    &.in_view{
+      opacity: 1;
     }
   }
 }

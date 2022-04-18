@@ -1,6 +1,16 @@
 $(document).ready(function () {
   gsap.registerPlugin(ScrollTrigger);
 
+  if (window.location.hash) {
+      
+      $("html, body").animate(
+        {
+          scrollTop: $(window.location.hash).offset().top - 90,
+        },
+        200
+      );
+  }
+
   $(window).resize(function () {
     ScrollTrigger.refresh();
   });
@@ -25,17 +35,20 @@ $(document).ready(function () {
   });
 
   $(".filter_button").on("click", function () {
-    var currentPlan = $(this).data("plan");
+    var slideno = $(this).data('slide');
+    $('.four_box_section_slider').slick('slickGoTo', slideno - 1);
+
+    // var currentPlan = $(this).data("plan");
     $(".filter_button").removeClass("active");
     $(this).addClass("active");
 
-    $(".four_box_section").each(function () {
-      if ($(this).data("plan") == currentPlan) {
-        $(this).css("display", "flex").addClass("in_view");
-      } else {
-        $(this).css("display", "none");
-      }
-    });
+    // $(".four_box_section").each(function () {
+    //   if ($(this).data("plan") == currentPlan) {
+    //     $(this).css("display", "flex").addClass("in_view");
+    //   } else {
+    //     $(this).css("display", "none");
+    //   }
+    // });
   });
 
   $(".single_team_member").on("click", function () {
@@ -231,6 +244,18 @@ $(document).ready(function () {
     ],
   });
 
+  $(".four_box_section_slider").slick({
+    slidesToShow: 1,
+    infinite: false,
+    dots: false,
+    arrows: false,
+    draggable: false,
+    swipe: false,
+    touchMove: false
+    // prevArrow: ".prev_post_button",
+    // nextArrow: ".next_post_button",
+  });
+
   function scroll_to_anchor(anchor_id) {
     var tag = $("#" + anchor_id);
     $("html,body").animate({ scrollTop: tag.offset().top }, "slow");
@@ -278,6 +303,7 @@ $(document).ready(function () {
     });
 
     let animationTrigger = $(".fadein_wrap");
+    var counter = false;
 
     animationTrigger.each(function () {
       let trigger = $(this);
@@ -290,6 +316,49 @@ $(document).ready(function () {
 
           onEnter: function () {
             $(trigger).addClass("in_view");
+
+            if ($(trigger).hasClass("about_second_section_content") && counter == false) {
+              counter = true;
+              $(".number").each(function () {
+                $(this)
+                  .prop("Counter", 0)
+                  .animate(
+                    {
+                      Counter: $(this).text(),
+                    },
+                    {
+                      duration: 2000,
+                      easing: "swing",
+                      step: function (now) {
+                        
+                        if ($(this).hasClass("retierment")) {
+                          $(this).text("$" + Math.ceil(now) + "M+");
+                        } else if ($(this).hasClass("employee")) {
+                          $(this).text(getRupeesFormat(Math.ceil(now)) + "+");
+                        } else if ($(this).hasClass("capital")) {
+                          $(this).text(getFormat("$" + Math.ceil(now)) + "B+");
+                        } else {
+                          $(this).text(Math.ceil(now) + "+");
+                        }
+                      },
+                    }
+                  );
+              });
+    
+              function getRupeesFormat(val) {
+                while (/(\d+)(\d{3})/.test(val.toString())) {
+                  val = val.toString().replace(/(\d+)(\d{3})/, "$1" + "," + "$2");
+                }
+                return val;
+              }
+    
+              function getFormat(val) {
+                while (/(\d+)(\d{2})/.test(val.toString())) {
+                  val = val.toString().replace(/(\d+)(\d{2})/, "$1" + "." + "5");
+                }
+                return val;
+              }
+            }
           },
         },
       });

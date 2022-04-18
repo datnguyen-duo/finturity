@@ -51,7 +51,7 @@
 
       h2 {
         @extend .mainHeadline;
-        font-size: 10vw;
+        font-size: 8vw;
         color: $color1;
 
         @media #{$s750} {
@@ -131,30 +131,57 @@
     background-color: $color4;
 
     .contact_form_content {
-      padding: 7vw 15vw;
+      padding: 7vw 0;
       box-sizing: border-box;
 
       @media #{$s1023} {
-        padding: 7vw;
+        padding: 7vw 0;
       }
 
       @media #{$s750} {
-        padding: 50px 30px;
+        padding: 50px 0px;
         padding-bottom: 75px;
       }
 
-      h2 {
-        @extend .mainHeadline;
-        color: $color1;
-        text-align: center;
+      .contact_form_content_header{
         margin-bottom: 6vw;
+        padding: 0 7vw;
+        box-sizing: border-box;
 
         @media #{$s750} {
+          padding: 0 30px;
           margin-bottom: 30px;
+        }
+
+        h2 {
+          @extend .mainHeadline;
+          color: $color1;
+          text-align: center;
+  
+  
+          span{
+            @include transition();
+            &.in_view{
+              color: $color3;
+            }
+          }
         }
       }
 
       form {
+        padding: 0 15vw;
+        box-sizing: border-box;
+
+        @media #{$s1023} {
+          padding: 0 7vw;
+          padding-bottom: 7vw;
+        }
+  
+        @media #{$s750} {
+          padding: 50px 30px;
+          padding-bottom: 0px;
+        }
+
         .button_wrap {
           text-align: center;
 

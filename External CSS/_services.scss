@@ -209,7 +209,7 @@
     .about_shape {
       position: absolute;
       right: 0;
-      top: 0;
+      top: -1px;
       width: 43vw;
 
       @media #{$s750} {
@@ -220,7 +220,7 @@
     .third_section_bottom_shape {
       position: absolute;
       left: 0;
-      bottom: 0;
+      bottom: -1px;
       width: 23vw;
 
       @media #{$s750} {
@@ -552,11 +552,12 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 8vw;
+        position: relative;
         @extend .fadeUp;
 
-        &:last-child {
-          display: none;
-        }
+        // &:last-child {
+        //   display: none;
+        // }
 
         @media #{$s750} {
           margin-top: 80px;

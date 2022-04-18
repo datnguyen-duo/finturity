@@ -34,13 +34,13 @@ body {
   body.no_scroll {
     overflow: hidden; }
 
-.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .single_item .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
+.mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .single_item .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
   font-family: "Roobert-Regular", serif;
   font-size: 5.2vw;
   color: #fff;
   letter-spacing: -1.1px; }
   @media only screen and (max-width: 750px) {
-    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .single_item .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
+    .mainHeadline, #footer .container .footer_content .footer_cta .footer_cta_content h2, .home_page .hero_wrapper .hero_content h1, .home_page .home_second_section .home_second_section_content h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder h2, .about_page .about_hero .about_hero_top_content .left h1, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_second_section .about_second_section_content .single_item .number, .about_page .about_fourth_section .about_fourth_section_content h2, .services_page .services_hero .services_hero_top_content .left h1, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_fourth_section .services_fourth_section_content .services_fourth_section_header h2, .blog_page .blog_hero .blog_hero_top_content h1, .single_blog_page .blog_hero .blog_hero_top_content .right h1, .contact_page .contact_hero .contact_hero_content h2, .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header h2, .glossary_page .glossary_hero .contact_hero_content h2, .glossary_page .terms_section .right .right_content .single_letter_wrap h3 {
       font-size: 38px; } }
 
 .mediumHeadline, .home_page .home_second_section .home_second_section_content .list_wrap .list_items .single_item p, .home_page .home_third_section .home_third_section_content .single_box .right .right_content h2, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .about_page .about_third_section .about_third_section_content .left .description .description_content h2, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list .single_item p, .services_page .services_second_section .services_second_content .left .description h2, .blog_page .blog_posts_holder .blog_posts_wrap .posts_header h3, .single_blog_page .blog_content_wrap .blog_content .text_holder h2, .single_blog_page .blog_content_wrap .related_blog_posts .related_blog_posts_header h3, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content .single_item p, .glossary_page .terms_section .right .right_content .single_letter_wrap .single_term .single_term_content .tearm_header h4 {
@@ -589,7 +589,7 @@ header {
           transition: all 400ms ease 0ms; }
           header .header_content_desktop nav ul li ul li:hover {
             opacity: 1; }
-        header .header_content_desktop nav ul li:hover {
+        header .header_content_desktop nav ul li:hover > a {
           opacity: 0.6; }
         header .header_content_desktop nav ul li.has_sub_menu .inner_holder {
           display: flex; }
@@ -753,6 +753,11 @@ header {
   .contact_page header.opened_menu_mobile {
     background-color: #0e3b2e; }
 
+.home_page header {
+  opacity: 0; }
+  .home_page header.in_view {
+    opacity: 1; }
+
 .about_page header,
 .glossary_page header,
 .services_page header,
@@ -840,7 +845,11 @@ header {
     z-index: 3;
     padding: 0 5vw;
     top: 60%;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    -webkit-transition: all 800ms ease 700ms;
+    -moz-transition: all 800ms ease 700ms;
+    -o-transition: all 800ms ease 700ms;
+    transition: all 800ms ease 700ms; }
     @media only screen and (max-width: 750px) {
       .home_page .hero_wrapper .hero_content {
         top: auto;
@@ -953,7 +962,7 @@ header {
     .home_page .home_third_section .home_third_section_content .third_section_bottom_shape {
       position: absolute;
       right: 0;
-      bottom: 0;
+      bottom: -1px;
       width: 23vw; }
       @media only screen and (max-width: 750px) {
         .home_page .home_third_section .home_third_section_content .third_section_bottom_shape {
@@ -973,7 +982,7 @@ header {
     .home_page .home_third_section .home_third_section_content .third_section_shape {
       position: absolute;
       left: 0;
-      top: 0;
+      top: -1px;
       width: 48vw; }
       @media only screen and (max-width: 750px) {
         .home_page .home_third_section .home_third_section_content .third_section_shape {
@@ -1624,7 +1633,7 @@ header {
   .about_page .about_third_section .about_shape {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -1px;
     width: 43vw; }
     @media only screen and (max-width: 750px) {
       .about_page .about_third_section .about_shape {
@@ -2050,7 +2059,7 @@ header {
   .services_page .services_second_section .about_shape {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -1px;
     width: 43vw; }
     @media only screen and (max-width: 750px) {
       .services_page .services_second_section .about_shape {
@@ -2058,7 +2067,7 @@ header {
   .services_page .services_second_section .third_section_bottom_shape {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     width: 23vw; }
     @media only screen and (max-width: 750px) {
       .services_page .services_second_section .third_section_bottom_shape {
@@ -2267,9 +2276,8 @@ header {
     .services_page .services_third_section .services_third_content .four_box_section {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 8vw; }
-      .services_page .services_third_section .services_third_content .four_box_section:last-child {
-        display: none; }
+      margin-top: 8vw;
+      position: relative; }
       @media only screen and (max-width: 750px) {
         .services_page .services_third_section .services_third_content .four_box_section {
           margin-top: 80px; } }
@@ -3218,7 +3226,7 @@ header {
     .contact_page .contact_hero .contact_hero_content {
       text-align: center; }
       .contact_page .contact_hero .contact_hero_content h2 {
-        font-size: 10vw;
+        font-size: 8vw;
         color: #0e3b2e; }
         @media only screen and (max-width: 750px) {
           .contact_page .contact_hero .contact_hero_content h2 {
@@ -3272,93 +3280,115 @@ header {
   .contact_page .contact_form_wrap {
     background-color: #f2f6ee; }
     .contact_page .contact_form_wrap .contact_form_content {
-      padding: 7vw 15vw;
+      padding: 7vw 0;
       box-sizing: border-box; }
       @media only screen and (max-width: 1023px) {
         .contact_page .contact_form_wrap .contact_form_content {
-          padding: 7vw; } }
+          padding: 7vw 0; } }
       @media only screen and (max-width: 750px) {
         .contact_page .contact_form_wrap .contact_form_content {
-          padding: 50px 30px;
+          padding: 50px 0px;
           padding-bottom: 75px; } }
-      .contact_page .contact_form_wrap .contact_form_content h2 {
-        color: #0e3b2e;
-        text-align: center;
-        margin-bottom: 6vw; }
+      .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header {
+        margin-bottom: 6vw;
+        padding: 0 7vw;
+        box-sizing: border-box; }
         @media only screen and (max-width: 750px) {
-          .contact_page .contact_form_wrap .contact_form_content h2 {
+          .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header {
+            padding: 0 30px;
             margin-bottom: 30px; } }
-      .contact_page .contact_form_wrap .contact_form_content form .button_wrap {
-        text-align: center; }
+        .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header h2 {
+          color: #0e3b2e;
+          text-align: center; }
+          .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header h2 span {
+            -webkit-transition: all 600ms ease 0ms;
+            -moz-transition: all 600ms ease 0ms;
+            -o-transition: all 600ms ease 0ms;
+            transition: all 600ms ease 0ms; }
+            .contact_page .contact_form_wrap .contact_form_content .contact_form_content_header h2 span.in_view {
+              color: #f7a094; }
+      .contact_page .contact_form_wrap .contact_form_content form {
+        padding: 0 15vw;
+        box-sizing: border-box; }
+        @media only screen and (max-width: 1023px) {
+          .contact_page .contact_form_wrap .contact_form_content form {
+            padding: 0 7vw;
+            padding-bottom: 7vw; } }
         @media only screen and (max-width: 750px) {
-          .contact_page .contact_form_wrap .contact_form_content form .button_wrap {
-            margin-top: 40px; } }
-        .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn {
-          box-shadow: none;
-          color: #fff;
-          outline: none;
-          background-color: #0e3b2e;
-          border: none; }
-          .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:after {
-            background-color: #fff; }
-          .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:hover {
-            color: #0e3b2e; }
-      .contact_page .contact_form_wrap .contact_form_content form .input_holder {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 5vw; }
-        @media only screen and (max-width: 750px) {
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder {
-            margin-bottom: 0px; } }
-        .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
-          margin-bottom: 10px;
-          width: 100%; }
+          .contact_page .contact_form_wrap .contact_form_content form {
+            padding: 50px 30px;
+            padding-bottom: 0px; } }
+        .contact_page .contact_form_wrap .contact_form_content form .button_wrap {
+          text-align: center; }
           @media only screen and (max-width: 750px) {
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
-              margin-bottom: 5px; } }
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline.mobile {
-            display: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .button_wrap {
+              margin-top: 40px; } }
+          .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn {
+            box-shadow: none;
+            color: #fff;
+            outline: none;
+            background-color: #0e3b2e;
+            border: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:after {
+              background-color: #fff; }
+            .contact_page .contact_form_wrap .contact_form_content form .button_wrap .btn:hover {
+              color: #0e3b2e; }
+        .contact_page .contact_form_wrap .contact_form_content form .input_holder {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          margin-bottom: 5vw; }
+          @media only screen and (max-width: 750px) {
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder {
+              margin-bottom: 0px; } }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
+            margin-bottom: 10px;
+            width: 100%; }
             @media only screen and (max-width: 750px) {
-              .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline.mobile {
-                display: block; } }
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span {
-            justify-content: flex-start; }
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:after, .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:before {
+              .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
+                margin-bottom: 5px; } }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline.mobile {
               display: none; }
-        .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
-          width: 48%;
-          padding: 3px 0;
-          box-sizing: border-box;
-          color: #a0c3a1;
-          border: none;
-          background-color: transparent;
-          border-bottom: 1px solid #a0c3a1; }
-          @media only screen and (max-width: 750px) {
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
-              width: 100%;
-              margin-bottom: 30px; } }
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder {
-            color: #a0c3a1; }
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus {
-            color: #0e3b2e;
-            border-bottom: 1px solid #0e3b2e;
-            outline: none; }
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus::placeholder {
-              color: #0e3b2e; }
-        .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
-          border: 1px solid #a0c3a1;
-          color: #a0c3a1;
-          width: 100%;
-          box-sizing: border-box;
-          background-color: transparent;
-          padding: 1vw; }
-          .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus {
-            color: #0e3b2e;
-            border: 1px solid #0e3b2e;
-            outline: none; }
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus::placeholder {
-              color: #0e3b2e; }
+              @media only screen and (max-width: 750px) {
+                .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline.mobile {
+                  display: block; } }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span {
+              justify-content: flex-start; }
+              .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:after, .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:before {
+                display: none; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
+            width: 48%;
+            padding: 3px 0;
+            box-sizing: border-box;
+            color: #a0c3a1;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid #a0c3a1; }
+            @media only screen and (max-width: 750px) {
+              .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
+                width: 100%;
+                margin-bottom: 30px; } }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder {
+              color: #a0c3a1; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus {
+              color: #0e3b2e;
+              border-bottom: 1px solid #0e3b2e;
+              outline: none; }
+              .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus::placeholder {
+                color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
+            border: 1px solid #a0c3a1;
+            color: #a0c3a1;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: transparent;
+            padding: 1vw; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus {
+              color: #0e3b2e;
+              border: 1px solid #0e3b2e;
+              outline: none; }
+              .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea:focus::placeholder {
+                color: #0e3b2e; }
 
 .glossary_page .glossary_hero {
   padding: 14vw 0;

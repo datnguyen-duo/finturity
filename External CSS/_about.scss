@@ -303,7 +303,7 @@
     .about_shape {
       position: absolute;
       right: 0;
-      top: 0;
+      top: -1px;
       width: 43vw;
 
       @media #{$s750} {

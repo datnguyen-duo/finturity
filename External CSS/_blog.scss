@@ -324,7 +324,6 @@
       }
 
       .posts_slider {
-        @extend .fadeUp;
         /* the slides */
         .slick-slide {
           padding: 0 2vw;
@@ -388,6 +387,7 @@
           border: 1px solid $color1;
           cursor: pointer;
           margin-bottom: 4vw;
+          @extend .fadeUp;
 
           @media #{$s750} {
             margin-bottom: 30px;

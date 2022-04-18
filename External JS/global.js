@@ -68,6 +68,7 @@ $(document).ready(function () {
       $(this).toggleClass("active");
       $(this).find(".tearm_description").slideToggle();
     });
+
     $(".contact_hero_bottom_content a, .terms_section .left_content a").on(
       "click",
       function () {
@@ -126,8 +127,6 @@ $(document).ready(function () {
       $(trigger).addClass("current_letter");
       var currentLetter = $(".current_letter").find("h3").text().toLowerCase();
 
-      console.log(currentLetter);
-
       $(".terms_section .left_content li").each(function (index) {
         if ($(this).text().toLowerCase() == currentLetter) {
           $(this).addClass("active");
@@ -184,7 +183,7 @@ $(document).ready(function () {
   });
 
   $(".partners_slider").slick({
-    slidesToShow: 5,
+    slidesToShow: 4,
     infinite: true,
     dots: false,
     prevArrow: ".prev_button",

@@ -181,9 +181,6 @@
             width: 100%;
           }
 
-          //   &:last-child {
-          //     margin: 0;
-          //   }
 
           &:hover {
             background-color: #fff;
@@ -196,6 +193,7 @@
           p {
             @extend .mediumHeadline;
             color: $color1;
+            font-size: 1.5vw;
             text-transform: uppercase;
 
             @media #{$s1023} {

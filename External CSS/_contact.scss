@@ -167,6 +167,7 @@
             color: #fff;
             outline: none;
             background-color: $color1;
+            border: none;
 
             &:after {
               background-color: #fff;
@@ -219,10 +220,10 @@
             padding: 3px 0;
             box-sizing: border-box;
             @extend .smallHeadline;
-            color: $color1;
+            color: $color5;
             border: none;
             background-color: transparent;
-            border-bottom: 1px solid $color1;
+            border-bottom: 1px solid $color5;
 
             @media #{$s750} {
               width: 100%;
@@ -231,36 +232,36 @@
 
             &::placeholder {
               @extend .smallHeadline;
-              color: $color1;
+              color: $color5;
             }
 
             &:focus {
-              color: $color3;
-              border-bottom: 1px solid $color3;
+              color: $color1;
+              border-bottom: 1px solid $color1;
               outline: none;
 
               &::placeholder {
-                color: $color3;
+                color: $color1;
               }
             }
           }
 
           textarea {
-            border: 1px solid $color1;
+            border: 1px solid $color5;
             @extend .smallHeadline;
-            color: $color1;
+            color: $color5;
             width: 100%;
             box-sizing: border-box;
             background-color: transparent;
             padding: 1vw;
 
             &:focus {
-              color: $color3;
-              border: 1px solid $color3;
+              color: $color1;
+              border: 1px solid $color1;
               outline: none;
 
               &::placeholder {
-                color: $color3;
+                color: $color1;
               }
             }
           }

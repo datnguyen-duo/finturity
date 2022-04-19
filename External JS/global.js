@@ -328,6 +328,14 @@ $(document).ready(function () {
           onEnter: function () {
             $(trigger).addClass("in_view");
 
+            if ($(trigger).hasClass("services_second_content")) {
+              console.log($(this).find('video')[0]);
+              $(this).find('video').each(function () {
+
+                $(this)[0].play();
+              })
+            }
+
             if ($(trigger).hasClass("about_second_section_content") && counter == false) {
               counter = true;
               $(".number").each(function () {

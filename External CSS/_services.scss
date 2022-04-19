@@ -778,12 +778,31 @@
         .partners_slider {
           width: 90%;
 
+          .slick-track{
+            @media #{$s750} {
+              align-items: center;
+              display: flex;
+            }
+          }
+          
           .slide {
             height: 55px;
             position: relative;
 
             @media #{$s750} {
               height: 40px;
+
+              &.partner_2{
+                height: 55px;
+              }
+
+              &.partner_7{
+                height: 50px;
+              }
+
+              &.partner_4{
+                height: 35px;
+              }
             }
 
             img {

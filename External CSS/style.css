@@ -2454,12 +2454,22 @@ header {
         width: 90%;
         /* the slides */
         /* the parent */ }
+        @media only screen and (max-width: 750px) {
+          .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slick-track {
+            align-items: center;
+            display: flex; } }
         .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide {
           height: 55px;
           position: relative; }
           @media only screen and (max-width: 750px) {
             .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide {
-              height: 40px; } }
+              height: 40px; }
+              .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide.partner_2 {
+                height: 55px; }
+              .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide.partner_7 {
+                height: 50px; }
+              .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide.partner_4 {
+                height: 35px; } }
           .services_page .services_fourth_section .services_fourth_section_content .partners_slider_holder .partners_slider .slide img {
             position: absolute;
             left: 0;

@@ -204,7 +204,7 @@
   .services_second_section {
     background-color: $color1;
     position: relative;
-    border-bottom: 1px solid $color2;
+    // border-bottom: 1px solid $color2;
 
     .about_shape {
       position: absolute;
@@ -670,6 +670,13 @@
         p {
           @extend .smallHeadline;
           color: $color1;
+          line-height: 1.3em;
+
+          @media #{$s750} {
+            br{
+              display: block;
+            }
+          }
         }
       }
 

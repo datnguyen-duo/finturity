@@ -133,7 +133,7 @@ body {
   text-align: center;
   overflow: hidden;
   position: relative;
-  @include transition();
+  @include transition(all, 200ms);
 
   @media #{$s1500} {
     font-size: 16px;
@@ -166,9 +166,9 @@ body {
 
   &:hover {
     color: #fff;
+    background-color: $color1;
 
     &:after {
-      //   top: 0;
       height: 100%;
       top: 0;
     }

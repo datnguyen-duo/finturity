@@ -46,6 +46,7 @@
           @extend .smallHeadline;
           color: $color1;
           width: 100%;
+          opacity: 1;
           background-color: transparent;
           border-radius: 200px;
 
@@ -58,6 +59,7 @@
           }
 
           &::placeholder {
+            opacity: 1;
             @extend .smallHeadline;
             color: $color1;
           }
@@ -194,7 +196,6 @@
             @extend .mediumHeadline;
             color: $color1;
             font-size: 1.5vw;
-            text-transform: uppercase;
 
             @media #{$s1023} {
               font-size: 2.5vw;
@@ -238,8 +239,8 @@
         ul {
           li {
             @extend .text;
-            font-size: 16px;
-            font-family: $font2;
+            font-size: 14px;
+            font-family: $font1;
             margin-bottom: 5px;
             color: $color1;
             text-align: center;
@@ -253,10 +254,10 @@
 
             &.active {
               background-color: $color5;
-              width: 55px;
+              width: 47px;
               padding: 10px;
-              font-size: 28px;
-              height: 55px;
+              font-size: 20px;
+              height: 47px;
               margin-bottom: 10px;
             }
           }

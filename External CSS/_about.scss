@@ -190,11 +190,11 @@
           .signle_box_content {
             border: 1px solid $color1;
             box-sizing: border-box;
-            padding: 3.5vw 5vw;
+            padding: 3.5vw 2.5vw;
             height: 100%;
 
             @media #{$s1100} {
-              padding: 2.5vw 3vw;
+              padding: 2.5vw 2vw;
             }
 
             @media #{$s750} {
@@ -263,6 +263,7 @@
       }
 
       .single_item {
+        width: 25%;
         @media #{$s750} {
           width: 100%;
           margin-bottom: 35px;

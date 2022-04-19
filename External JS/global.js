@@ -23,6 +23,17 @@ $(document).ready(function () {
     ScrollTrigger.refresh();
   });
 
+  if($('body').hasClass('contact_page')){
+    $("input, textarea").on("keyup change", function(e) {
+      console.log($(this).val())
+      if($(this).val() !== ""){
+        $(this).parent().addClass('dark');
+      } else{
+        $(this).parent().removeClass('dark');
+      }
+    }) 
+  }
+
   function checkScroll() {
     if ($(window).scrollTop() > 150) {
       $("header, .terms_section .left").addClass("scrolled");

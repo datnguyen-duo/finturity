@@ -3368,6 +3368,24 @@ header {
           @media only screen and (max-width: 750px) {
             .contact_page .contact_form_wrap .contact_form_content form .input_holder {
               margin-bottom: 0px; } }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark .small_subheadline span {
+            color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark input, .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark textarea {
+            color: #0e3b2e;
+            border-bottom: 1px solid #0e3b2e;
+            outline: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark textarea::placeholder {
+              color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder.dark textarea {
+            border: 1px solid #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder:focus-within .small_subheadline span {
+            color: #0e3b2e; }
+          .contact_page .contact_form_wrap .contact_form_content form .input_holder:focus-within input, .contact_page .contact_form_wrap .contact_form_content form .input_holder:focus-within textarea {
+            color: #0e3b2e;
+            border-bottom: 1px solid #0e3b2e;
+            outline: none; }
+            .contact_page .contact_form_wrap .contact_form_content form .input_holder:focus-within input::placeholder, .contact_page .contact_form_wrap .contact_form_content form .input_holder:focus-within textarea::placeholder {
+              color: #0e3b2e; }
           .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline {
             margin-bottom: 10px;
             width: 100%; }
@@ -3380,7 +3398,8 @@ header {
                 .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline.mobile {
                   display: block; } }
             .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span {
-              justify-content: flex-start; }
+              justify-content: flex-start;
+              color: #a0c3a1; }
               .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:after, .contact_page .contact_form_wrap .contact_form_content form .input_holder .small_subheadline span:before {
                 display: none; }
           .contact_page .contact_form_wrap .contact_form_content form .input_holder input {
@@ -3397,12 +3416,6 @@ header {
                 margin-bottom: 30px; } }
             .contact_page .contact_form_wrap .contact_form_content form .input_holder input::placeholder {
               color: #a0c3a1; }
-            .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus {
-              color: #0e3b2e;
-              border-bottom: 1px solid #0e3b2e;
-              outline: none; }
-              .contact_page .contact_form_wrap .contact_form_content form .input_holder input:focus::placeholder {
-                color: #0e3b2e; }
           .contact_page .contact_form_wrap .contact_form_content form .input_holder textarea {
             border: 1px solid #a0c3a1;
             color: #a0c3a1;

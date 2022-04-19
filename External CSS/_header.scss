@@ -101,6 +101,10 @@ header {
   z-index: 10;
   @include transition();
 
+  @media #{$s750} {
+    height: 54px;
+  }
+
   &.scrolled {
     background-color: #fff;
 

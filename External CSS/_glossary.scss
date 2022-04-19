@@ -232,7 +232,27 @@ input[type="search"]::-webkit-search-results-decoration {
       align-items: center;
 
       @media #{$s750} {
-        display: none;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid $color1;
+        border-top: 1px solid $color1;
+        background: #fff;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 5;
+        @include transition();
+
+        &.scrolled{
+          opacity: 1;
+          visibility: visible;
+        }
       }
 
       .left_content {
@@ -244,9 +264,17 @@ input[type="search"]::-webkit-search-results-decoration {
         }
 
         ul {
+
+          @media #{$s750} {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
           li {
             @extend .text;
-            font-size: 14px;
+            font-size: 16px;
             font-family: $font1;
             margin-bottom: 5px;
             color: $color1;
@@ -254,6 +282,19 @@ input[type="search"]::-webkit-search-results-decoration {
             box-sizing: border-box;
             border-radius: 100%;
             @include transition();
+
+            @media #{$s1500} {
+              font-size: 14px;
+            }
+
+            @media #{$s750} {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 12px;
+              margin-bottom: 0px;
+              margin-right: 6px;
+            }
 
             a {
               color: $color1;
@@ -266,6 +307,14 @@ input[type="search"]::-webkit-search-results-decoration {
               font-size: 20px;
               height: 47px;
               margin-bottom: 10px;
+
+              @media #{$s750} {
+                width: 30px;
+                margin-bottom: 0px;
+                margin-right: 3px;
+                font-size: 16px;
+                height: 30px;
+              }
             }
           }
         }

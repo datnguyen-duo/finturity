@@ -25,9 +25,9 @@ $(document).ready(function () {
 
   function checkScroll() {
     if ($(window).scrollTop() > 150) {
-      $("header").addClass("scrolled");
+      $("header, .terms_section .left").addClass("scrolled");
     } else {
-      $("header").removeClass("scrolled");
+      $("header, .terms_section .left").removeClass("scrolled");
     }
   }
 

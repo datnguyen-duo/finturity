@@ -408,7 +408,7 @@
           }
 
           .description {
-            max-width: 34vw;
+            max-width: 30vw;
 
             @media #{$s1100} {
               max-width: 38vw;
@@ -784,7 +784,7 @@
               display: flex;
             }
           }
-          
+
           .slide {
             height: 55px;
             position: relative;

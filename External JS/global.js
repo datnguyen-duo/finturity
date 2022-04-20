@@ -25,7 +25,6 @@ $(document).ready(function () {
 
   if($('body').hasClass('contact_page')){
     $("input, textarea").on("keyup change", function(e) {
-      console.log($(this).val())
       if($(this).val() !== ""){
         $(this).parent().addClass('dark');
       } else{
@@ -340,9 +339,7 @@ $(document).ready(function () {
             $(trigger).addClass("in_view");
 
             if ($(trigger).hasClass("services_second_content")) {
-              console.log($(this).find('video')[0]);
               $(this).find('video').each(function () {
-
                 $(this)[0].play();
               })
             }

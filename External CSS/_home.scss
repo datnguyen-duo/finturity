@@ -3,6 +3,7 @@
     position: relative;
     padding-top: 60%;
     overflow: hidden;
+    background-color: $color1;
 
     @media #{$s1100} {
       padding-top: 75%;
@@ -30,6 +31,7 @@
       height: 100%;
       object-fit: cover;
       z-index: 1;
+      @extend .fadeIn;
 
       &.mobile_video{
         display: none;
@@ -247,7 +249,7 @@
             width: 100%;
             left: 0;
             top: auto;
-            bottom: 22%;
+            bottom: 20.5%;
           }
 
           @media #{$s360} {

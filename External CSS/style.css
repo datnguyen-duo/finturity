@@ -7,14 +7,16 @@
   br {
     display: none; } }
 
-.fadeIn, .home_page .hero_wrapper .hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .image_holder, .about_page .about_hero .image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .image_holder, .services_page .services_second_section .services_second_content .right .image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap, .single_blog_page .blog_hero .image_holder_wrap {
+.fadeIn, .home_page .hero_wrapper img,
+.home_page .hero_wrapper video, .home_page .hero_wrapper .hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .image_holder, .about_page .about_hero .image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .image_holder, .services_page .services_second_section .services_second_content .right .image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .image_holder_wrap, .single_blog_page .blog_hero .image_holder_wrap {
   position: relative;
   opacity: 0;
   -webkit-transition: all 600ms ease 0ms;
   -moz-transition: all 600ms ease 0ms;
   -o-transition: all 600ms ease 0ms;
   transition: all 600ms ease 0ms; }
-  .fadeIn.in_view, .home_page .hero_wrapper .in_view.hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .in_view.image_holder, .about_page .about_hero .in_view.image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .in_view.image_holder, .services_page .services_second_section .services_second_content .right .in_view.image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .in_view.image_holder_wrap, .single_blog_page .blog_hero .in_view.image_holder_wrap {
+  .fadeIn.in_view, .home_page .hero_wrapper img.in_view,
+  .home_page .hero_wrapper video.in_view, .home_page .hero_wrapper .in_view.hero_content, .home_page .home_third_section .home_third_section_content .single_box .left .in_view.image_holder, .about_page .about_hero .in_view.image_holder_wrap, .about_page .about_third_section .about_third_section_content .right .in_view.image_holder, .services_page .services_second_section .services_second_content .right .in_view.image_holder, .blog_page .blog_hero .blog_hero_bottom_content .left .in_view.image_holder_wrap, .single_blog_page .blog_hero .in_view.image_holder_wrap {
     opacity: 1; }
 
 .fadeUp, #footer .container .footer_content .footer_cta .footer_cta_content, .home_page .home_second_section .home_second_section_content .list_wrap, .home_page .home_second_section .home_second_section_content h2, .home_page .home_third_section .home_third_section_content .single_box .right .right_content, .home_page .home_fourth_section .home_fourth_section_content .small_subheadline, .home_page .home_fourth_section .home_fourth_section_content .fourth_section_list_wrap .fourth_section_list, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header h2, .home_page .home_fifth_section .home_fifth_section_content .home_fifth_section_header .btn, .home_page .home_fifth_section .home_fifth_section_content .three_box_section, .home_page .home_sixth_section .home_sixth_section_content .sixth_section_header_holder, .home_page .home_sixth_section .home_sixth_section_content .hub_slider, .about_page .about_hero .about_hero_top_content, .about_page .about_first_section .about_first_section_content .about_first_section_header h2, .about_page .about_first_section .about_first_section_content .about_first_section_header .btn, .about_page .about_first_section .about_first_section_content .three_box_section, .about_page .about_second_section .about_second_section_content, .about_page .about_third_section .about_third_section_content .left, .about_page .about_fourth_section .about_fourth_section_content h2, .about_page .about_fourth_section .about_fourth_section_content .team_list, .services_page .services_hero .services_hero_top_content, .services_page .services_first_section .services_first_section_content .small_subheadline, .services_page .services_first_section .services_first_section_content .fourth_section_list_wrap .fourth_section_list, .services_page .services_second_section .services_second_content .left, .services_page .services_third_section .services_third_content .services_third_section_header h2, .services_page .services_third_section .services_third_content .four_box_section, .blog_page .blog_hero .blog_hero_top_content, .blog_page .blog_posts_holder .blog_posts_wrap .posts_slider .single_slide, .single_blog_page .blog_hero .blog_hero_top_content, .contact_page .contact_hero .contact_hero_content, .glossary_page .glossary_hero .contact_hero_content, .glossary_page .glossary_hero .contact_hero_bottom_content_wrap .contact_hero_bottom_content {
@@ -819,7 +821,8 @@ header {
 .home_page .hero_wrapper {
   position: relative;
   padding-top: 60%;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #0e3b2e; }
   @media only screen and (max-width: 1100px) {
     .home_page .hero_wrapper {
       padding-top: 75%; } }
@@ -994,7 +997,7 @@ header {
             width: 100%;
             left: 0;
             top: auto;
-            bottom: 22%; } }
+            bottom: 20.5%; } }
         @media only screen and (max-width: 360px) {
           .home_page .home_third_section .home_third_section_content .third_section_bottom_shape.mobile {
             bottom: 24%; } }
@@ -2205,7 +2208,7 @@ header {
           padding-left: 0px;
           width: 100%; } }
       .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description {
-        max-width: 34vw; }
+        max-width: 30vw; }
         @media only screen and (max-width: 1100px) {
           .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description {
             max-width: 38vw; } }

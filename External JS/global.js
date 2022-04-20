@@ -9,6 +9,31 @@ $(document).ready(function () {
     document.documentElement.style.setProperty("--vh", "".concat(vh, "px"));
   });
 
+  function loadVideo(){
+    if (window.innerWidth > 730) {   
+      var source = $('.desktop_video source')
+      source.attr('src', '');
+      
+      source.attr('src', source.data('src'));
+      $('.desktop_video')[0].load()
+      
+    } else{
+      var source = $('.mobile_video source');
+      source.attr('src', '');
+      
+      source.attr('src', source.data('src'));
+      $('.mobile_video')[0].load()
+    } 
+  }
+
+  if($('body').hasClass('home_page')){
+    loadVideo();
+
+    $( window ).resize(function() {
+      loadVideo();
+    });
+  }
+
   if (window.location.hash) {
       
       $("html, body").animate(

@@ -846,7 +846,7 @@ header {
     .home_page .hero_wrapper img.mobile_video,
     .home_page .hero_wrapper video.mobile_video {
       display: none; }
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: 750px) {
       .home_page .hero_wrapper img.desktop_video,
       .home_page .hero_wrapper video.desktop_video {
         display: none; }
@@ -2121,9 +2121,11 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      padding-right: 5vw; }
       @media only screen and (max-width: 750px) {
         .services_page .services_second_section .services_second_content .left {
+          padding-right: 0;
           width: 100%;
           order: 2;
           margin-top: 50px; } }
@@ -2134,8 +2136,7 @@ header {
             max-width: 38vw; } }
         @media only screen and (max-width: 1023px) {
           .services_page .services_second_section .services_second_content .left .description {
-            max-width: 100%;
-            padding-right: 20px; } }
+            max-width: 100%; } }
         @media only screen and (max-width: 750px) {
           .services_page .services_second_section .services_second_content .left .description {
             padding-right: 0; } }
@@ -2198,17 +2199,20 @@ header {
     .services_page .services_second_section .services_second_content:nth-of-type(even) .left {
       width: 50%;
       order: 2;
-      padding-right: 0vw; }
+      padding-right: 0vw;
+      padding-left: 5vw; }
       @media only screen and (max-width: 1023px) {
         .services_page .services_second_section .services_second_content:nth-of-type(even) .left {
+          padding-right: 0vw;
           padding-left: 20px;
           width: 53%; } }
       @media only screen and (max-width: 750px) {
         .services_page .services_second_section .services_second_content:nth-of-type(even) .left {
+          padding-right: 0vw;
           padding-left: 0px;
           width: 100%; } }
       .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description {
-        max-width: 30vw; }
+        max-width: 31vw; }
         @media only screen and (max-width: 1100px) {
           .services_page .services_second_section .services_second_content:nth-of-type(even) .left .description {
             max-width: 38vw; } }

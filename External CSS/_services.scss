@@ -261,8 +261,10 @@
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
+        padding-right: 5vw;
 
         @media #{$s750} {
+          padding-right: 0;
           width: 100%;
           order: 2;
           margin-top: 50px;
@@ -277,7 +279,7 @@
 
           @media #{$s1023} {
             max-width: 100%;
-            padding-right: 20px;
+            // padding-right: 20px;
           }
 
           @media #{$s750} {
@@ -396,19 +398,22 @@
           width: 50%;
           order: 2;
           padding-right: 0vw;
+          padding-left: 5vw;
 
           @media #{$s1023} {
+            padding-right: 0vw;
             padding-left: 20px;
             width: 53%;
           }
 
           @media #{$s750} {
+            padding-right: 0vw;
             padding-left: 0px;
             width: 100%;
           }
 
           .description {
-            max-width: 30vw;
+            max-width: 31vw;
 
             @media #{$s1100} {
               max-width: 38vw;

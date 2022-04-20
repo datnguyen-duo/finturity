@@ -671,6 +671,10 @@
               p {
                 @extend .text;
                 color: $color2;
+
+                sup {
+                  font-size:10px; vertical-align:super;
+                }
               }
             }
 

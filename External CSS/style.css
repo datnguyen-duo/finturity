@@ -1924,6 +1924,9 @@ header {
                 padding-top: 15px; } }
             .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_description .top_description p {
               color: #fcd263; }
+              .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_description .top_description p sup {
+                font-size: 10px;
+                vertical-align: super; }
           .about_page .about_fourth_section .about_fourth_section_content .team_list .single_team_member .team_description .bottom_description {
             margin-top: 20px;
             display: flex; }

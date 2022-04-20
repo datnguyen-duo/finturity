@@ -842,7 +842,11 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1; }
+    z-index: 1;
+    -webkit-transition: all 400ms ease 200ms;
+    -moz-transition: all 400ms ease 200ms;
+    -o-transition: all 400ms ease 200ms;
+    transition: all 400ms ease 200ms; }
     .home_page .hero_wrapper img.mobile_video,
     .home_page .hero_wrapper video.mobile_video {
       display: none; }
@@ -868,10 +872,10 @@ header {
     padding: 0 5vw;
     top: 60%;
     transform: translateY(-50%);
-    -webkit-transition: all 800ms ease 700ms;
-    -moz-transition: all 800ms ease 700ms;
-    -o-transition: all 800ms ease 700ms;
-    transition: all 800ms ease 700ms; }
+    -webkit-transition: all 800ms ease 900ms;
+    -moz-transition: all 800ms ease 900ms;
+    -o-transition: all 800ms ease 900ms;
+    transition: all 800ms ease 900ms; }
     @media only screen and (max-width: 750px) {
       .home_page .hero_wrapper .hero_content {
         top: auto;

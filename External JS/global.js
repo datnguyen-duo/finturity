@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   function loadVideo(){
     if (window.innerWidth > 730) {   
-      var source = $('.desktop_video source')
+      var source = $('.desktop_video source');
       source.attr('src', '');
       
       source.attr('src', source.data('src'));

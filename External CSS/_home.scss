@@ -32,7 +32,7 @@
       object-fit: cover;
       z-index: 1;
       @extend .fadeIn;
-      @include transition(all, 400ms, ease, 200ms);
+      @include transition(all, 400ms, ease, 500ms);
 
       &.mobile_video{
         display: none;
@@ -68,7 +68,7 @@
       top: 60%;
       transform: translateY(-50%);
       @extend .fadeIn;
-      @include transition(all, 800ms, ease, 900ms);
+      @include transition(all, 800ms, ease, 1100ms);
 
       @media #{$s750} {
         top: auto;

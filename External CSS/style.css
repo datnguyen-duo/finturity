@@ -2192,6 +2192,9 @@ header {
         padding-top: 105%;
         overflow: hidden;
         position: relative; }
+        @media only screen and (max-width: 750px) {
+          .services_page .services_second_section .services_second_content .right .image_holder {
+            padding-top: 95%; } }
         .services_page .services_second_section .services_second_content .right .image_holder img, .services_page .services_second_section .services_second_content .right .image_holder video {
           position: absolute;
           left: 0;

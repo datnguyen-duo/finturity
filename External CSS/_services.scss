@@ -381,6 +381,10 @@
           position: relative;
           @extend .fadeIn;
 
+          @media #{$s750} {
+            padding-top: 95%;
+          }
+
           img, video {
             position: absolute;
             left: 0;

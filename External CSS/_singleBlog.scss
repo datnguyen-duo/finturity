@@ -246,6 +246,10 @@
         ul li {
           @extend .text;
           color: $color1;
+
+          i{
+            font-style: italic;
+          }
         }
 
         a {
@@ -297,6 +301,13 @@
 
         .share_box,
         .tag_box {
+          width: 50%;
+
+          @media #{$s750} {
+            width: 100%;
+            text-align: center;
+          }
+
           .small_subheadline {
             margin-bottom: 10px;
 
@@ -312,6 +323,11 @@
 
           ul {
             display: flex;
+            flex-wrap: wrap;
+
+            @media #{$s750} {
+              justify-content: center;
+            }  
 
             li {
               display: inline-block;
@@ -343,6 +359,7 @@
               a {
                 @extend .smallHeadline;
                 color: $color1;
+                line-height: 1.5em;
                 @include transition();
 
                 &:hover {

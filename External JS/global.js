@@ -35,7 +35,11 @@ $(document).ready(function () {
   }
 
   if (window.location.hash) {
-      
+
+      setTimeout(function(){
+        $(window.location.hash).find('.single_term_content').trigger('click');
+      }, 500)
+
       $("html, body").animate(
         {
           scrollTop: $(window.location.hash).offset().top - 90,
@@ -139,7 +143,13 @@ $(document).ready(function () {
 
     $("a[href^='#']").click(function (e) {
       e.preventDefault();
-
+      var clickedTerm = $(this).attr('href');
+      
+      setTimeout(function(){
+        $(clickedTerm).find('.single_term_content').trigger('click');
+      }, 700)
+      
+      
       $("html, body").animate(
         {
           scrollTop: $($(this).attr("href")).offset().top - 90,
@@ -272,7 +282,7 @@ $(document).ready(function () {
   $(".posts_slider").slick({
     slidesToShow: 2,
     slidesToScroll: 2,
-    rows: 3,
+    rows: 1,
     infinite: true,
     dots: true,
     prevArrow: ".prev_post_button",

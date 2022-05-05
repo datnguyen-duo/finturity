@@ -3053,6 +3053,11 @@ header {
     .single_blog_page .blog_content_wrap .blog_content .text_holder a,
     .single_blog_page .blog_content_wrap .blog_content .text_holder ul li, .single_blog_page .blog_content_wrap .blog_content .text_holder ol li {
       color: #0e3b2e; }
+      .single_blog_page .blog_content_wrap .blog_content .text_holder p sup,
+      .single_blog_page .blog_content_wrap .blog_content .text_holder a sup,
+      .single_blog_page .blog_content_wrap .blog_content .text_holder ul li sup, .single_blog_page .blog_content_wrap .blog_content .text_holder ol li sup {
+        font-size: 12px;
+        vertical-align: super; }
       .single_blog_page .blog_content_wrap .blog_content .text_holder p i,
       .single_blog_page .blog_content_wrap .blog_content .text_holder a i,
       .single_blog_page .blog_content_wrap .blog_content .text_holder ul li i, .single_blog_page .blog_content_wrap .blog_content .text_holder ol li i {

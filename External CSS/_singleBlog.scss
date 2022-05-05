@@ -247,6 +247,11 @@
           @extend .text;
           color: $color1;
 
+          sup{
+            font-size:12px;
+            vertical-align:super;
+          }
+
           i{
             font-style: italic;
           }

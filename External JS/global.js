@@ -282,7 +282,7 @@ $(document).ready(function () {
   $(".posts_slider").slick({
     slidesToShow: 2,
     slidesToScroll: 2,
-    rows: 1,
+    rows: 2,
     infinite: true,
     dots: true,
     prevArrow: ".prev_post_button",

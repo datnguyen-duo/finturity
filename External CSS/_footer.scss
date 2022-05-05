@@ -44,6 +44,26 @@
           text-align: center;
           @extend .fadeUp;
 
+          img{
+            width: 7vw;
+            margin-bottom: 2vw;
+          }
+
+          .glossary_icon_footer{
+            width: 9vw;
+          }
+
+          @media #{$s750} {
+            img{
+              width: 100px;
+              margin-bottom: 20px;
+            }
+  
+            .glossary_icon_footer{
+              width: 120px;
+            }
+          }
+
           h2 {
             @extend .mainHeadline;
             color: $color1;

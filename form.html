@@ -1,0 +1,102 @@
+<!-- 
+    Custom Forms 
+    
+    Once a form has been built and styled, check for the following:
+        a.	Form data should be sent to: form_proc.cfm
+        b.	This can applied directly to the form's action attribute or it can also be done with JavaScript (see example).
+        c.	All input fields within a form should contain a "name" attribute.
+        d.	Values for "name" cannot contain empty spaces or dashes. See example:
+            i.	Wrong Formatting : 
+                1.	<input required type="text" id="last-name" name="last name"> 
+                2.	<input required type="text" id="last-name" name="last-name">
+            ii.	Correct formatting:
+                1.	<input required type="text" id="last-name" name="lastÂ name">
+                2.	<input required type="text" id="last-name" name="last_name">
+    
+        e.	Forms can contain hidden input. Ex:
+            i.	<input aria-hidden="true" name="email_subject" type="hidden" value="Contact Us Online Submission" />
+        f.	Forms have to be validated on the front-end. We recommend using Jquery Validation Plugin (https://jqueryvalidation.org) as used in the example    --><!-- EXAMPLE FORM --><!--   Insert this style code into the Preview-Custom.css and the Custom.css files that get uploaded into Stored Files.  The .sr-only class in the form wraps and hides certain fields which are only needed by the browser for a basic bot detection honeypot:   -->
+
+<!--   Insert this code into the Custom Page Source or Modal of your choice.   -->
+<form action="form_proc.cfm" id="contact-form" method="post">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" name="name" placeholder="" type="text" />
+  </div>
+
+  <div>
+    <label for="email">Email Address</label>
+    <input id="email" name="email" placeholder="" type="email" />
+  </div>
+
+  <div>
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" placeholder="" type="tel" />
+  </div>
+
+  <div class="sr-only">
+    <input
+      aria-hidden="true"
+      name="email_subject"
+      type="hidden"
+      value="Your Custom Subject"
+    />
+    <label aria-hidden="true" for="spamfilter">Spamfilter</label>
+    <input
+      aria-hidden="true"
+      id="spamfilter"
+      maxlength="200"
+      name="spamfilter"
+      type="text"
+    />
+  </div>
+
+  <div><input type="submit" value="Submit" /></div>
+</form>
+<!--    If jQuery is already included in your website, this is not needed and would be a duplicate-->
+<script src="https://jqueryvalidation.org/files/lib/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Identify form
+    var contactForm = $("#contact-form");
+
+    // validate signup form on keyup and submit
+    $(contactForm).validate({
+      rules: {
+        name: "required",
+        email: {
+          required: true,
+          email: true,
+        },
+      },
+      messages: {
+        name: "Please enter your name",
+        email: "Please enter a valid email address",
+      },
+
+      // Handle Submit
+      submitHandler: function (form) {
+        if (contactForm.find("#spamfilter").val() != "") {
+          // honeypot was populated. don't submit
+          return false;
+        } else {
+          // Method 1 AJAX
+          var url = "form_proc.cfm";
+          var formData = $("form").serializeArray();
+          $.post(url, formData).done(function (data) {
+            // A thank you message can be displayed here
+            $("form").hide();
+            $("form").before(
+              '<p class="ty-msg">Thank you for contacting us</p>'
+            );
+          });
+
+          // Method 2 Direct Submission
+          // contactForm.submit();
+          // return false;
+        }
+      },
+    });
+  });
+</script>

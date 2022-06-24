@@ -323,7 +323,7 @@
       }
 
       .left {
-        width: 50%;
+        width: 65%;
         padding-right: 10vw;
         box-sizing: border-box;
         display: flex;
@@ -498,8 +498,7 @@
       }
 
       .right {
-        width: 50%;
-
+        width: 35%;
         @media #{$s750} {
           width: 100%;
           order: 1;
@@ -559,9 +558,11 @@
         display: flex;
         flex-wrap: wrap;
         @extend .fadeUp;
+        max-width: 1200px;
+        margin: 0 auto;
 
         .single_team_member {
-          padding: 0 3vw;
+          padding: 0 2vw;
           box-sizing: border-box;
           width: 50%;
           margin-bottom: 6vw;

@@ -34,17 +34,16 @@
       @extend .fadeIn;
       @include transition(all, 400ms, ease, 500ms);
 
-      &.mobile_video{
+      &.mobile_video {
         display: none;
       }
 
       @media #{$s750} {
-
-        &.desktop_video{
+        &.desktop_video {
           display: none;
         }
 
-        &.mobile_video{
+        &.mobile_video {
           display: block;
         }
       }
@@ -759,6 +758,11 @@
         /* the slides */
         .slick-slide {
           padding: 0 4vw;
+          flex-shrink: 0;
+          height: unset;
+          > div {
+            height: 100%;
+          }
 
           @media #{$s1100} {
             padding: 0 2vw;
@@ -784,7 +788,8 @@
 
         .slick-list .slick-track {
           padding-left: 38vw;
-
+          display: flex;
+          padding-bottom: 5px;
           @media #{$s1100} {
             padding-left: 40vw;
           }
@@ -825,7 +830,7 @@
         .single_slide {
           border: 1px solid $color1;
           cursor: pointer;
-
+          height: 100%;
           &:hover {
             .image_holder {
               img {

@@ -1,10 +1,10 @@
 .glossary_page {
   input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  -webkit-appearance:none;
-}
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+  }
 
   .glossary_hero {
     padding: 14vw 0;
@@ -190,7 +190,6 @@ input[type="search"]::-webkit-search-results-decoration {
             width: 100%;
           }
 
-
           &:hover {
             background-color: #fff;
           }
@@ -249,7 +248,7 @@ input[type="search"]::-webkit-search-results-decoration {
         z-index: 5;
         @include transition();
 
-        &.scrolled{
+        &.scrolled {
           opacity: 1;
           visibility: visible;
         }
@@ -264,7 +263,6 @@ input[type="search"]::-webkit-search-results-decoration {
         }
 
         ul {
-
           @media #{$s750} {
             text-align: center;
             display: flex;
@@ -359,7 +357,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 padding: 20px 30px;
               }
 
-              .tearm_header {
+              .term_header {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -417,7 +415,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 }
               }
 
-              .tearm_description {
+              .term_description {
                 display: none;
                 p {
                   max-width: 60vw;
@@ -433,7 +431,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
               &:hover,
               &.active {
-                .tearm_header {
+                .term_header {
                   .term_opener {
                     background-color: $color1;
                     svg {
@@ -452,7 +450,7 @@ input[type="search"]::-webkit-search-results-decoration {
               &.active {
                 background-color: #fff;
 
-                .tearm_header {
+                .term_header {
                   .term_opener {
                     background-color: $color1;
                     transform: rotate(45deg);

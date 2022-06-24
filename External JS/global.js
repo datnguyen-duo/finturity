@@ -9,57 +9,55 @@ $(document).ready(function () {
     document.documentElement.style.setProperty("--vh", "".concat(vh, "px"));
   });
 
-  function loadVideo(){
-    if (window.innerWidth > 730) {   
-      var source = $('.desktop_video source');
-      source.attr('src', '');
-      
-      source.attr('src', source.data('src'));
-      $('.desktop_video')[0].load()
-      
-    } else{
-      var source = $('.mobile_video source');
-      source.attr('src', '');
-      
-      source.attr('src', source.data('src'));
-      $('.mobile_video')[0].load()
-    } 
+  function loadVideo() {
+    if (window.innerWidth > 730) {
+      var source = $(".desktop_video source");
+      source.attr("src", "");
+
+      source.attr("src", source.data("src"));
+      $(".desktop_video")[0].load();
+    } else {
+      var source = $(".mobile_video source");
+      source.attr("src", "");
+
+      source.attr("src", source.data("src"));
+      $(".mobile_video")[0].load();
+    }
   }
 
-  if($('body').hasClass('home_page')){
+  if ($("body").hasClass("home_page")) {
     loadVideo();
 
-    $( window ).resize(function() {
+    $(window).resize(function () {
       loadVideo();
     });
   }
 
   if (window.location.hash) {
+    setTimeout(function () {
+      $(window.location.hash).find(".single_term_content").trigger("click");
+    }, 500);
 
-      setTimeout(function(){
-        $(window.location.hash).find('.single_term_content').trigger('click');
-      }, 500)
-
-      $("html, body").animate(
-        {
-          scrollTop: $(window.location.hash).offset().top - 90,
-        },
-        200
-      );
+    $("html, body").animate(
+      {
+        scrollTop: $(window.location.hash).offset().top - 90,
+      },
+      200
+    );
   }
 
   $(window).resize(function () {
     ScrollTrigger.refresh();
   });
 
-  if($('body').hasClass('contact_page')){
-    $("input, textarea").on("keyup change", function(e) {
-      if($(this).val() !== ""){
-        $(this).parent().addClass('dark');
-      } else{
-        $(this).parent().removeClass('dark');
+  if ($("body").hasClass("contact_page")) {
+    $("input, textarea").on("keyup change", function (e) {
+      if ($(this).val() !== "") {
+        $(this).parent().addClass("dark");
+      } else {
+        $(this).parent().removeClass("dark");
       }
-    }) 
+    });
   }
 
   function checkScroll() {
@@ -82,8 +80,8 @@ $(document).ready(function () {
   });
 
   $(".filter_button").on("click", function () {
-    var slideno = $(this).data('slide');
-    $('.four_box_section_slider').slick('slickGoTo', slideno - 1);
+    var slideno = $(this).data("slide");
+    $(".four_box_section_slider").slick("slickGoTo", slideno - 1);
 
     // var currentPlan = $(this).data("plan");
     $(".filter_button").removeClass("active");
@@ -105,19 +103,26 @@ $(document).ready(function () {
 
   $(".total_posts span").text($(".posts_slider .single_slide").length);
 
-  $(".single_featured_blog").hover(function () {
-    let currentImage = $(this).data("blog");
+  $(".single_featured_blog").hover(
+    function () {
+      let currentImage = $(this).data("blog");
 
-    $(".blog_hero_bottom_content .image_holder img").each(function () {
-      if ($(this).data("blog") == currentImage) {
-        $(".blog_hero_bottom_content .image_holder img").removeClass("active");
-        $(this).addClass("active");
-      }
-    });
-  }, function() {
-    $(".blog_hero_bottom_content .image_holder img").removeClass("active");
-    $(".blog_hero_bottom_content .image_holder img.main_image").addClass("active");
-  });
+      $(".blog_hero_bottom_content .image_holder img").each(function () {
+        if ($(this).data("blog") == currentImage) {
+          $(".blog_hero_bottom_content .image_holder img").removeClass(
+            "active"
+          );
+          $(this).addClass("active");
+        }
+      });
+    },
+    function () {
+      $(".blog_hero_bottom_content .image_holder img").removeClass("active");
+      $(".blog_hero_bottom_content .image_holder img.main_image").addClass(
+        "active"
+      );
+    }
+  );
 
   $(".mobile_menu_opener").on("click", function () {
     $(this).toggleClass("opened");
@@ -129,7 +134,7 @@ $(document).ready(function () {
   if ($("body").hasClass("glossary_page")) {
     $(".single_term .single_term_content").on("click", function () {
       $(this).toggleClass("active");
-      $(this).find(".tearm_description").slideToggle();
+      $(this).find(".term_description").slideToggle();
     });
 
     $(".contact_hero_bottom_content a, .terms_section .left_content a").on(
@@ -143,13 +148,12 @@ $(document).ready(function () {
 
     $("a[href^='#']").click(function (e) {
       e.preventDefault();
-      var clickedTerm = $(this).attr('href');
-      
-      setTimeout(function(){
-        $(clickedTerm).find('.single_term_content').trigger('click');
-      }, 700)
-      
-      
+      var clickedTerm = $(this).attr("href");
+
+      setTimeout(function () {
+        $(clickedTerm).find(".single_term_content").trigger("click");
+      }, 700);
+
       $("html, body").animate(
         {
           scrollTop: $($(this).attr("href")).offset().top - 90,
@@ -307,7 +311,7 @@ $(document).ready(function () {
     arrows: false,
     draggable: false,
     swipe: false,
-    touchMove: false
+    touchMove: false,
     // prevArrow: ".prev_post_button",
     // nextArrow: ".next_post_button",
   });
@@ -374,12 +378,17 @@ $(document).ready(function () {
             $(trigger).addClass("in_view");
 
             if ($(trigger).hasClass("services_second_content")) {
-              $(this).find('video').each(function () {
-                $(this)[0].play();
-              })
+              $(this)
+                .find("video")
+                .each(function () {
+                  $(this)[0].play();
+                });
             }
 
-            if ($(trigger).hasClass("about_second_section_content") && counter == false) {
+            if (
+              $(trigger).hasClass("about_second_section_content") &&
+              counter == false
+            ) {
               counter = true;
               $(".number").each(function () {
                 $(this)
@@ -392,7 +401,6 @@ $(document).ready(function () {
                       duration: 2000,
                       easing: "swing",
                       step: function (now) {
-                        
                         if ($(this).hasClass("retierment")) {
                           $(this).text("$" + Math.ceil(now) + "M+");
                         } else if ($(this).hasClass("employee")) {
@@ -406,17 +414,21 @@ $(document).ready(function () {
                     }
                   );
               });
-    
+
               function getRupeesFormat(val) {
                 while (/(\d+)(\d{3})/.test(val.toString())) {
-                  val = val.toString().replace(/(\d+)(\d{3})/, "$1" + "," + "$2");
+                  val = val
+                    .toString()
+                    .replace(/(\d+)(\d{3})/, "$1" + "," + "$2");
                 }
                 return val;
               }
-    
+
               function getFormat(val) {
                 while (/(\d+)(\d{2})/.test(val.toString())) {
-                  val = val.toString().replace(/(\d+)(\d{2})/, "$1" + "." + "5");
+                  val = val
+                    .toString()
+                    .replace(/(\d+)(\d{2})/, "$1" + "." + "5");
                 }
                 return val;
               }

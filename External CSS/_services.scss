@@ -20,6 +20,7 @@
       padding-bottom: 10vw;
       z-index: 2;
       position: relative;
+      align-items: center;
       @extend .fadeUp;
 
       @media #{$s1100} {
@@ -385,7 +386,8 @@
             padding-top: 95%;
           }
 
-          img, video {
+          img,
+          video {
             position: absolute;
             left: 0;
             top: 0;
@@ -682,7 +684,7 @@
           line-height: 1.3em;
 
           @media #{$s750} {
-            br{
+            br {
               display: block;
             }
           }
@@ -787,7 +789,7 @@
         .partners_slider {
           width: 90%;
 
-          .slick-track{
+          .slick-track {
             @media #{$s750} {
               align-items: center;
               display: flex;
@@ -801,15 +803,15 @@
             @media #{$s750} {
               height: 40px;
 
-              &.partner_2{
+              &.partner_2 {
                 height: 55px;
               }
 
-              &.partner_7{
+              &.partner_7 {
                 height: 50px;
               }
 
-              &.partner_4{
+              &.partner_4 {
                 height: 35px;
               }
             }
